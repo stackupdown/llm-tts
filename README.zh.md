@@ -27,6 +27,12 @@ EmotiVoice提供一个易于使用的web界面，还有用于批量生成结果�
   
 - [Fun Chinese English audio sample](https://github.com/netease-youdao/EmotiVoice/assets/3909232/a0709012-c3ef-4182-bb0e-b7a2ba386f1c)
 
+## 环境 (ADD BY XJH)
+python 3.9  
+一个 GPU  
+WSL ubuntu 20.04  
+pip install python-dotenv
+
 ## 热闻速递
 
 - [x] 类OpenAI TTS的API已经支持调语速功能，感谢 [@john9405](https://github.com/john9405). [#90](https://github.com/netease-youdao/EmotiVoice/pull/90) [#67](https://github.com/netease-youdao/EmotiVoice/issues/67) [#77](https://github.com/netease-youdao/EmotiVoice/issues/77)
