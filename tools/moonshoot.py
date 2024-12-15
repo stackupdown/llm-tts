@@ -15,10 +15,11 @@ client = OpenAI(
 )
 
 prompt = """
-你好，我将给你一段小说的文字，请帮我做句子的标注。标注的格式是以下形式的列表：{"text": 原文句子, "E": 句子的情绪, "C": 句子的说话人，"A": 背景声音}
-1.背景声音是指自然声音，人物背景笑声，脚步声，枪声等。如果没有声音，对应"无"。
+你好，我将给你多段小说的文字，请帮我做句子的标注。标注的格式是以下形式的列表：{"text": 原文句子, "E": 句子的情绪, "C": 句子的说话人，"A": 背景声音}
+解释: 
+1.背景声音是指自然声音，人物背景笑声，脚步声，枪声等。如果没有声音，设为"无"。
 2.句子的说话人：如果是人物直接说的话，则用人物表示；否则对应"旁白"；
-3.原文句子，每一个标点符号要分隔开句子，如果一个句子（由句号，问号等分割）内超过3句，就要分开成多个text；
+3.原文句子：每一个标点符号分隔开的句子，如果一个句子（由句号，问号等分割）内超过3句，就要分开成多个text；
 
 示例:
 来到老笔斋门口，朝小树看着铺内的少年与小侍女微微一笑，揖手一礼道：“宁老板，有礼了。”宁缺看着被堵死的店铺门口，还有那些围在人群外看热闹的民众，微涩一笑，也学他那样装模装样揖手还礼，和声道：“见过朝二哥。”
@@ -38,18 +39,25 @@ prompt = """
 """
 
 messages = [
-    {"role": "system", "content": "你是 Kimi，由 Moonshot AI 提供的人工智能助手，你更擅长中文和英文的对话。你会为用户提供安全，有帮助，准确的回答。同时，你会拒绝一切涉及恐怖主义，种族歧视，黄色暴力等问题的回答。Moonshot AI 为专有名词，不可翻译成其他语言。"},
+    {"role": "system", "content": "你是 Kimi，由 Moonshot AI 提供的人工智能助手，你更擅长中文的对话。你会为用户提供安全，有帮助，准确的回答。Moonshot AI 为专有名词，不可翻译成其他语言。"},
     {"role": "system", "content": prompt}
 ]
 
+window_messages = []
+WINDOW_LENGTH = 2
 
 def chat(query):
-    global messages
+    global messages, window_messages
     tmp_messages = copy.deepcopy(messages)
+
+    if len(window_messages) > WINDOW_LENGTH:
+        window_messages.pop(0)
+    messages.extend(window_messages)
     messages.append({
         "role": "user",
         "content": query
     })
+    print("messages:", messages)
 
     completion = client.chat.completions.create(
         model = "moonshot-v1-32k",
@@ -66,6 +74,12 @@ def chat(query):
         print(completion.choices[0].finish_reason)
         print(completion.choices[0].message.content)
         success = False
+
+    print("resp:\n", resp)
+    window_messages.append({
+        "role": "assistant",
+        "content": str(resp)
+    })
 
     messages = tmp_messages
     return resp, success

@@ -4,6 +4,7 @@ import argparse
 import re
 import sys
 from moonshoot import mark_sentence
+import json
 
 sys.path.append('..')
 # accept the first argument as 
@@ -164,19 +165,29 @@ def general_merge_text_sound(original_lines):
             # TODO by WCY
             item['sound'] = None
             # TODO
-            item['sid'] = None
+            item['sid'] = get_speaker_id(item.get('C', ''))
+            tag_text = '{}|{}|{}|{}'.format(item['sid'], item['E'], item['pinyin'], item['text'])
+            tag_texts.append(tag_text)
+
         print(items)
         tags.extend(items)
 
-    with open("output.json", "w") as f:
-        json.dump(tags, f, ensure_ascii=False, indent=4)
+    return tags, tag_texts
 
 def main(args):
+    if not os.path.exists(os.path.dirname(args.output_file)):
+        os.makedirs(os.path.dirname(args.output_file))
+        print('create output dir', os.path.dirname(args.output_file))
+
     with open(args.main_file, 'r') as f:
         original_lines = f.readlines()
 
-    merge_text = general_merge_text_sound(original_lines)
+    tags, merge_text = general_merge_text_sound(original_lines)
+    with open(args.output_json, "w", encoding='utf-8') as f:
+        json.dump(tags, f, ensure_ascii=False, indent=4)
+
     print(args.output_file)
+
     with open(args.output_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(merge_text))
 
