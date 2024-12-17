@@ -92,7 +92,8 @@ class DoubaoAgentClient(object):
 
         return resp, success
 
-
+def get_doubao_agent():
+    return DoubaoAgentClient(api_key=os.environ.get('ARK_API_KEY'))
 
 if __name__ == "__main__":
     query = """

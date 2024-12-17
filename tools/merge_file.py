@@ -3,7 +3,7 @@ from tqdm import tqdm
 import argparse
 import re
 import sys
-from moonshoot import mark_sentence
+from doubao import get_doubao_agent
 import json
 
 sys.path.append('..')
@@ -148,13 +148,14 @@ def general_merge_text_sound(original_lines):
     g2p = G2p()
     tags = []
     original_lines = split_lines(original_lines)
+    agent = get_doubao_agent()
 
     for v, oline in enumerate(original_lines):
         # "<sos/eos> i4 <sos/eos>" ->
         # <speaker>|<style_prompt/emotion_prompt/content>|<phoneme>|<content>.
         line = oline.strip()
 
-        resp, success = mark_sentence(line)
+        resp, success = agent.chat(line)
         if success:
             # break or result?
             items = resp['data']
