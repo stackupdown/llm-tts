@@ -11,3 +11,6 @@ jieba
 pypinyin
 pypinyin_dict
 streamlit
+python-dotenv
+volcengine-python-sdk[ark]
+openai>=1.0
