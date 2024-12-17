@@ -161,6 +161,9 @@ def general_merge_text_sound(original_lines):
             items = resp['data']
         else:
             raise Exception('moonshoot failed')
+        print("=" * 20 + " result " + "=" * 20, v)
+        print(items)
+
         for item in items:
             item['pinyin'] = g2p_cn_en(item['text'], g2p, lexicon)
             # TODO by WCY
@@ -170,7 +173,6 @@ def general_merge_text_sound(original_lines):
             tag_text = '{}|{}|{}|{}'.format(item['sid'], item['E'], item['pinyin'], item['text'])
             tag_texts.append(tag_text)
 
-        print(items)
         tags.extend(items)
 
     return tags, tag_texts

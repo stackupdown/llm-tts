@@ -15,7 +15,7 @@ class DoubaoAgentClient(object):
     # API endpoint
     url = 'https://api.coze.cn/v1/conversation/create'
 
-    def __init__(self, api_key, window_size=2):
+    def __init__(self, api_key, window_size=5):
         # Headers
 
         # 从环境变量中读取您的方舟API Key。
@@ -63,7 +63,7 @@ class DoubaoAgentClient(object):
             "role": "user",
             "content": query
         })
-        print("messages:", new_messages)
+        # print("messages:", new_messages)
 
         completion = self.client.chat.completions.create(
             # 您的方舟推理接入点。
@@ -73,7 +73,6 @@ class DoubaoAgentClient(object):
             response_format={"type": "json_object"}
         )
 
-        print(completion.choices[0].message.content)
         resp = {}
         success = True
         try:
@@ -84,10 +83,10 @@ class DoubaoAgentClient(object):
             print(completion.choices[0].message.content)
             success = False
 
-        print("resp:\n", resp)
+        # print("resp:\n", resp)
         self.window_messages.append({
             "role": "user",
-            "content": str(resp)
+            "content": query
         })
 
         return resp, success
