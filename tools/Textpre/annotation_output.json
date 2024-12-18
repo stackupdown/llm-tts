@@ -1,0 +1,200 @@
+[
+    {
+        "text": "第七章中",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "第七章 zhōng",
+        "music": "mysterious"
+    },
+    {
+        "text": "哈利和新生们被哈格力带领到女魔法师麦康娜教授面前",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "hā lì hé xīn shēng men bèi hā gé lǐng dài dào nǚ mó fǎ shī mài kāng nà jiāo shòu miàn qián",
+        "music": "mysterious"
+    },
+    {
+        "text": "她穿着翡翠绿长袍",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "tā chuān zhe fěi cuì lǜ cháng páo",
+        "music": "mysterious"
+    },
+    {
+        "text": "表情严肃",
+        "emotion": "严肃",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "biǎo qíng yán sù",
+        "music": "mysterious"
+    },
+    {
+        "text": "给哈利一种难以取悦的印象",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "gěi hā lì yī zhǒng nán yǐ qǔ yuè de yìn xiàng",
+        "music": "mysterious"
+    },
+    {
+        "text": "麦康娜教授感谢哈格力后",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "mài kāng nà jiāo shòu gǎn xiè hā gé hòu",
+        "music": "mysterious"
+    },
+    {
+        "text": "领着新生们进入魔法学校",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "lǐng zhe xīn shēng men jìn rù mó fǎ xué xiào",
+        "music": "mysterious"
+    },
+    {
+        "text": "学校内部装饰宏伟",
+        "emotion": "赞叹",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "xué xiào nèi bù zhuāng shì hóng wěi",
+        "music": "impressive"
+    },
+    {
+        "text": "有一个巨大的入口大厅",
+        "emotion": "赞叹",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "yǒu yī gè jù dà de rù kǒu dà tīng",
+        "music": "impressive"
+    },
+    {
+        "text": "上方是高耸的天花板和通往楼上的大理石楼梯",
+        "emotion": "赞叹",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "shàng fāng shì gāo sǒng de tiān huā bǎn hé tōng wǎng lóu shàng de dà lǐ shí lóu tī",
+        "music": "impressive"
+    },
+    {
+        "text": "大门立刻打开了",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "门开声",
+        "pinyin": "dà mén lì kè dǎng kāi le",
+        "music": "mysterious"
+    },
+    {
+        "text": "门口站着一个身着翡翠绿长袍的黑头发的高个子女魔法师",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "mén kǒu zhàn zhe yī gè shì zhe fěi cuì lǜ cháng páo de hēi tóu fà de gāo gè zi nǚ mó fǎ shī",
+        "music": "mysterious"
+    },
+    {
+        "text": "她的表情是那样地严肃",
+        "emotion": "严肃",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "tā de biǎo qíng shì nà yàng de yán sù",
+        "music": "suspenseful"
+    },
+    {
+        "text": "不禁使哈利感到要通过她的课可能很难",
+        "emotion": "担忧",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "bù jīn shǐ hā lì gǎn dào yào tōng guò tā de kè kě néng hěn nán",
+        "music": "suspenseful"
+    },
+    {
+        "text": "麦康娜教授，一年级新生都在这儿了",
+        "emotion": "报告",
+        "speaker": "哈格力",
+        "speaker_id": "1",
+        "audio": "无",
+        "pinyin": "mài kāng nà jiāo shòu, yī nián jí xīn shēng dōu zài zhèr le",
+        "music": "mysterious"
+    },
+    {
+        "text": "谢谢你，哈格力，我会带他们进去的",
+        "emotion": "感谢",
+        "speaker": "麦康娜教授",
+        "speaker_id": "2",
+        "audio": "无",
+        "pinyin": "xiè xiè nǐ, hā gé lì, wǒ huì dài tā men jìn qù de",
+        "music": "mysterious"
+    },
+    {
+        "text": "她把大门完全推开",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "门开声",
+        "pinyin": "tā bǎ dà mén wán quán tuī kāi",
+        "music": "mysterious"
+    },
+    {
+        "text": "里面的入口大厅大得惊人",
+        "emotion": "惊叹",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "lǐ miàn de rù kǒu dà tīng dà de jīng rén",
+        "music": "impressive"
+    },
+    {
+        "text": "甚至可以装下杜斯利家的整幢房子",
+        "emotion": "惊叹",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "shèn zhì kě yǐ zhuāng xià dù sī lì jiā de zhěng zhuàng fáng zi",
+        "music": "impressive"
+    },
+    {
+        "text": "火把将石墙照得通明",
+        "emotion": "平静",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "火把燃烧声",
+        "pinyin": "huǒ bǎ jiāng shí qiáng zhào de tōng míng",
+        "music": "mysterious"
+    },
+    {
+        "text": "房顶高得难以想象",
+        "emotion": "惊叹",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "fáng dǐng gāo de nán yǐ xiǎng xiàng",
+        "music": "impressive"
+    },
+    {
+        "text": "正面美丽的大理石楼梯通往楼上",
+        "emotion": "赞美",
+        "speaker": "旁白",
+        "speaker_id": "0",
+        "audio": "无",
+        "pinyin": "zhèng miàn měi lì de dà lǐ shí lóu tī tōng wǎng lóu shàng",
+        "music": "impressive"
+    }
+]
