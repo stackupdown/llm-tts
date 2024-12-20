@@ -14,3 +14,4 @@ streamlit
 python-dotenv
 volcengine-python-sdk[ark]
 openai>=1.0
+thulac

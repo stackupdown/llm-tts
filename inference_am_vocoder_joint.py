@@ -93,6 +93,7 @@ def main(args, config):
         with open(text_path, "r") as f:
             for line in f:
                 line = line.strip().split("|")
+                # ignore ids
                 speakers.append(line[0])
                 prompts.append(line[1])
                 texts.append(line[2].split())

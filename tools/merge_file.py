@@ -39,45 +39,6 @@ from frontend import g2p_cn_en, G2p, read_lexicon
 BASE_DIR = os.path.join(os.path.dirname(__file__), '..')
 LINE_TOKEN_LIMIT = 500
 
-def merge_text_sound(original_lines):
-    # pattern = re.compile(r'^(?:(\w+·\w+)|(\w+))')
-    # 捕获组 ?:
-    pattern = re.compile(r'^(\w+(?:·\w+)?)')
-    split_pattern = re.compile(r'[。！？]')
-    tag_texts = []
-    sid = 0
-    speaker = ''
-    v = 0
-    chunks = []
-    lexicon = read_lexicon(f"{BASE_DIR}/lexicon/librispeech-lexicon.txt")
-    g2p = G2p()
-    for v, oline in enumerate(original_lines):
-        # "<sos/eos> i4 <sos/eos>" ->
-        # <speaker>|<style_prompt/emotion_prompt/content>|<phoneme>|<content>.
-        line = oline.strip()
-        text = re.match(pattern, line)
-        if text is not None:
-            speaker = text.group(1)
-        # else keep the previous speaker
-
-        line = line[len(speaker):].strip()
-        if line in '，；。':
-            continue
-
-        tmp_id = get_speaker_id(speaker)
-        # if first line, then ignore
-        if tmp_id != 0:
-            sid = tmp_id
-
-        print('speaker', speaker, v, tmp_id, sid)
-        sound = g2p_cn_en(line, g2p, lexicon)
-        tag_text = '{}|{}|{}|{}'.format(sid, get_emotion(line), sound, line)
-        tag_texts.append(tag_text)
-        # get emotion by prompt id
-    # return chunks
-    return tag_texts
-
-
 def split_string(s: str, n: int):
     punctuations = ",.;?!。，；;"
     punc_indexes = []
@@ -148,13 +109,14 @@ This function `general_merge_text_sound` processes the original text by adding a
 - Sound and Speaker: For each line in the original text, the function interacts with the agent to get music prompts and processes items to include sound, speaker ID, and pinyin.
 - Output: Processed items are formatted into tag texts and returned along with the list of items.
 """
-def general_merge_text_sound(original_text, file: str):
+def general_merge_text_sound(original_text, args):
     tag_texts = []
     speaker = ''
     v = 0
     chunks = []
     lexicon = read_lexicon(f"{BASE_DIR}/lexicon/librispeech-lexicon.txt")
     g2p = G2p()
+
     tags = []
     # step1. add summary
     agent = get_doubao_agent()
@@ -162,17 +124,20 @@ def general_merge_text_sound(original_text, file: str):
     summary = result.get('summary', '')
     if not summary:
         logging.warning("get summary empty")
-    print("summary: ", summary)
+    else:
+        print("summary: ", summary)
+
 
     new_text = summary + "\n" + original_text
     # save content to file
+    file = args.main_file
     new_file = file[:file.rindex('.')] + ".new.txt"
     with open(new_file, 'w', encoding='utf-8') as f:
         f.write(new_text)
 
     original_lines = original_text.split('\n')
     original_lines = split_lines(original_lines)
-
+    v_cnt = 0
     # step2. add sound and speaker
     for v, oline in enumerate(original_lines):
         # "<sos/eos> i4 <sos/eos>" ->
@@ -181,6 +146,7 @@ def general_merge_text_sound(original_text, file: str):
         if not line:
             continue
 
+        v_cnt += 1
         resp, success = agent.chat(line)
         if success:
             # break or result?
@@ -192,6 +158,8 @@ def general_merge_text_sound(original_text, file: str):
 
         print("=" * 20 + " result " + "=" * 20, v, '\nmusic:', music_prompt)
         print(items)
+        if len(items) > 0:
+            emotion = items[0]['E']
 
         for i, item in enumerate(items):
             if i == 0:
@@ -199,17 +167,30 @@ def general_merge_text_sound(original_text, file: str):
             else:
                 item['music'] = ''
 
+            item['pid'] = v_cnt
             item['pinyin'] = g2p_cn_en(item['text'], g2p, lexicon)
             # TODO by WCY
             item['sound'] = item['A']
             # TODO
             item['sid'] = get_speaker_id(item.get('C', ''))
-            tag_text = '{}|{}|{}|{}'.format(item['sid'], item['E'], item['pinyin'], item['text'])
+            tag_id = len(tag_texts)
+            tag_text = '{}|{}|{}|{}|p{}|t{}'.format(item['sid'], emotion, item['pinyin'], item['text'], v_cnt, tag_id)
             tag_texts.append(tag_text)
 
         tags.extend(items)
 
     return tags, tag_texts
+
+def process_error_pinyin(content):
+    import thulac
+    thu1 = thulac.thulac()
+    text = thu1.cut(content, text=False)  #进行一句话分词
+    text_list = []
+    for o in text:
+        if o[0] == '地' and o[1] == 'u':
+            o[0] = '的'
+        text_list.append(o[0])
+    return ''.join(text_list)
 
 def main(args):
     if not os.path.exists(os.path.dirname(args.output_file)):
@@ -217,9 +198,10 @@ def main(args):
         print('create output dir', os.path.dirname(args.output_file))
 
     with open(args.main_file, 'r') as f:
-        original_text = "".join(f.readlines())
+        original_text = f.read()
 
-    tags, merge_text = general_merge_text_sound(original_text, args.main_file)
+    original_text = process_error_pinyin(original_text)
+    tags, merge_text = general_merge_text_sound(original_text, args)
     with open(args.output_json, "w", encoding='utf-8') as f:
         json.dump(tags, f, ensure_ascii=False, indent=4)
 
@@ -231,7 +213,7 @@ def main(args):
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--main_file', type=str, required=True, help='original text file', default='')
-    p.add_argument('--output_json', type=str,help='the temp output json', default='output.json')
+    p.add_argument('--output_json', type=str, help='the temp output json', default='output.json')
     p.add_argument('-o', '--output_file', type=str, required=True, help='the output file')
     args = p.parse_args()
     main(args)
