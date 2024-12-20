@@ -3,9 +3,11 @@ from tqdm import tqdm
 import argparse
 import re
 import sys
+import logging
 from doubao import get_doubao_agent
 import json
-
+log_format = '%(asctime)s-[%(levelname)s]: %(message)s'
+formatter = logging.Formatter(log_format)
 sys.path.append('..')
 # accept the first argument as 
 # read the first file
@@ -22,7 +24,7 @@ def get_speaker_id(speaker):
         # '罗森': 1160
         # 9136
     }
-    return characters.get(speaker, 0)
+    return characters.get(speaker, 1028)
 
 def get_emotion(text):
     # TODO: replace this code
@@ -35,7 +37,7 @@ def get_emotion(text):
 from frontend import g2p_cn_en, G2p, read_lexicon
 
 BASE_DIR = os.path.join(os.path.dirname(__file__), '..')
-LINE_TOKEN_LIMIT = 150
+LINE_TOKEN_LIMIT = 500
 
 def merge_text_sound(original_lines):
     # pattern = re.compile(r'^(?:(\w+·\w+)|(\w+))')
@@ -139,7 +141,14 @@ def split_lines(original_lines):
     return new_lines
 
 
-def general_merge_text_sound(original_lines):
+"""
+This function `general_merge_text_sound` processes the original text by adding a summary, sound, and speaker information. It takes two parameters: `original_text` (the text to be processed) and `file` (the file path of the original text). The function returns a tuple containing two lists: `tags` (a list of processed items) and `tag_texts` (a list of formatted tag texts).
+
+- Summary: The function uses an agent to add a summary to the original text.
+- Sound and Speaker: For each line in the original text, the function interacts with the agent to get music prompts and processes items to include sound, speaker ID, and pinyin.
+- Output: Processed items are formatted into tag texts and returned along with the list of items.
+"""
+def general_merge_text_sound(original_text, file: str):
     tag_texts = []
     speaker = ''
     v = 0
@@ -147,13 +156,30 @@ def general_merge_text_sound(original_lines):
     lexicon = read_lexicon(f"{BASE_DIR}/lexicon/librispeech-lexicon.txt")
     g2p = G2p()
     tags = []
-    original_lines = split_lines(original_lines)
+    # step1. add summary
     agent = get_doubao_agent()
+    result, success = agent.add_preprocess(original_text)
+    summary = result.get('summary', '')
+    if not summary:
+        logging.warning("get summary empty")
+    print("summary: ", summary)
 
+    new_text = summary + "\n" + original_text
+    # save content to file
+    new_file = file[:file.rindex('.')] + ".new.txt"
+    with open(new_file, 'w', encoding='utf-8') as f:
+        f.write(new_text)
+
+    original_lines = original_text.split('\n')
+    original_lines = split_lines(original_lines)
+
+    # step2. add sound and speaker
     for v, oline in enumerate(original_lines):
         # "<sos/eos> i4 <sos/eos>" ->
         # <speaker>|<style_prompt/emotion_prompt/content>|<phoneme>|<content>.
         line = oline.strip()
+        if not line:
+            continue
 
         resp, success = agent.chat(line)
         if success:
@@ -161,13 +187,21 @@ def general_merge_text_sound(original_lines):
             items = resp['data']
         else:
             raise Exception('moonshoot failed')
-        print("=" * 20 + " result " + "=" * 20, v)
+
+        music_prompt, success = agent.get_music(line)
+
+        print("=" * 20 + " result " + "=" * 20, v, '\nmusic:', music_prompt)
         print(items)
 
-        for item in items:
+        for i, item in enumerate(items):
+            if i == 0:
+                item['music'] = music_prompt
+            else:
+                item['music'] = ''
+
             item['pinyin'] = g2p_cn_en(item['text'], g2p, lexicon)
             # TODO by WCY
-            item['sound'] = None
+            item['sound'] = item['A']
             # TODO
             item['sid'] = get_speaker_id(item.get('C', ''))
             tag_text = '{}|{}|{}|{}'.format(item['sid'], item['E'], item['pinyin'], item['text'])
@@ -183,9 +217,9 @@ def main(args):
         print('create output dir', os.path.dirname(args.output_file))
 
     with open(args.main_file, 'r') as f:
-        original_lines = f.readlines()
+        original_text = "".join(f.readlines())
 
-    tags, merge_text = general_merge_text_sound(original_lines)
+    tags, merge_text = general_merge_text_sound(original_text, args.main_file)
     with open(args.output_json, "w", encoding='utf-8') as f:
         json.dump(tags, f, ensure_ascii=False, indent=4)
 

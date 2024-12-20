@@ -10,19 +10,15 @@ import requests
 load_dotenv()  # 加载 .env 文件中的环境变量
 
 from volcenginesdkarkruntime import Ark
+from volcenginesdkarkruntime._exceptions import ArkAPIError
 
-class DoubaoAgentClient(object):
-    # API endpoint
-    url = 'https://api.coze.cn/v1/conversation/create'
+class ProcessText(object):
+    system_prompt = """你是 Doubao AI，由 字节跳动 提供的人工智能助手，你更擅长中文的对话。你会为用户提供安全，有帮助，准确的回答。"""
+    summary_prompt = """
+你好，我将给你一段文字，请帮我做文章总结。请不要用分点的格式进行总结，而是用更自然交流的方式进行总结，要有自然承接。
+    """
 
-    def __init__(self, api_key, window_size=5):
-        # Headers
-
-        # 从环境变量中读取您的方舟API Key。
-        self.url = "https://ark.cn-beijing.volces.com/api/v3"
-
-        self.client = Ark(base_url=self.url, api_key=api_key)
-        self.prompt = """
+    annotate_prompt = """
 你好，我将给你多段小说的文字，请帮我做句子的标注。标注的格式是以下形式的列表：{"text": 原文句子, "E": 句子的情绪, "C": 句子的说话人，"A": 背景声音}
 解释: 
 1.背景声音是指自然声音，人物背景笑声，脚步声，枪声等。如果没有声音，设为"无"。
@@ -44,12 +40,39 @@ class DoubaoAgentClient(object):
     ]
 }
 """
+
+    music_prompt = """
+我将给你一段小说，并用提示词给音乐合成模型用于生成背景音乐，请根据以下的文字生成合适的背景音乐的提示词，格式是多个词语，用逗号分隔。如果没有具体内容，请直接返回'无'。
+"""
+
+class DoubaoAgentClient(object):
+    # API endpoint
+    url = 'https://api.coze.cn/v1/conversation/create'
+
+    def __init__(self, api_key, window_size=3):
+        # Headers
+
+        # 从环境变量中读取您的方舟API Key。
+        self.url = "https://ark.cn-beijing.volces.com/api/v3"
+
+        self.client = Ark(base_url=self.url, api_key=api_key)
+        self.prompt = ProcessText.annotate_prompt
         self.window_messages = []
         self.WINDOW_LENGTH = window_size
         self.messages = [
-            {"role": "system", "content": "你是 Doubao AI，由 字节跳动 提供的人工智能助手，你更擅长中文的对话。你会为用户提供安全，有帮助，准确的回答。"},
+            {"role": "system", "content": ProcessText.system_prompt},
             {"role": "system", "content": self.prompt}
         ]
+
+        self.summary_messages = [
+            {"role": "system", "content": ProcessText.system_prompt},
+            {"role": "system", "content": ProcessText.summary_prompt}
+        ]
+        self.music_messages = [
+            {"role": "system", "content": ProcessText.system_prompt},
+            {"role": "system", "content": ProcessText.music_prompt}
+        ]
+        self.model = "ep-20241217230300-z4h68"
 
     def chat(self, query):
         # https://www.volcengine.com/docs/82379/1099455
@@ -67,7 +90,7 @@ class DoubaoAgentClient(object):
 
         completion = self.client.chat.completions.create(
             # 您的方舟推理接入点。
-            model="ep-20241217230300-z4h68",
+            model=self.model,
             messages=new_messages,
             temperature=0.8,
             response_format={"type": "json_object"}
@@ -78,7 +101,7 @@ class DoubaoAgentClient(object):
         try:
             resp = json.loads(completion.choices[0].message.content)
         except Exception as e:
-            print(e)
+            print("fail on loads:", e)
             print(completion.choices[0].finish_reason)
             print(completion.choices[0].message.content)
             success = False
@@ -86,13 +109,70 @@ class DoubaoAgentClient(object):
         # print("resp:\n", resp)
         self.window_messages.append({
             "role": "user",
-            "content": query
+            "content": completion.choices[0].message.content
         })
 
         return resp, success
 
+    def add_preprocess(self, query):
+        # reset window_messages
+        new_messages: list = copy.deepcopy(self.summary_messages)
+
+        new_messages.append({
+            "role": "user",
+            "content": query
+        })
+
+        resp = {}
+        success = True
+        try:
+            completion = self.client.chat.completions.create(
+                # 您的方舟推理接入点。
+                model=self.model,
+                messages=new_messages,
+                temperature=0.8,
+                response_format={"type": "json_object"}
+            )
+            summary = completion.choices[0].message.content
+        except ArkAPIError as e:
+            print("fail on create:", e)
+            summary = ""
+            success = False
+        # reason = completion.choices[0].finish_reason
+        # if reason != "stop":
+        #     result = reason
+        #     success = False
+
+        return {"summary": summary}, success
+
+    def get_music(self, query):
+        new_messages: list = copy.deepcopy(self.music_messages)
+
+        new_messages.append({
+            "role": "user",
+            "content": query
+        })
+
+        resp = {}
+        success = True
+        try:
+            completion = self.client.chat.completions.create(
+                # 您的方舟推理接入点。
+                model=self.model,
+                messages=new_messages,
+                temperature=0.8,
+                response_format={"type": "json_object"}
+            )
+        except ArkAPIError as e:
+            print("fail on create:", e)
+            success = False
+
+        music_prompt = completion.choices[0].message.content
+        return music_prompt, success
+
 def get_doubao_agent():
     return DoubaoAgentClient(api_key=os.environ.get('ARK_API_KEY'))
+
 
 if __name__ == "__main__":
     query = """
@@ -100,4 +180,4 @@ if __name__ == "__main__":
     然而今天他离开之前，却特意来到临四十七巷，与那些店铺老板们和声告别，若在帝国那些上层贵人们眼中，
     """
     agent = DoubaoAgentClient(api_key=os.environ.get('ARK_API_KEY'))
-    print(agent.chat(query=query))
+    print(agent.add_preprocess(query=query))

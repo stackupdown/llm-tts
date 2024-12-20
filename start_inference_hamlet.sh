@@ -16,4 +16,3 @@ python inference_am_vocoder_joint.py \
 --checkpoint g_00140000 \
 --test_file $TEXT \
 --sub_dir hamlet
-s
