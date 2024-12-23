@@ -97,25 +97,8 @@ sampling_rate = 22050
 Audio(audio_values[0].numpy(), rate=sampling_rate)
 
 
-# In[65]:
-
-
 scipy.io.wavfile.write("./music/total_musicgen_out.wav", rate=sampling_rate, data=audio_values[0, 0].numpy())
 
-
-# In[3]:
-
-
-jupyter nbconvert --to script MusicGen.ipynb
-
-
-# In[2]:
-
-
-import nbconvert
-
-
-# In[ ]:
 
 
 
