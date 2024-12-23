@@ -20,6 +20,7 @@ import numpy as np
 
 
 import json
+# import torch
 
 
 # In[4]:
@@ -29,23 +30,23 @@ processor = AutoProcessor.from_pretrained("facebook/musicgen-large")
 model = MusicgenForConditionalGeneration.from_pretrained("facebook/musicgen-large")
 
 
-# In[ ]:
+# In[5]:
 
 
-with open('output.json', 'r', encoding='utf-8') as json_file:
+with open('output_AddID.json', 'r', encoding='utf-8') as json_file:
     items = json.load(json_file)
     
-pid_character_count = {}
+pid_duration = {}
 music_style = []
 for item in items:
     pid = item['pid']
     text = item['text']
     music_prompt = item['music']
-    text_length = len(text)
-    if pid in pid_character_count:
-        pid_character_count[pid] += text_length
+    time = item['audio_time_length']
+    if pid in pid_duration:
+        pid_duration[pid] += time+0.5
     else:
-        pid_character_count[pid] = text_length
+        pid_duration[pid] = time
 
         music_style.append(music_prompt)
 
@@ -57,15 +58,16 @@ most_common_word = [word for word, count in most_common][0]
 print(most_common_word)
 
 
-# In[14]:
+# In[ ]:
 
 
 sampling_rate = 22050
 for item in items:
-    print(1)
+    
     music_prompt = item['music']
     pid = item['pid']
-    duration = pid_character_count[pid] * 0.3 # one character: 0.3s
+    print(pid)
+    duration = pid_duration[pid]
     if duration > 30:
         duration = 30
     if music_prompt == '' or music_prompt == '无' or most_common_word in music_prompt or duration < 10:
@@ -75,7 +77,7 @@ for item in items:
     max_tokens = int(22050 * duration / 617)
     audio_values = model.generate(**inputs, max_new_tokens=max_tokens)
 
-    audio_file_path = f"./music/generated_music_{item['pid']}_{int(duration)}s.wav" 
+    audio_file_path = f"./music/{item['pid']}.wav" 
     scipy.io.wavfile.write(audio_file_path, rate=sampling_rate, data=audio_values[0, 0].numpy())
 
 
@@ -91,10 +93,8 @@ audio_data = (audio_values[0, 0].numpy() * 32767).astype(np.int16)
 sampling_rate = 22050
 
 
-# In[63]:
-
-
 Audio(audio_values[0].numpy(), rate=sampling_rate)
+
 
 
 scipy.io.wavfile.write("./music/total_musicgen_out.wav", rate=sampling_rate, data=audio_values[0, 0].numpy())
