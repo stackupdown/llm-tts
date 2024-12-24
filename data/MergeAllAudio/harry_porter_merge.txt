@@ -1,0 +1,591 @@
+1028|平静|<sos/eos> d i4 sp0 q i1 sp0 zh ang1 <sos/eos>|第七章|p1|t0
+1028|平静|<sos/eos> d a4 sp0 m en2 sp1 l i4 sp0 k e4 sp1 d a3 sp0 k ai1 sp1 l e5 <sos/eos>|大门立刻打开了|p2|t1
+1028|平静|<sos/eos> m en2 sp0 k ou3 sp1 zh an4 sp1 zh e5 sp1 i2 sp0 g e4 sp1 sh en1 sp0 zh uo2 sp1 f ei3 sp0 c uei4 sp0 l v4 sp1 ch ang2 sp0 p ao2 sp1 d e5 sp1 h ei1 sp0 t ou2 sp0 f a1 sp1 d e5 sp1 g ao1 sp0 g e4 sp0 z ii5 sp1 n v3 sp1 m o2 sp0 f a3 sp0 sh iii1 <sos/eos>|门口站着一个身着翡翠绿长袍的黑头发的高个子女魔法师|p2|t2
+1028|平静|<sos/eos> t a1 sp1 d e5 sp1 b iao3 sp0 q ing2 sp1 sh iii4 sp1 n a4 sp0 iang4 sp1 d e5 sp1 ian2 sp0 s u4 <sos/eos>|她的表情是那样的严肃|p3|t3
+1028|平静|<sos/eos> b u4 sp0 j in1 sp1 sh iii3 sp1 h a1 sp0 l i4 sp1 g an3 sp0 d ao4 sp1 iao4 sp1 t ong1 sp0 g uo4 sp1 t a1 sp1 d e5 sp1 k e4 sp1 k e3 sp0 n eng2 sp1 h en3 sp0 n an2 <sos/eos>|不禁使哈利感到要通过她的课可能很难|p3|t4
+1028|平静|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp3 i1 sp0 n ian2 sp1 j i2 sp0 x in1 sp0 sh eng1 sp1 d ou1 sp1 z ai4 sp1 zh e4 sp0 er5 sp1 l e5 <sos/eos>|麦康娜教授，一年级新生都在这儿了。|p4|t5
+1028|平静|<sos/eos> h a1 sp1 g e2 sp0 l i4 sp1 b ao4 sp0 g ao4 sp1 sh uo1 <sos/eos>|哈格力报告说。|p4|t6
+1028|平静|<sos/eos> x ie4 sp0 x ie5 sp1 n i3 sp3 h a1 sp1 g e2 sp0 l i4 <sos/eos>|谢谢你，哈格力|p5|t7
+1028|平静|<sos/eos> uo3 sp0 h uei4 sp1 d ai4 sp1 t a1 sp0 m en5 sp1 j in4 sp0 q v4 sp1 d e5 <sos/eos>|我会带他们进去的。|p5|t8
+1028|平静|<sos/eos> t a1 sp1 b a3 sp1 d a4 sp0 m en2 sp1 uan2 sp0 q van2 sp1 t uei1 sp0 k ai1 <sos/eos>|她把大门完全推开。|p6|t9
+1028|平静|<sos/eos> l i3 sp0 m ian4 sp1 d e5 sp1 r u4 sp0 k ou3 sp1 d a4 sp0 t ing1 sp1 d a4 sp0 d e2 sp1 j ing1 sp0 r en2 <sos/eos>|里面的入口大厅大得惊人。|p6|t10
+1028|平静|<sos/eos> sh en4 sp0 zh iii4 sp1 k e3 sp0 i3 sp1 zh uang1 sp0 x ia4 sp1 d u4 sp0 s ii1 sp0 l i4 sp0 j ia1 sp1 d e5 sp1 zh eng3 sp0 ch uang2 sp1 f ang2 sp0 z ii5 <sos/eos>|甚至可以装下杜斯利家的整幢房子。|p6|t11
+1028|平静|<sos/eos> h uo3 sp0 b a3 sp1 j iang1 sp1 sh iii2 sp0 q iang2 sp1 zh ao4 sp1 d e2 sp1 t ong1 sp0 m ing2 <sos/eos>|火把将石墙照得通明。|p6|t12
+1028|平静|<sos/eos> f ang2 sp0 d ing3 sp1 g ao1 sp0 d e2 sp1 n an2 sp0 i3 sp0 x iang3 sp0 x iang4 <sos/eos>|房顶高得难以想象。|p6|t13
+1028|平静|<sos/eos> zh eng4 sp0 m ian4 sp1 m ei3 sp0 l i4 sp1 d e5 sp1 d a4 sp0 l i3 sp0 sh iii2 sp1 l ou2 sp0 t i1 sp1 t ong1 sp0 uang3 sp1 l ou2 sp0 sh ang4 <sos/eos>|正面美丽的大理石楼梯通往楼上。|p6|t14
+1028|平静|<sos/eos> h ai2 sp0 z ii5 sp1 m en5 sp1 g en1 sp0 zh e5 sp1 m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 z ou3 sp0 g uo4 sp1 i1 sp0 d uan4 sp1 ch a1 sp0 m an3 sp1 c ai3 sp0 q i2 sp1 d e5 sp1 d i4 sp0 b an3 <sos/eos>|孩子们跟着麦康娜教授走过一段插满彩旗的地板。|p7|t15
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 k e3 sp0 i3 sp1 t ing1 sp0 d ao4 sp1 c ong2 sp1 iou4 sp0 b ian5 sp1 r u4 sp0 k ou3 sp1 ch uan2 sp0 l ai2 sp1 ch eng2 sp0 b ai3 sp0 sh ang4 sp0 q ian1 sp1 g e4 sp1 x van1 sp0 n ao4 sp1 d e5 sp1 sh eng1 sp0 in1 <sos/eos>|哈利可以听到从右边入口传来成百上千个喧闹的声音|p7|t16
+1028|平静|<sos/eos> x ve2 sp0 x iao4 sp1 d e5 sp1 q i2 sp0 t a1 sp1 x ve2 sp0 sh eng5 sp1 ie3 sp1 i3 sp0 j ing1 sp1 d ao4 sp1 l e5 <sos/eos>|学校的其他学生也已经到了。|p7|t17
+1028|平静|<sos/eos> d an4 sp1 m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 q ve4 sp1 b a3 sp1 x in1 sp0 sh eng1 sp1 d ou1 sp1 d ai4 sp0 d ao4 sp1 van3 sp0 l i2 sp1 d a4 sp0 t ing1 sp1 d e5 sp1 i1 sp0 j ian1 sp1 x iao3 sp1 k ong1 sp0 f ang2 sp0 z ii5 sp1 l i3 <sos/eos>|但麦康娜教授却把新生都带到远离大厅的一间小空房子里。|p7|t18
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 q van2 sp0 d ou1 sp1 j i3 sp1 l e5 sp1 j in4 sp0 l ai2 <sos/eos>|他们全都挤了进来，|p7|t19
+1028|平静|<sos/eos> zh an4 sp1 d e2 sp1 m i4 sp0 m i5 sp0 m a2 sp0 m a2 <sos/eos>|站得密密麻麻，|p7|t20
+1028|平静|<sos/eos> j in3 sp0 zh ang1 sp1 d e5 sp1 s ii4 sp0 ch u4 sp0 zh ang1 sp0 uang4 <sos/eos>|紧张的四处张望。|p7|t21
+1028|热情|<sos/eos> h uan1 sp0 ing2 sp1 n i3 sp0 m en5 sp1 d ao4 sp1 h uo4 sp0 g e2 sp0 ua3 sp1 ch e4 sp0 l ai2 <sos/eos>|“欢迎你们到霍格瓦彻来。”|p8|t22
+1028|热情|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 g ao1 sp0 sh eng1 sp1 sh uo1 sp0 d ao4 <sos/eos>|麦康娜教授高声说道|p8|t23
+1028|热情|<sos/eos> k ai1 sp0 x ve2 sp1 uan3 sp0 ian4 sp1 h en3 sp0 k uai4 sp1 j iou4 sp0 iao4 sp1 k ai1 sp0 sh iii3 sp1 l e5 <sos/eos>|开学晚宴很快就要开始了。|p8|t24
+1028|热情|<sos/eos> d an4 sp1 z ai4 sp0 c ii3 sp0 zh iii1 sp0 q ian2 sp3 n i3 sp0 m en5 sp1 x ian1 sp0 h uei4 sp1 b ei4 sp1 f en1 sp0 p ei4 sp1 d ao4 sp1 g e4 sp0 z ii4 sp1 d e5 sp1 x ve2 sp0 van4 <sos/eos>|但在此之前，你们先会被分配到各自的学院|p8|t25
+1028|热情|<sos/eos> f en1 sp0 p ei4 sp1 i2 sp0 sh iii4 sp1 sh iii2 sp0 f en1 sp1 zh ong4 sp0 iao4 <sos/eos>|分配仪式十分重要|p8|t26
+1028|热情|<sos/eos> in1 sp0 uei4 sp1 j i4 sp0 r an2 sp1 n i3 sp0 m en5 sp1 d ao4 sp1 zh e4 sp0 er5 sp1 l ai2 sp1 l e5 sp3 n i3 sp0 m en5 sp1 d e5 sp1 x ve2 sp0 van4 sp1 j iou4 sp0 sh iii4 sp1 n i3 sp0 m en5 sp1 z ai4 sp1 h uo4 sp0 g e2 sp0 ua3 sp0 ch e4 sp1 d e5 sp1 j ia1 <sos/eos>|因为既然你们到这儿来了，你们的学院就是你们在霍格瓦彻的家。|p8|t27
+1028|热情|<sos/eos> n i3 sp0 m en5 sp1 iao4 sp1 g en1 sp1 x ve2 sp0 van4 sp1 l i3 sp1 d e5 sp1 q i2 sp0 t a1 sp0 t ong2 sp0 x ve2 sp1 i1 sp0 q i3 sp1 sh ang4 sp0 k e4 sp3 i1 sp0 q i3 sp1 j v1 sp0 zh u4 sp3 i1 sp0 q i3 sp1 iou2 sp0 x i4 <sos/eos>|你们要跟学院里的其他同学一起上课、一起居住、一起游戏。|p8|t28
+1028|热情|<sos/eos> zh e4 sp1 s ii4 sp0 s uo3 sp1 x ve2 sp0 van4 sp1 f en1 sp0 b ie2 sp1 j iao4 sp0 z uo4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp3 h ai3 sp0 f u1 sp1 b a1 sp0 f u1 sp3 uei4 sp0 uen2 sp1 k a3 sp0 l uo2 sp1 h e2 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|这四所学院分别叫做格林芬顿、海夫巴夫、卫文卡罗和史林德林。|p8|t29
+1028|热情|<sos/eos> m ei3 sp0 s uo3 sp1 x ve2 sp0 van4 sp1 d ou1 sp1 iou3 sp1 t a1 sp1 g uang1 sp0 r ong2 sp1 er2 sp1 iou1 sp0 j iou3 sp1 d e5 sp1 l i4 sp0 sh iii3 sp3 d ou1 sp1 c eng2 sp1 p ei2 sp0 iang3 sp1 ch u1 sp1 c ai2 sp0 h ua2 sp0 h eng2 sp0 i4 sp1 d e5 sp1 m o2 sp0 f a3 sp0 sh iii1 <sos/eos>|每所学院都有它光荣而悠久的历史，都曾培养出才华横溢的魔法师。|p8|t30
+1028|热情|<sos/eos> n i3 sp0 m en5 sp1 z ai4 sp1 h uo4 sp0 g e2 sp0 ua3 sp0 ch e4 sp1 q i1 sp0 j ian1 sp3 r u2 sp0 g uo3 sp1 z uen1 sp0 sh ou3 sp0 j i4 sp0 l v4 sp1 j iou4 sp1 h uei4 sp1 g ei3 sp1 n i3 sp0 m en5 sp1 j ia1 sp1 f en1 <sos/eos>|你们在霍格瓦彻期间，如果遵守纪律就会给你们加分|p8|t31
+1028|热情|<sos/eos> r u2 sp0 g uo3 sp1 uei2 sp0 f an3 sp1 g uei1 sp0 j v5 sp1 j iou4 sp1 h uei4 sp1 b ei4 sp1 k ou4 sp0 f en1 <sos/eos>|如果违反规矩就会被扣分。|p8|t32
+1028|热情|<sos/eos> m ei3 sp0 n ian2 sp1 n ian2 sp0 d i3 sp3 d e2 sp0 f en1 sp1 z uei4 sp0 g ao1 sp1 d e5 sp1 n a4 sp1 s uo3 sp1 x ve2 sp0 van4 sp1 l i3 sp1 d e5 sp1 h ai2 sp0 z ii5 sp1 j iou4 sp1 h uei4 sp1 b ei4 sp1 sh ou4 sp0 v3 sp1 i1 sp0 x iang4 sp1 u2 sp0 sh ang4 sp1 d e5 sp1 r ong2 sp0 v4 sp3 h ao2 sp0 s ii1 sp1 b ei1 <sos/eos>|每年年底，得分最高的那所学院里的孩子就会被授予一项无上的荣誉——“豪斯杯”。|p8|t33
+1028|热情|<sos/eos> uo3 sp1 x i1 sp0 uang4 sp1 n i3 sp0 m en5 sp1 d ou1 sp1 n eng2 sp1 uei4 sp1 z ii4 sp0 j i3 sp1 d e5 sp1 x ve2 sp0 van4 sp1 zh eng1 sp0 g uang1 <sos/eos>|我希望你们都能为自己的学院争光。|p8|t34
+1028|平静|<sos/eos> f en1 sp0 p ei4 sp1 i2 sp0 sh iii4 sp1 j i3 sp0 f en1 sp0 zh ong1 sp1 h ou4 sp1 j iou4 sp1 h uei4 sp1 z ai4 sp1 q van2 sp0 x iao4 sp0 sh iii1 sp0 sh eng1 sp1 m ian4 sp0 q ian2 sp1 k ai1 sp0 sh iii3 <sos/eos>|分配仪式几分钟后就会在全校师生面前开始|p9|t35
+1028|平静|<sos/eos> uo3 sp1 j ian4 sp0 i4 sp1 n i3 sp0 m en5 sp1 l i4 sp0 iong4 sp1 zh e4 sp1 d uan4 sp1 d eng3 sp0 d ai4 sp1 d e5 sp1 sh iii2 sp0 j ian1 sp1 l i3 sp3 b a3 sp1 z ii4 sp0 j i3 sp1 d a3 sp0 b an5 sp1 d e2 sp1 p iao4 sp0 l iang5 sp1 x ie1 <sos/eos>|我建议你们利用这段等待的时间里，把自己打扮得漂亮些。|p9|t36
+1028|平静|<sos/eos> t a1 sp1 d e5 sp1 m u4 sp0 g uang1 sp1 z ai4 sp1 n i2 sp1 uei2 sp0 er3 sp1 n a4 sp1 g u4 sp0 d ing4 sp1 v2 sp1 z uo3 sp0 er3 sp1 x ia4 sp0 f ang1 sp1 d e5 sp1 m ao4 sp0 sh eng2 sp1 h e2 sp1 l uo2 sp0 en1 sp1 n a4 sp0 z ang1 sp0 z ang1 sp1 d e5 sp1 b i2 sp0 z ii5 sp1 sh ang4 sp1 t ing2 sp0 l iou2 sp1 l e5 sp1 h ao3 sp1 i1 sp0 h uei4 sp0 er5 <sos/eos>|她的目光在尼维尔那固定于左耳下方的帽绳和罗恩那脏脏的鼻子上停留了好一会儿。|p9|t37
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 j ian4 sp0 zh uang4 sp3 l ian2 sp0 m ang2 sp1 m o1 sp1 l e5 sp1 m o2 sp1 z ii4 sp0 j i3 sp1 d e5 sp1 t ou2 sp0 f a5 <sos/eos>|哈利见状，连忙摸了模自己的头发|p9|t38
+1028|平静|<sos/eos> x iang3 sp1 b a3 sp1 t a1 sp1 n ong4 sp1 p ing2 sp0 zh eng3 sp1 x ie1 <sos/eos>|想把它弄平整些。|p9|t39
+1028|平静|<sos/eos> uo3 sp0 m en5 sp1 zh uen3 sp0 b ei4 sp1 h ao3 sp1 l e5 sp1 j iou4 sp1 h uei4 sp1 l ai2 sp1 j iao4 sp1 n i3 sp0 m en5 <sos/eos>|我们准备好了就会来叫你们|p10|t40
+1028|平静|<sos/eos> n i3 sp0 m en5 sp1 x ian1 sp1 z ai4 sp1 zh e4 sp0 l i3 sp1 an1 sp0 j ing4 sp1 d e5 sp1 d eng3 sp0 h uei4 sp0 er5 sp1 b a5 <sos/eos>|你们先在这里安静的等会儿吧。|p10|t41
+1028|平静|<sos/eos> t a1 sp1 zh ong1 sp0 v2 sp1 l i2 sp0 k ai1 sp1 l e5 sp1 n a4 sp0 j ian1 sp1 x iao3 sp0 f ang2 sp0 j ian1 <sos/eos>|她终于离开了那间小房间|p10|t42
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 j in3 sp0 zh ang1 sp1 d e5 sp1 ian4 sp1 l e5 sp1 ian4 sp1 k ou3 sp0 sh uei3 <sos/eos>|哈利紧张的咽了咽口水。|p10|t43
+1028|疑惑|<sos/eos> t a1 sp0 m en5 sp1 g en1 sp0 j v4 sp1 sh en2 sp0 m e5 sp1 b iao1 sp0 zh uen3 sp1 j iang1 sp1 uo3 sp0 m en5 sp1 f en1 sp0 p ei4 sp1 d ao4 sp1 b u4 sp0 t ong2 sp1 d e5 sp1 x ve2 sp0 van4 sp1 n e5 <sos/eos>|他们根据什么标准将我们分配到不同的学院呢？|p11|t44
+1028|疑惑|<sos/eos> t a1 sp1 uen4 sp0 l uo2 sp0 en1 <sos/eos>|他问罗恩。|p11|t45
+1028|猜测|<sos/eos> k e3 sp0 n eng2 sp1 sh iii4 sp1 t ong1 sp0 g uo4 sp1 k ao3 sp0 sh iii4 sp1 b a5 <sos/eos>|可能是通过考试吧。|p12|t46
+1028|猜测|<sos/eos> f u2 sp0 l ai2 sp1 d e2 sp1 c eng2 sp1 sh uo1 sp1 f en1 sp0 p ei4 sp1 sh iii2 sp0 h uei4 sp1 h en3 sp0 t ong4 sp3 b u4 sp0 g uo4 sp1 uo3 sp1 x iang3 sp1 t a1 sp1 zh iii3 sp0 sh iii4 sp1 z ai4 sp1 k ai1 sp0 uan2 sp0 x iao4 sp1 b a4 sp0 l e5 <sos/eos>|弗来德曾说分配时会很痛，不过我想他只是在开玩笑罢了。|p12|t47
+1028|猜测|<sos/eos> h a1 sp0 l i4 sp1 d e5 sp1 x in1 sp0 q ing2 sp1 d uen4 sp0 sh iii2 sp1 ch en2 sp0 zh ong4 sp1 l e5 sp1 x ia4 sp0 l ai5 <sos/eos>|哈利的心情顿时沉重了下来。|p12|t48
+1028|猜测|<sos/eos> k ao3 sp0 sh iii4 <sos/eos>|考试？|p12|t49
+1028|猜测|<sos/eos> h ai2 sp0 iao4 sp1 z ai4 sp1 q van2 sp0 x iao4 sp0 sh iii1 sp0 sh eng1 sp1 m ian4 sp0 q ian2 <sos/eos>|还要在全校师生面前？|p12|t50
+1028|猜测|<sos/eos> d an4 sp1 t a1 sp1 x ian4 sp0 z ai4 sp1 sh en4 sp0 zh iii4 sp1 l ian2 sp1 z uei4 sp1 j ian3 sp0 d an1 sp1 d e5 sp1 m o2 sp0 f a3 sp1 d ou1 sp1 h ai2 sp1 b u4 sp0 h uei4 sp1 ia5 <sos/eos>|但他现在甚至连最简单的魔法都还不会呀，|p12|t51
+1028|猜测|<sos/eos> t a1 sp1 g ai1 sp1 z en3 sp0 m e5 sp0 b an4 sp1 n e5 <sos/eos>|他该怎么办呢？|p12|t52
+1028|猜测|<sos/eos> g ang1 sp0 d ao4 sp1 zh e4 sp0 er5 sp1 d e5 sp1 sh iii2 sp0 h ou5 sp1 t a1 sp1 k e3 sp1 c ong2 sp1 m ei2 sp0 x iang3 sp0 d ao4 sp1 h uei4 sp1 iou3 sp1 zh e4 sp0 iang4 sp1 d e5 sp1 sh iii4 sp0 q ing5 sp1 f a1 sp0 sh eng1 <sos/eos>|刚到这儿的时候他可从没想到会有这样的事情发生。|p12|t53
+1028|猜测|<sos/eos> t a1 sp1 j iao1 sp0 j i2 sp1 d e5 sp1 s ii4 sp0 zh ou1 sp1 zh ang1 sp0 uang4 sp1 l e5 sp1 i1 sp0 x ia4 <sos/eos>|他焦急的四周张望了一下，|p12|t54
+1028|猜测|<sos/eos> f a1 sp0 x ian4 sp1 q i2 sp0 t a1 sp0 r en2 sp1 ie3 sp1 x iang4 sp1 t a1 sp1 i1 sp0 iang4 sp1 h ai4 sp0 p a4 sp1 j i2 sp0 l e5 <sos/eos>|发现其他人也像他一样害怕极了。|p12|t55
+1028|猜测|<sos/eos> r en2 sp0 q vn2 sp1 zh ong1 sp1 zh iii3 sp0 iou3 sp1 h e2 sp0 m i3 sp1 en1 sp3 g e2 sp0 l in2 sp1 z uo3 sp1 z ai4 sp1 q i1 sp0 z uei3 sp0 b a1 sp0 sh e2 sp1 d e5 sp1 x iao3 sp0 sh eng1 sp1 x iang4 sp1 p ang2 sp0 b ian1 sp1 d e5 sp1 r en2 sp1 l uo2 sp0 l ie4 sp1 t a1 sp1 s uo3 sp0 h uei4 sp1 d e5 sp1 m o2 sp0 f a3 <sos/eos>|人群中只有荷米恩。格林佐在七嘴八舌的小声向旁边的人罗列她所会的魔法，|p12|t56
+1028|猜测|<sos/eos> h ai2 sp1 sh uo1 sp1 b u4 sp1 zh iii1 sp0 d ao4 sp1 n a3 sp0 x ie1 sp1 n eng2 sp1 p ai4 sp0 sh ang4 sp0 iong4 sp0 ch ang3 <sos/eos>|还说不知道哪些能派上用场。|p12|t57
+1028|猜测|<sos/eos> h a1 sp0 l i4 sp1 zh en1 sp0 x iang3 sp1 s ai1 sp0 zh u4 sp1 z ii4 sp0 j i3 sp1 d e5 sp1 er3 sp0 d uo5 <sos/eos>|哈利真想塞住自己的耳朵，|p12|t58
+1028|猜测|<sos/eos> t a1 sp1 c ong2 sp0 l ai2 sp1 m ei2 sp0 iou3 sp1 r u2 sp0 c ii3 sp1 j in3 sp0 zh ang1 sp1 g uo4 <sos/eos>|他从来没有如此紧张过，|p12|t59
+1028|猜测|<sos/eos> j i2 sp0 sh iii3 sp1 sh iii4 sp1 n a4 sp0 c ii4 sp1 b u4 sp0 m ing2 sp0 b u4 sp0 b ai2 sp1 d e5 sp1 j iang1 sp1 l ao3 sp0 sh iii1 sp1 d e5 sp1 j ia3 sp0 f a4 sp1 b ian4 sp0 l an2 sp0 h ou4 sp1 n a2 sp1 zh e5 sp1 x ve2 sp0 x iao4 sp1 d e5 sp1 g ao4 sp0 zh uang4 sp0 x in4 sp1 h uei2 sp0 d u4 sp0 s ii1 sp0 l i4 sp1 j ia1 sp0 l i3 <sos/eos>|即使是那次不明不白的将老师的假发变蓝后拿着学校的告状信回杜斯利家里，|p12|t60
+1028|猜测|<sos/eos> ie3 sp1 m ei2 sp0 iou3 sp1 x ian4 sp0 z ai4 sp1 zh e4 sp0 m e5 sp1 j in3 sp0 zh ang1 <sos/eos>|也没有现在这么紧张。|p12|t61
+1028|猜测|<sos/eos> n a4 sp0 g e5 sp1 m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 s uei2 sp0 sh iii2 sp1 d ou1 sp1 h uei4 sp1 h uei2 sp0 l ai5 sp1 b a3 sp1 t a1 sp1 d ai4 sp0 d ao4 sp1 j ve2 sp0 d ing4 sp1 t a1 sp1 m ing4 sp0 vn4 sp1 d e5 sp1 d i4 sp0 f ang1 <sos/eos>|那个麦康娜教授随时都会回来把他带到决定他命运的地方。|p12|t62
+1028|惊恐|<sos/eos> t a1 sp1 sh en1 sp0 h ou4 sp1 iou3 sp1 j i3 sp0 g e5 sp1 r en2 sp1 t u1 sp0 r an2 sp1 j ian1 sp0 j iao4 sp1 l e5 sp1 q i3 sp0 l ai5 <sos/eos>|他身后有几个人突然尖叫了起来|p13|t63
+1028|惊恐|<sos/eos> b a3 sp1 t a1 sp1 x ia4 sp1 d e2 sp1 b eng4 sp0 q i3 sp1 i1 sp0 ch iii3 sp1 m i3 sp1 g ao1 <sos/eos>|把他吓得蹦起一尺米高|p13|t64
+1028|疑惑|<sos/eos> n i3 sp0 m en5 sp1 g ao3 sp1 sh en2 sp0 m e5 <sos/eos>|你们搞什么——？|p14|t65
+1028|紧张|<sos/eos> h a1 sp0 l i4 sp1 b ing3 sp0 zh u4 sp1 l e5 sp1 h u1 sp0 x i1 <sos/eos>|哈利屏住了呼吸|p15|t66
+1028|紧张|<sos/eos> t a1 sp1 sh en1 sp0 b ian1 sp1 d e5 sp1 r en2 sp1 ie3 sp1 d ou1 sp1 t ong2 sp0 iang4 sp1 r u2 sp0 c ii3 <sos/eos>|他身边的人也都同样如此|p15|t67
+1028|紧张|<sos/eos> d a4 sp0 y ve1 sp1 er4 sp0 sh iii2 sp0 g e4 sp1 g uei3 sp0 h uen2 sp1 c ong2 sp1 h ou4 sp0 m ian4 sp1 ch uan1 sp0 q iang2 sp1 er2 sp0 r u4 <sos/eos>|大约二十个鬼魂从后面穿墙而入|p15|t68
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 d ou1 sp1 x iang4 sp1 zh en1 sp0 zh u1 sp1 i1 sp0 iang4 sp1 b ai2 <sos/eos>|他们都像珍珠一样白|p16|t69
+1028|平静|<sos/eos> er2 sp0 q ie3 sp1 h ai2 sp0 sh iii5 sp1 b an4 sp0 t ou4 sp0 m ing2 sp1 d e5 <sos/eos>|而且还是半透明的|p16|t70
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 i1 sp0 b ian1 sp1 sh uo1 sp1 i1 sp0 b ian1 sp1 z ai4 sp1 f ang2 sp0 j ian1 sp1 l i3 sp1 p iao1 sp0 g uo4 <sos/eos>|他们一边说一边在房间里飘过|p16|t71
+1028|平静|<sos/eos> d uei4 sp1 zh e4 sp0 q vn2 sp1 x in1 sp0 sh eng1 sp1 b u4 sp0 x ie4 sp0 i1 sp0 g u4 <sos/eos>|对这群新生不屑一顾|p16|t72
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 x iang4 sp0 sh iii4 sp1 zh eng4 sp0 z ai4 sp1 zh eng1 sp0 l uen4 sp1 zh e5 sp1 sh en2 sp0 m e5 <sos/eos>|他们像是正在争论着什么|p16|t73
+1028|平静|<sos/eos> q i2 sp0 zh ong1 sp1 i2 sp0 g e4 sp1 ai3 sp0 p ang4 sp1 x iao3 sp1 h e2 sp0 sh ang5 sp1 m u2 sp0 iang4 sp1 d e5 sp1 sh uo1 <sos/eos>|其中一个矮胖小和尚模样的说|p16|t74
+1028|平静|<sos/eos> van2 sp0 l iang4 sp1 t a1 sp1 b a5 <sos/eos>|原谅他吧|p16|t75
+1028|平静|<sos/eos> uang4 sp0 j i4 sp1 zh eng3 sp0 j ian4 sp0 sh iii4 sp1 b a5 <sos/eos>|忘记整件事吧|p16|t76
+1028|平静|<sos/eos> uo3 sp1 j ve2 sp0 d e5 sp1 uo3 sp0 m en5 sp1 g ai1 sp1 z ai4 sp1 g ei3 sp1 t a1 sp1 i1 sp0 c ii4 sp1 j i1 sp0 h uei4 <sos/eos>|我觉得我们该再给他一次机会——|p16|t77
+1028|平静|<sos/eos> uo3 sp1 q in1 sp0 ai4 sp1 d e5 sp1 f ei4 sp0 ai4 sp0 er3 sp1 x ian1 sp0 sh eng5 <sos/eos>|我亲爱的费艾尔先生|p16|t78
+1028|平静|<sos/eos> uo3 sp0 m en5 sp1 i3 sp0 j ing1 sp1 g ei3 sp1 l e5 sp1 p i2 sp0 uei2 sp0 s ii1 sp1 g ou4 sp1 d uo1 sp1 d e5 sp1 j i1 sp0 h uei4 sp1 l e5 <sos/eos>|我们已经给了皮维斯够多的机会了|p16|t79
+1028|气愤|<sos/eos> t a1 sp1 r ang4 sp1 uo3 sp0 m en5 sp1 zh e4 sp0 x ie1 sp1 g uei3 sp1 d ou1 sp1 m eng2 sp0 sh ang4 sp1 l e5 sp1 e4 sp0 m ing2 <sos/eos>|他让我们这些鬼都蒙上了恶名|p17|t80
+1028|气愤|<sos/eos> zh en1 sp1 b u2 sp0 sh iii5 sp1 g e4 sp1 h ao3 sp1 d ong1 sp0 x i1 <sos/eos>|真不是个好东西——|p17|t81
+1028|气愤|<sos/eos> h ei1 sp3 n i3 sp0 m en5 sp1 z ai4 sp1 zh e4 sp0 l i3 sp1 g an4 sp0 sh en2 sp0 m e5 <sos/eos>|嘿，你们在这里干什么？|p17|t82
+1028|平静|<sos/eos> sh uo1 sp0 h ua4 sp1 d e5 sp1 sh iii4 sp1 i2 sp0 g e4 sp1 d ai4 sp0 zh e5 sp1 h ua1 sp0 q van1 sp3 ch uan1 sp0 zh uo2 sp1 k u4 sp0 ua4 sp1 d e5 sp1 g uei3 sp0 h uen2 <sos/eos>|说话的是一个戴着花圈、穿着裤袜的鬼魂|p18|t83
+1028|平静|<sos/eos> t a1 sp1 t u1 sp0 r an2 sp1 f a1 sp0 x ian4 sp1 l e5 sp1 sh en1 sp0 x ia4 sp1 d e5 sp1 zh e4 sp0 q vn2 sp1 h ai2 sp0 z ii5 <sos/eos>|她突然发现了身下的这群孩子|p18|t84
+1028|紧张|<sos/eos> m ei2 sp0 r en2 sp0 g an3 sp1 h uei2 sp0 d a2 <sos/eos>|没人敢回答。|p19|t85
+1028|轻松|<sos/eos> sh iii4 sp1 x ie1 sp1 x in1 sp0 sh eng1 <sos/eos>|是些新生！|p20|t86
+1028|轻松|<sos/eos> p ang4 sp0 z ii5 sp1 f ei4 sp0 ai4 sp0 er3 sp1 b ian1 sp0 x iao4 sp0 b ian1 sp1 d uei4 sp1 t a1 sp0 m en5 sp1 sh uo1 <sos/eos>|胖子费艾尔边笑边对他们说|p20|t87
+1028|轻松|<sos/eos> sh iii4 sp1 k uai4 sp1 f en1 sp0 p ei4 sp1 zh u4 sp0 ch u4 sp1 l e5 sp1 b a5 <sos/eos>|是快分配住处了吧？|p20|t88
+1028|轻松|<sos/eos> i1 sp0 x ie1 sp1 h ai2 sp0 z ii5 sp1 j ing4 sp0 j ing4 sp0 d i4 sp1 d ian3 sp1 l e5 sp1 d ian3 sp0 t ou2 <sos/eos>|一些孩子静静地点了点头。|p20|t89
+1028|兴奋|<sos/eos> zh u4 sp1 n i3 sp1 f en1 sp0 d ao4 sp1 h ai3 sp0 f u1 sp1 b a1 sp0 f u1 <sos/eos>|祝你分到海夫巴夫，|p21|t90
+1028|兴奋|<sos/eos> f ei4 sp0 ai4 sp0 er3 sp1 j iao4 sp1 d ao4 <sos/eos>|费艾尔叫道|p21|t91
+1028|兴奋|<sos/eos> n i3 sp1 zh iii1 sp0 d ao4 sp1 m a5 sp3 uo3 sp1 j iou4 sp1 sh iii4 sp0 c ong2 sp1 n a4 sp0 er5 sp1 b i4 sp0 ie4 sp1 d e5 <sos/eos>|你知道吗，我就是从那儿毕业的。|p21|t92
+1028|兴奋|<sos/eos> x ian4 sp0 z ai4 sp1 x iang4 sp0 q ian2 sp0 z ou3 <sos/eos>|现在向前走，|p21|t93
+1028|兴奋|<sos/eos> i2 sp0 g e4 sp1 n v3 sp0 g ao1 sp0 in1 sp1 h an3 sp0 d ao4 <sos/eos>|一个女高音喊道|p21|t94
+1028|兴奋|<sos/eos> f en1 sp0 p ei4 sp1 i2 sp0 sh iii4 sp1 iao4 sp1 k ai1 sp0 sh iii3 sp1 l e5 <sos/eos>|分配仪式要开始了。|p21|t95
+1028|兴奋|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 h uei2 sp0 l ai5 sp1 l e5 <sos/eos>|麦康娜教授回来了|p21|t96
+1028|兴奋|<sos/eos> g uei3 sp0 h uen2 sp1 m en5 sp1 i2 sp0 g e4 sp1 j ie1 sp1 i2 sp0 g e4 sp1 d i4 sp1 iou4 sp1 ch uan1 sp0 g uo4 sp1 d uei4 sp0 m ian4 sp1 q iang2 sp0 b i4 sp1 l i2 sp0 k ai1 sp1 l e5 <sos/eos>|鬼魂们一个接一个地又穿过对面墙壁离开了。|p21|t97
+1028|严肃|<sos/eos> zh an4 sp0 ch eng2 sp1 i1 sp0 d uei4 <sos/eos>|站成一队，|p22|t98
+1028|严肃|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 g ao4 sp0 s u4 sp1 x in1 sp0 sh eng1 sp1 m en5 <sos/eos>|麦康娜教授告诉新生们|p22|t99
+1028|严肃|<sos/eos> x ian4 sp0 z ai4 sp1 g en1 sp0 uo3 sp0 z ou3 <sos/eos>|现在跟我走！|p22|t100
+1028|严肃|<sos/eos> h a1 sp0 l i4 sp1 g an3 sp0 d ao4 sp1 z ii4 sp0 j i3 sp1 d e5 sp1 sh uang1 sp0 t uei3 sp1 x iang4 sp0 sh iii4 sp1 g uan4 sp1 l e5 sp1 q ian1 sp1 i1 sp0 iang4 sp3 sh iii2 sp0 f en1 sp1 q i2 sp0 g uai4 <sos/eos>|哈利感到自己的双腿像是灌了铅一样，十分奇怪。|p22|t101
+1028|严肃|<sos/eos> t a1 sp0 p ai2 sp1 z ai4 sp1 i2 sp0 g e4 sp1 sh a1 sp0 t u3 sp1 s e4 sp1 t ou2 sp0 f a5 sp1 n an2 sp0 h ai2 sp0 z ii5 sp1 d e5 sp1 h ou4 sp0 m ian4 <sos/eos>|他排在一个沙土色头发男孩子的后面。|p22|t102
+1028|严肃|<sos/eos> l uo2 sp0 en1 sp1 j in3 sp0 g en1 sp0 zh e5 sp1 t a1 <sos/eos>|罗恩紧跟着他。|p22|t103
+1028|严肃|<sos/eos> t a1 sp0 m en5 sp1 zh e4 sp1 i1 sp0 d uei4 sp1 r en2 sp1 ch ong2 sp0 x in1 sp1 ch uan1 sp0 y ve4 sp1 d a4 sp0 t ing1 <sos/eos>|他们这一队人重新穿越大厅。|p22|t104
+1028|严肃|<sos/eos> z ou3 sp0 j in4 sp1 i1 sp0 sh an4 sp1 d uei4 sp0 k ai1 sp1 d e5 sp1 d a4 sp0 m en2 <sos/eos>|走进一扇对开的大门。|p22|t105
+1028|严肃|<sos/eos> j in4 sp0 r u4 sp1 d ao4 sp1 l e5 sp1 d a4 sp0 h uei4 sp0 t ang2 <sos/eos>|进入到了大会堂。|p22|t106
+1028|惊讶|<sos/eos> h a1 sp0 l i4 sp1 c ong2 sp0 uei4 sp0 j ian4 sp0 g uo4 sp1 iou3 sp1 n a3 sp0 g e5 sp1 d i4 sp0 f ang1 sp1 r u2 sp0 c ii3 sp1 q i2 sp0 g uai4 sp1 q ie3 sp1 h uei1 sp0 h uang2 <sos/eos>|哈利从未见过有哪个地方如此奇怪且辉煌。|p23|t107
+1028|惊讶|<sos/eos> q i2 sp0 t a1 sp1 g ao1 sp0 n ian2 sp0 j i2 sp1 d e5 sp1 x ve2 sp0 sh eng5 sp1 d ou1 sp1 z uo4 sp0 z ai4 sp1 s ii4 sp0 zh ang1 sp1 zh ang3 sp1 zh uo1 sp0 z ii5 sp1 q ian2 <sos/eos>|其他高年级的学生都坐在四张长桌子前。|p23|t108
+1028|惊讶|<sos/eos> t a1 sp0 m en5 sp1 t ou2 sp0 d ing3 sp1 sh ang4 sp0 f ang1 sp1 j ing4 sp0 iou3 sp1 sh u4 sp0 i3 sp0 q ian1 sp0 j i4 sp1 d e5 sp1 l a4 sp0 zh u2 sp1 z ai4 sp1 b an4 sp0 k ong1 sp0 zh ong1 sp1 p iao1 sp0 f u2 <sos/eos>|他们头顶上方竟有数以千计的蜡烛在半空中飘浮。|p23|t109
+1028|惊讶|<sos/eos> j iang1 sp1 zh eng3 sp0 g e4 sp1 d a4 sp0 h uei4 sp0 t ang2 sp1 zh ao4 sp1 d e2 sp1 d eng1 sp0 h uo3 sp0 t ong1 sp0 m ing2 <sos/eos>|将整个大会堂照得灯火通明。|p23|t110
+1028|惊讶|<sos/eos> zh uo1 sp0 sh ang4 sp1 b ai3 sp0 m an3 sp1 l e5 sp1 sh an3 sp0 sh an3 sp0 f a1 sp0 g uang1 sp1 d e5 sp1 j in1 sp0 zh iii4 sp1 d e5 sp1 d ie2 sp0 z ii5 sp1 h e2 sp1 g ao1 sp0 j iao3 sp0 b ei1 <sos/eos>|桌上摆满了闪闪发光的金制的碟子和高脚杯。|p23|t111
+1028|惊讶|<sos/eos> d a4 sp0 h uei4 sp1 zh eng4 sp1 q ian2 sp0 m ian4 sp1 d e5 sp1 t ai2 sp0 sh ang4 sp1 h ai2 sp0 iou3 sp1 l ing4 sp1 i1 sp0 zh ang1 sp1 zh ang3 sp1 zh uo1 sp0 z ii5 <sos/eos>|大会正前面的台上还有另一张长桌子。|p23|t112
+1028|惊讶|<sos/eos> l ao3 sp0 sh iii1 sp1 m en5 sp1 d ou1 sp1 z uo4 sp0 z ai4 sp1 n a4 sp0 l i5 <sos/eos>|老师们都坐在那里。|p23|t113
+1028|惊讶|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 j iang1 sp1 x in1 sp0 sh eng1 sp1 m en5 sp1 l ing3 sp0 sh ang4 sp1 g ao1 sp0 t ai2 <sos/eos>|麦康娜教授将新生们领上高台。|p23|t114
+1028|惊讶|<sos/eos> j iao4 sp1 t a1 sp0 m en5 sp1 m ian4 sp0 x iang4 sp1 sh iii1 sp0 x iong1 sp3 b ei4 sp0 d uei4 sp1 l ao3 sp0 sh iii1 sp3 i1 sp0 z ii4 sp0 p ai2 sp0 k ai1 sp1 d e5 sp1 zh an4 sp1 h ao3 <sos/eos>|叫他们面向师兄，背对老师，一字排开的站好。|p23|t115
+1028|惊讶|<sos/eos> n a4 sp1 q ian1 sp0 b ai3 sp1 zh ang1 sp1 zh u4 sp0 sh iii4 sp1 zh e5 sp1 t a1 sp0 m en5 sp1 d e5 sp1 l ian3 sp1 j iou4 sp1 h ao3 sp0 x iang4 sp1 sh an3 sp0 iao4 sp1 d e5 sp1 zh u2 sp0 g uang1 sp1 zh ong1 sp1 c ang1 sp0 b ai2 sp1 d e5 sp1 x iao3 sp1 d eng1 sp0 l ong2 <sos/eos>|那千百张注视着他们的脸就好像闪耀的烛光中苍白的小灯笼。|p23|t116
+1028|平静|<sos/eos> f en1 sp0 s an4 sp1 z ai4 sp1 x ve2 sp0 sh eng5 sp1 zh ong1 sp1 d e5 sp1 g uei3 sp0 h uen2 sp1 j iang1 sp1 van2 sp0 b en3 sp1 m o2 sp0 h u5 sp1 d e5 sp1 in2 sp0 q i4 sp1 b ian4 sp0 d e5 sp1 sh an3 sp0 l iang4 <sos/eos>|分散在学生中的鬼魂将原本模糊的银器变得闪亮。|p24|t117
+1028|平静|<sos/eos> uei4 sp0 l e5 sp1 b i4 sp0 k ai1 sp1 t ai2 sp0 x ia4 sp1 d e5 sp1 m u4 sp0 g uang1 sp3 h a1 sp0 l i4 sp1 t ai2 sp0 t ou2 sp1 iang3 sp0 uang4 <sos/eos>|为了避开台下的目光，哈利抬头仰望|p24|t118
+1028|平静|<sos/eos> q ia4 sp0 q iao3 sp1 k an4 sp0 j ian4 sp1 d ian3 sp0 zh uei4 sp0 zh e5 sp1 x ing1 sp0 x ing5 sp1 d e5 sp1 t ian1 sp0 e2 sp0 r ong2 sp1 b an1 sp1 m ei3 sp0 l i4 sp1 d e5 sp1 h ei1 sp0 s e4 sp1 t ian1 sp0 h ua1 sp0 b an3 <sos/eos>|恰巧看见点缀着星星的天鹅绒般美丽的黑色天花板。|p24|t119
+1028|平静|<sos/eos> t a1 sp1 t ing1 sp0 j ian4 sp1 h e2 sp0 m i3 sp1 en1 sp1 z ai4 sp1 t a1 sp1 er3 sp0 b ian1 sp1 d i1 sp0 v3 <sos/eos>|他听见荷米恩在他耳边低语|p24|t120
+1028|平静|<sos/eos> iou3 sp0 r en2 sp1 c eng2 sp1 d uei4 sp1 t a1 sp0 sh iii1 sp1 l e5 sp1 m o2 sp0 f a3 sp3 sh iii3 sp1 t a1 sp1 k an4 sp0 sh ang5 sp0 q v5 sp1 g eng4 sp1 x iang4 sp1 uai4 sp0 m ian4 sp1 d e5 sp1 x ing1 sp0 k ong1 <sos/eos>|有人曾对它施了魔法，使它看上去更像外面的星空。|p24|t121
+1028|平静|<sos/eos> zh e4 sp1 sh iii4 sp1 uo3 sp1 z ai4 sp3 h uo4 sp0 g e2 sp0 ua3 sp0 ch e4 sp1 g u4 sp0 sh iii4 sp3 zh ong1 sp1 d e2 sp0 zh iii1 sp1 d e5 <sos/eos>|这是我在《霍格瓦彻故事》中得知的。|p24|t122
+1028|平静|<sos/eos> zh en1 sp1 n an2 sp0 i3 sp0 x iang3 sp0 x iang4 sp1 q i2 sp0 sh iii2 sp1 d a4 sp0 h uei4 sp0 t ang2 sp1 b ing4 sp1 b u2 sp0 sh iii5 sp1 l u4 sp0 t ian1 sp1 d e5 <sos/eos>|真难以想象其实大会堂并不是露天的|p24|t123
+1028|平静|<sos/eos> t ang2 sp1 d ing3 sp0 sh ang4 sp1 h ai2 sp0 iou3 sp1 i1 sp0 c eng2 sp1 t ian1 sp0 h ua1 sp0 b an3 <sos/eos>|堂顶上还有一层天花板。|p24|t124
+1028|平静|<sos/eos> d ang1 sp0 m ai4 sp1 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 j ing4 sp0 j ing4 sp0 d i4 sp1 j iang1 sp1 i2 sp0 g e4 sp1 s ii4 sp1 j iao3 sp0 d eng4 sp1 b ai3 sp0 z ai4 sp1 x in1 sp0 sh eng1 sp1 m en5 sp1 d e5 sp1 m ian4 sp0 q ian2 sp1 sh iii2 <sos/eos>|当麦康娜教授静静地将一个四脚凳摆在新生们的面前时|p25|t125
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 g an3 sp0 m ang2 sp1 iou4 sp1 p ing2 sp0 sh iii4 sp1 q ian2 sp0 f ang1 <sos/eos>|哈利赶忙又平视前方。|p25|t126
+1028|平静|<sos/eos> j iao4 sp0 sh ou4 sp1 z ai4 sp1 n a4 sp1 s ii4 sp1 j iao3 sp0 d eng4 sp1 sh ang4 sp0 f ang4 sp0 sh ang4 sp1 i1 sp1 d ing3 sp0 j ian1 sp1 j ian1 sp1 d e5 sp1 m o2 sp0 f a3 sp0 sh iii1 sp1 d e5 sp1 m ao4 sp0 z ii5 <sos/eos>|教授在那四脚凳上放上一顶尖尖的魔法师的帽子。|p26|t127
+1028|平静|<sos/eos> zh e4 sp0 d ing3 sp1 m ao4 sp0 z ii5 sp1 iou4 sp1 p o4 sp1 iou4 sp1 j iou4 sp1 iou4 sp1 z ang4 <sos/eos>|这顶帽子又破又旧又脏。|p26|t128
+1028|平静|<sos/eos> p a4 sp1 iou2 sp0 n i1 sp0 ia4 sp1 i2 sp0 m a1 sp1 sh iii4 sp1 j ve2 sp0 d uei4 sp1 b u4 sp0 h uei4 sp1 r ang4 sp1 zh e4 sp0 d ing3 sp1 m ao4 sp0 z ii5 sp1 j in4 sp0 r u4 sp1 t a1 sp1 d e5 sp1 j ia1 sp0 m en2 sp1 d e5 <sos/eos>|帕尤妮亚姨妈是绝对不会让这顶帽子进入她的家门的。|p26|t129
+1028|好奇|<sos/eos> ie3 sp0 x v3 sp1 sh iii4 sp1 iao4 sp1 c ong2 sp1 l i3 sp0 m ian4 sp1 b ian4 sp0 zh iii3 sp1 t u4 sp0 z ii5 sp1 h uo4 sp0 zh e3 sp1 sh en2 sp0 m e5 sp1 b a5 <sos/eos>|也许是要从里面变只兔子或者什么吧|p27|t130
+1028|好奇|<sos/eos> h a1 sp0 l i4 sp1 zh eng4 sp0 z ai4 sp1 h u2 sp0 l uan4 sp1 c ai1 sp0 c e4 <sos/eos>|哈利正在胡乱猜测|p27|t131
+1028|好奇|<sos/eos> f a1 sp0 x ian4 sp1 d a4 sp0 h uei4 sp0 t ang2 sp1 l i3 sp1 d e5 sp1 m ei3 sp0 g e4 sp1 r en2 sp1 d ou1 sp1 d ing1 sp1 zh e5 sp1 n a4 sp1 m ao4 sp0 z ii5 sp1 k an4 <sos/eos>|发现大会堂里的每个人都盯着那帽子看|p27|t132
+1028|好奇|<sos/eos> t a1 sp1 ie3 sp1 h en3 sp1 x iang3 sp1 k an4 sp0 g e4 sp1 j iou1 sp0 j ing4 <sos/eos>|他也很想看个究竟|p27|t133
+1028|好奇|<sos/eos> i1 sp0 p ian4 sp1 s ii3 sp0 j i4 <sos/eos>|一片死寂|p27|t134
+1028|好奇|<sos/eos> t u1 sp0 r an2 sp3 m ao4 sp0 z ii5 sp1 i1 sp0 zh en4 sp1 ch ou1 sp0 d ong4 <sos/eos>|突然，帽子一阵抽动|p27|t135
+1028|好奇|<sos/eos> z ai4 sp1 t a1 sp1 b ian1 sp0 van2 sp1 d e5 sp1 d i4 sp0 f ang1 sp1 l ie4 sp0 k ai1 sp1 l e5 sp1 i1 sp0 d ao4 sp1 x iang4 sp1 r en2 sp1 d e5 sp1 z uei3 sp0 b a5 sp1 i1 sp0 iang4 sp1 d e5 sp1 f eng4 <sos/eos>|在它边缘的地方裂开了一道像人的嘴巴一样的缝|p27|t136
+1028|好奇|<sos/eos> j ie1 sp0 zh e5 sp3 m ao4 sp0 z ii5 sp1 j ing4 sp1 k ai1 sp0 sh iii3 sp1 ch ang4 sp0 q i3 sp0 l ai5 <sos/eos>|接着，帽子竟开始唱起来|p27|t137
+1028|好奇|<sos/eos> h uan4 sp3 ie3 sp0 x v3 sp1 n i3 sp1 r en4 sp0 uei2 sp1 uo3 sp1 b ing4 sp1 b u4 sp1 m ei3 sp0 l i4 <sos/eos>|唤，也许你认为我并不美丽|p27|t138
+1028|好奇|<sos/eos> d an4 sp1 b u4 sp0 iao4 sp1 zh iii3 sp1 x in4 sp0 r en4 sp1 n i3 sp1 d e5 sp1 ian3 sp0 j ing5 <sos/eos>|但不要只信任你的眼睛|p27|t139
+1028|好奇|<sos/eos> r u2 sp0 g uo3 sp1 n i3 sp1 n eng2 sp1 zh ao3 sp0 d ao4 sp1 i1 sp0 d ing3 sp1 m ao4 sp0 z ii5 sp1 b i3 sp1 uo3 sp1 g eng4 sp1 c ong1 sp0 m ing5 <sos/eos>|如果你能找到一顶帽子比我更聪明|p27|t140
+1028|好奇|<sos/eos> n i3 sp1 b a3 sp1 uo3 sp1 z en3 sp0 iang4 sp1 d ou1 sp0 x ing2 <sos/eos>|你把我怎样都行|p27|t141
+1028|自信|<sos/eos> n i3 sp1 d e5 sp1 van2 sp0 d ing3 sp1 l i3 sp0 m ao4 sp1 h ei1 sp0 q ie3 sp1 l iang4 <sos/eos>|你的圆顶礼帽黑且亮|p28|t142
+1028|自信|<sos/eos> n i3 sp1 d e5 sp1 g ao1 sp0 d ing3 sp1 l i3 sp0 m ao4 sp1 h ua2 sp0 q ie3 sp1 g ao1 <sos/eos>|你的高顶礼帽滑且高|p28|t143
+1028|自信|<sos/eos> in1 sp0 uei4 sp1 uo3 sp1 sh iii4 sp1 h uo4 sp0 g e2 sp0 ua3 sp0 ch e4 sp1 f en1 sp0 p ei4 sp1 m ao4 <sos/eos>|因为我是霍格瓦彻分配帽|p28|t144
+1028|自信|<sos/eos> s uo3 sp0 i3 sp1 t a1 sp0 m en5 sp1 d ou1 sp1 m ei2 sp1 uo3 sp1 h ao3 <sos/eos>|所以它们都没我好。|p28|t145
+1028|自信|<sos/eos> n i3 sp1 n ao3 sp0 z ii5 sp0 l i3 sp1 x iang3 sp1 sh en2 sp0 m e5 sp1 uo3 sp1 z uei4 sp1 q ing1 sp0 ch u5 <sos/eos>|你脑子里想什么我最清楚|p29|t146
+1028|自信|<sos/eos> s uo3 sp0 i3 sp1 b a3 sp1 uo3 sp1 d ai4 sp1 sh ang4 <sos/eos>|所以把我戴上|p29|t147
+1028|自信|<sos/eos> n i3 sp1 g ai1 sp1 d ao4 sp1 n a3 sp0 er5 sp1 j iou4 sp1 h en3 sp1 q ing1 sp0 ch u5 <sos/eos>|你该到哪儿就很清楚。|p29|t148
+1028|自信|<sos/eos> n i3 sp1 ie3 sp0 x v3 sp1 g ai1 sp1 q v4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 <sos/eos>|你也许该去格林芬顿|p30|t149
+1028|自信|<sos/eos> n a4 sp0 l i5 sp1 d e5 sp1 iong3 sp0 sh iii4 sp1 t e4 sp0 b ie2 sp1 d uo1 <sos/eos>|那里的勇士特别多|p30|t150
+1028|自信|<sos/eos> iong3 sp0 q i4 sp3 j ing1 sp0 sh en2 sp1 h e2 sp1 n iou3 sp0 l i4 <sos/eos>|勇气、精神和扭力|p30|t151
+1028|自信|<sos/eos> u2 sp0 j v4 sp1 t iao3 sp0 zh an4 sp1 v3 sp1 f eng1 sp0 b o1 <sos/eos>|无惧挑战与风波|p30|t152
+1028|自信|<sos/eos> iao4 sp0 sh iii5 sp1 n i3 sp1 zh u4 sp1 z ai4 sp1 h ai3 sp0 f u1 sp1 b a1 sp0 f u1 <sos/eos>|要是你住在海夫巴夫|p30|t153
+1028|自信|<sos/eos> n a4 sp0 l i5 sp1 zh ong1 sp0 ch eng2 sp3 zh eng4 sp0 zh iii2 sp1 iou4 sp1 j ie2 sp0 ch u1 <sos/eos>|那里忠诚、正直又杰出|p30|t154
+1028|自信|<sos/eos> r en2 sp0 m en5 sp1 n ai4 sp0 x in1 sp1 iou4 sp1 ch eng2 sp0 k en3 <sos/eos>|人们耐心又诚恳|p30|t155
+1028|自信|<sos/eos> u2 sp0 j v4 sp1 g ong1 sp0 z uo4 sp1 d e5 sp1 l ao2 sp0 k u3 <sos/eos>|无惧工作的劳苦|p30|t156
+1028|自信|<sos/eos> r u2 sp0 g uo3 sp1 n i3 sp1 zh u4 sp1 uei4 sp0 uen2 sp1 k a3 sp0 l uo2 <sos/eos>|如果你住卫文卡罗|p30|t157
+1028|自信|<sos/eos> n a4 sp1 k e3 sp1 sh iii2 sp0 z ai4 sp1 zh en1 sp0 sh iii5 sp1 h ao3 <sos/eos>|那可实在真是好|p30|t158
+1028|自信|<sos/eos> x ve2 sp0 zh e3 sp3 zh iii4 sp0 zh e3 sp1 i1 sp0 d a4 sp0 d uei1 <sos/eos>|学者、智者一大堆|p30|t159
+1028|自信|<sos/eos> q i2 sp0 t a1 sp1 d i4 sp0 f ang1 sp1 b u4 sp0 i4 sp1 zh ao3 <sos/eos>|其他地方不易找|p30|t160
+1028|自信|<sos/eos> h uo4 sp0 zh e3 sp1 zh u4 sp1 z ai4 sp1 j iao1 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|或者住在交林德林|p30|t161
+1028|自信|<sos/eos> n i3 sp1 h uei4 sp1 zh ao3 sp0 d ao4 sp1 p eng2 sp0 iou5 sp1 v3 sp1 zh en1 sp0 q ing2 <sos/eos>|你会找到朋友与真情|p30|t162
+1028|自信|<sos/eos> n a4 sp0 l i5 sp1 d e5 sp1 j v1 sp0 m in2 sp1 iou3 sp1 b en3 sp0 l ing3 <sos/eos>|那里的居民有本领|p30|t163
+1028|自信|<sos/eos> n a4 sp0 l i5 sp1 d e5 sp1 m ei3 sp0 j ing3 sp1 h en3 sp1 x i1 sp0 in3 <sos/eos>|那里的美景很吸引。|p30|t164
+1028|自信|<sos/eos> l ai2 sp1 d ai4 sp1 sh ang4 sp1 uo3 <sos/eos>|来戴上我|p31|t165
+1028|自信|<sos/eos> q ian1 sp0 uan4 sp0 b ie2 sp1 d an3 sp0 ch an4 sp1 iou4 sp1 x in1 sp0 j ing1 <sos/eos>|千万别胆颤又心惊！|p31|t166
+1028|自信|<sos/eos> iou3 sp1 uo3 sp1 b ao3 sp0 h u4 sp1 an1 sp0 q van2 sp1 d e2 sp1 h en3 <sos/eos>|有我保护安全得很|p32|t167
+1028|自信|<sos/eos> in1 sp0 uei4 sp1 uo3 sp1 s ii1 sp0 x iang3 sp1 zh iii1 sp0 m ao4 sp1 b ing4 sp1 b u4 sp0 ch uen3 <sos/eos>|因为我思想之帽并不蠢。|p32|t168
+1028|自信|<sos/eos> d ang1 sp1 m ao4 sp0 z ii5 sp1 b iao3 sp0 ian3 sp1 uan2 sp1 t a1 sp1 j ing1 sp0 c ai3 sp1 d e5 sp1 g e1 sp0 ch ang4 <sos/eos>|当帽子表演完他精彩的歌唱|p32|t169
+1028|自信|<sos/eos> zh eng3 sp0 g e4 sp1 h uei4 sp0 t ang2 sp1 b ao4 sp0 i3 sp1 r e4 sp0 l ie4 sp1 d e5 sp1 zh ang3 sp0 sh eng1 <sos/eos>|整个会堂报以热烈的掌声。|p32|t170
+1028|自信|<sos/eos> t a1 sp1 d uei4 sp1 zh e5 sp1 s ii4 sp0 zh ang1 sp1 z uo4 sp0 m an3 sp1 x ve2 sp0 sh eng5 sp1 d e5 sp1 zh uo1 sp0 z ii5 sp1 g e4 sp0 j v1 sp1 l e5 sp1 i2 sp0 g e4 sp1 g ong1 <sos/eos>|它对着四张坐满学生的桌子各鞠了一个躬|p32|t171
+1028|自信|<sos/eos> r an2 sp0 h ou4 sp1 iou4 sp1 b ian4 sp0 d e5 sp1 uen2 sp0 s ii1 sp0 b u4 sp0 d ong4 sp1 l e5 <sos/eos>|然后又变得纹丝不动了。|p32|t172
+1028|平静|<sos/eos> k an4 sp0 l ai5 sp1 uo3 sp0 m en5 sp1 zh iii3 sp1 x v1 sp0 d ai4 sp1 i1 sp0 d ai4 sp1 n a4 sp1 d ing3 sp1 m ao4 sp0 z ii5 sp1 j iou4 sp0 x ing2 sp0 l e5 <sos/eos>|看来我们只需戴一戴那顶帽子就行了。|p33|t173
+1028|平静|<sos/eos> g ai1 sp0 s ii3 sp1 d e5 sp1 f u2 sp0 l ai2 sp1 d e2 sp3 t a1 sp1 c ai2 sp1 iao4 sp1 q v4 sp1 h e2 sp1 j v4 sp0 r en2 sp1 sh uai1 sp0 j iao1 sp1 n e5 <sos/eos>|该死的弗来德，他才要去和巨人摔跤呢。|p33|t174
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 an4 sp0 z ii4 sp1 q ie4 sp0 x iao4 <sos/eos>|哈利暗自窃笑。|p33|t175
+1028|平静|<sos/eos> q ve4 sp0 sh iii2 sp3 d ai4 sp0 m ao4 sp0 z ii5 sp1 k e3 sp0 b i3 sp1 b ian4 sp1 m o2 sp0 f a3 sp1 r ong2 sp0 i4 sp1 d uo1 sp1 l e5 <sos/eos>|确实，戴帽子可比变魔法容易多了|p33|t176
+1028|平静|<sos/eos> b u4 sp0 g uo4 sp1 t a1 sp1 h ai2 sp0 sh iii5 sp1 j ve2 sp0 d e5 sp1 t ai2 sp0 x ia4 sp1 m ei2 sp0 iou3 sp1 g uan1 sp0 zh ong4 sp1 j iou4 sp1 g eng4 sp0 h ao3 sp1 l e5 <sos/eos>|不过他还是觉得台下没有观众就更好了。|p33|t177
+1028|平静|<sos/eos> m ao4 sp0 z ii5 sp1 s ii4 sp0 h u1 sp1 iao4 sp1 uen4 sp1 b u4 sp0 sh ao3 sp1 uen4 sp0 t i2 <sos/eos>|帽子似乎要问不少问题|p33|t178
+1028|平静|<sos/eos> er2 sp1 h a1 sp0 l i4 sp1 ie3 sp1 c ong2 sp0 b u4 sp1 j ve2 sp0 d e5 sp1 z ii4 sp0 j i3 sp1 h en3 sp1 iong3 sp0 g an3 sp1 h uo4 sp0 sh iii4 sp1 h en3 sp1 c ong1 sp0 m ing5 <sos/eos>|而哈利也从不觉得自己很勇敢或是很聪明。|p33|t179
+1028|期待|<sos/eos> d an4 sp0 van4 sp1 m ao4 sp0 z ii5 sp1 n eng2 sp1 d uei4 sp1 sh en1 sp0 t i3 sp1 b u4 sp0 sh iii4 sp1 d e5 sp1 r en2 sp1 uang3 sp0 k ai1 sp0 i1 sp0 m ian4 <sos/eos>|但愿帽子能对身体不适的人网开一面|p34|t180
+1028|期待|<sos/eos> zh iii2 sp0 j ie1 sp1 g ao4 sp0 zh iii1 sp1 j ie1 sp0 g uo3 sp1 l e5 sp1 sh iii4 <sos/eos>|直接告知结果了事|p34|t181
+1028|期待|<sos/eos> r u2 sp0 g uo3 sp1 zh en1 sp0 sh iii5 sp1 zh e4 sp0 iang4 sp0 d e5 sp0 h ua4 <sos/eos>|如果真是这样的话|p34|t182
+1028|期待|<sos/eos> n a4 sp1 t a1 sp1 i1 sp0 d ing4 sp1 n eng2 sp1 ch eng2 sp0 uei2 sp1 x ing4 sp0 vn4 sp0 er2 <sos/eos>|那他一定能成为幸运儿。|p34|t183
+1028|平静|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 z ou3 sp0 sh ang4 sp1 q ian2 sp0 l ai2 <sos/eos>|麦康娜教授走上前来|p35|t184
+1028|平静|<sos/eos> sh ou3 sp0 zh ong1 sp1 uo4 sp1 zh e5 sp1 i1 sp1 ch ang2 sp0 j van4 sp1 iang2 sp0 p i2 sp0 zh iii3 <sos/eos>|手中握着一长卷羊皮纸。|p35|t185
+1028|平静|<sos/eos> d ang1 sp1 uo3 sp0 n ian4 sp1 d ao4 sp1 n i3 sp1 d e5 sp1 m ing2 sp0 z ii5 sp3 j iou4 sp1 q ing3 sp1 n i3 sp1 d ai4 sp1 sh ang4 sp1 zh e4 sp0 d ing3 sp1 m ao4 sp0 z ii5 sp1 z uo4 sp0 z ai4 sp1 d eng4 sp0 z ii5 sp1 sh ang4 sp1 d eng3 sp0 d ai4 sp1 f en1 sp0 p ei4 <sos/eos>|当我念到你的名字，就请你戴上这顶帽子坐在凳子上等待分配。|p36|t186
+1028|平静|<sos/eos> t a1 sp1 sh uo1 sp0 d ao4 <sos/eos>|她说道|p36|t187
+1028|平静|<sos/eos> h a1 sp0 n a4 sp3 a1 sp1 b o1 sp0 t e4 <sos/eos>|哈纳。阿波特！|p36|t188
+1028|平静|<sos/eos> i2 sp0 g e4 sp1 f en3 sp0 h ong2 sp1 l ian3 sp0 s e4 sp3 m an3 sp0 t ou2 sp1 j in1 sp0 f a4 sp1 d e5 sp1 x iao3 sp0 n v3 sp0 h ai2 sp1 c ong2 sp1 d uei4 sp0 u3 sp1 zh ong1 sp1 z ou3 sp1 l e5 sp1 ch u1 sp0 l ai2 <sos/eos>|一个粉红脸色、满头金发的小女孩从队伍中走了出来|p36|t189
+1028|平静|<sos/eos> d ai4 sp0 sh ang5 sp1 d a4 sp0 d e2 sp1 l ian2 sp1 t a1 sp1 d e5 sp1 ian3 sp0 j ing5 sp1 d ou1 sp1 zh e1 sp0 zh u4 sp1 d e5 sp1 m ao4 sp0 z ii5 sp1 h ou4 <sos/eos>|戴上大得连她的眼睛都遮住的帽子后|p36|t190
+1028|平静|<sos/eos> j ing4 sp0 j ing4 sp0 d i4 sp1 z uo4 sp0 x ia5 <sos/eos>|静静地坐下。|p36|t191
+1028|平静|<sos/eos> i1 sp0 h uei4 sp0 er5 sp1 zh iii1 sp0 h ou4 <sos/eos>|一会儿之后，|p36|t192
+1028|平静|<sos/eos> h ai3 sp0 f u1 sp1 b a1 sp0 f u1 <sos/eos>|海夫巴夫！|p36|t193
+1028|平静|<sos/eos> l ai2 sp0 z ii4 sp1 h ai3 sp0 f u1 sp1 b a1 sp0 f u1 sp1 d e5 sp1 x ve2 sp0 sh eng5 sp1 z uo4 sp0 z ai4 sp1 z uei4 sp1 iou4 sp0 b ian5 <sos/eos>|来自海夫巴夫的学生坐在最右边。|p37|t194
+1028|平静|<sos/eos> d ang1 sp0 h a1 sp0 n a4 sp1 z ou3 sp1 x ia4 sp0 l ai5 sp1 v3 sp1 t a1 sp0 m en5 sp1 z uo4 sp0 z ai4 sp1 i1 sp0 q i3 sp1 sh iii2 <sos/eos>|当哈纳走下来与他们坐在一起时|p37|t195
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 g e4 sp0 g e4 sp1 g u3 sp0 zh ang3 sp1 h uan1 sp0 h u1 <sos/eos>|他们个个鼓掌欢呼。|p37|t196
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 h ai2 sp1 k an4 sp0 j ian4 sp1 n a4 sp0 g e5 sp1 j iao4 sp0 f ei4 sp1 ai4 sp0 er3 sp1 d e5 sp1 p ang4 sp0 g uei3 sp1 h ai2 sp1 z ai4 sp1 x ing4 sp0 g ao1 sp0 c ai3 sp0 l ie4 sp1 d e5 sp1 x iang4 sp1 t a1 sp1 h uei1 sp0 sh ou3 sp1 n e5 <sos/eos>|哈利还看见那个叫费艾尔的胖鬼还在兴高彩烈的向她挥手呢。|p37|t197
+1028|平静|<sos/eos> s u1 sp0 sh an1 sp3 b a1 sp0 en1 sp0 s ii1 <sos/eos>|苏珊。巴恩斯！|p38|t198
+1028|响亮|<sos/eos> h ai3 sp0 f u1 sp1 b a1 sp0 f u1 <sos/eos>|海夫巴夫！|p39|t199
+1028|响亮|<sos/eos> m ao4 sp0 z ii5 sp1 h an3 <sos/eos>|帽子喊。|p39|t200
+1028|响亮|<sos/eos> s u1 sp0 sh an1 sp1 b ian4 sp1 z ou3 sp1 x ia4 sp0 l ai5 sp1 z uo4 sp0 d ao4 sp1 h a1 sp0 n a4 sp1 sh en1 sp0 b ian1 <sos/eos>|苏珊便走下来坐到哈纳身边。|p39|t201
+1028|平静|<sos/eos> t ai4 sp0 l i4 sp3 b u4 sp0 t e4 <sos/eos>|泰利。布特！|p40|t202
+1028|平静|<sos/eos> uei4 sp0 uen2 sp1 k a3 sp0 l uo2 <sos/eos>|卫文卡罗！|p41|t203
+1028|平静|<sos/eos> zh e4 sp0 h uei2 sp1 l uen2 sp1 d ao4 sp1 z uo3 sp0 sh ou3 sp0 b ian1 sp1 d i4 sp0 er4 sp0 zh ang1 sp1 zh uo1 sp0 z ii5 sp1 g u3 sp0 zh ang3 sp1 l e5 <sos/eos>|这回轮到左手边第二张桌子鼓掌了。|p42|t204
+1028|平静|<sos/eos> j i3 sp0 g e5 sp1 zh u4 sp1 z ai4 sp1 uei4 sp0 uen2 sp1 k a3 sp0 l uo2 sp1 d e5 sp1 x ve2 sp0 sh eng5 sp1 h ai2 sp1 zh u3 sp0 d ong4 sp1 h e2 sp1 t ai4 sp0 l i4 sp1 uo4 sp0 sh ou3 sp1 n e5 <sos/eos>|几个住在卫文卡罗的学生还主动和泰利握手呢。|p42|t205
+1028|平静|<sos/eos> m an4 sp0 d i2 sp3 b u4 sp0 l u3 sp0 k e4 sp1 l an2 sp1 h e4 sp0 s ii1 sp0 t e4 sp1 ie3 sp1 j iang1 sp1 f en1 sp0 d ao4 sp1 uei4 sp0 uen2 sp1 k a3 sp0 l uo2 <sos/eos>|曼迪。布鲁克兰赫斯特也将分到卫文卡罗|p43|t206
+1028|平静|<sos/eos> l ai2 sp0 uen2 sp1 t e4 sp3 b u4 sp0 l ang3 sp1 z e2 sp1 ch eng2 sp0 uei2 sp1 d i4 sp0 i1 sp0 g e4 sp1 j ia1 sp0 r u4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 d e5 sp1 x in1 sp0 sh eng1 <sos/eos>|莱文特。布朗则成为第一个加入格林芬顿的新生|p43|t207
+1028|平静|<sos/eos> z uei4 sp1 z uo3 sp0 b ian5 sp1 d e5 sp1 n a4 sp1 i1 sp0 zh uo1 sp1 d uen4 sp0 sh iii2 sp1 h uan1 sp0 sh eng1 sp1 q ve4 sp0 q i3 <sos/eos>|最左边的那一桌顿时欢声雀起|p43|t208
+1028|平静|<sos/eos> l uo2 sp0 en1 sp1 n a4 sp1 l iang3 sp0 g e4 sp1 l uan2 sp0 sh eng1 sp1 g e1 sp0 g e5 sp1 ie3 sp1 g en1 sp1 z ai4 sp1 q i3 sp0 h ong4 <sos/eos>|罗恩那两个孪生哥哥也跟在起哄|p43|t209
+1028|平静|<sos/eos> m i3 sp0 l i4 sp0 s en1 sp3 b u4 sp0 s ii1 sp1 t e4 sp0 l uo4 sp1 j ia1 sp0 r u4 sp1 l e5 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|米利森。布斯特洛加入了史林德林。|p44|t210
+1028|平静|<sos/eos> iou2 sp0 v2 sp1 t ing1 sp0 sh uo1 sp1 l e5 sp1 x v3 sp0 d uo1 sp1 g uan1 sp0 v2 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp1 d e5 sp1 ch uan2 sp0 uen2 <sos/eos>|由于听说了许多关于史林德林的传闻|p44|t211
+1028|平静|<sos/eos> ie3 sp0 x v3 sp1 sh iii4 sp1 ch u1 sp0 v2 sp1 p ian1 sp0 j ian4 sp1 b a5 <sos/eos>|也许是出于偏见吧|p44|t212
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 z ong3 sp1 j ve2 sp0 d e5 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp1 b ing4 sp1 b u4 sp1 sh ou4 sp1 r en2 sp1 h uan1 sp0 ing2 <sos/eos>|哈利总觉得史林德林并不受人欢迎。|p44|t213
+1028|不安|<sos/eos> t a1 sp1 k ai1 sp0 sh iii3 sp1 g an3 sp0 d ao4 sp1 b u4 sp0 an1 sp1 l e5 <sos/eos>|他开始感到不安了|p45|t214
+1028|不安|<sos/eos> t a1 sp1 x iang3 sp0 q i3 sp1 g uo4 sp0 q v4 sp1 z ai4 sp1 x ve2 sp0 x iao4 sp1 l i3 sp1 sh ang4 sp1 t i3 sp0 v4 sp0 k e4 <sos/eos>|他想起过去在学校里上体育课|p45|t215
+1028|不安|<sos/eos> z u3 sp0 d uei4 sp1 b i3 sp0 s ai4 sp1 sh iii2 sp3 t a1 sp1 z ong3 sp0 sh iii4 sp1 z uei4 sp0 h ou4 sp1 i2 sp0 g e4 sp1 b ei4 sp1 x van3 sp0 z e2 sp1 d e5 <sos/eos>|组队比赛时，他总是最后一个被选择的|p45|t216
+1028|不安|<sos/eos> zh e4 sp1 b ing4 sp0 f ei1 sp1 in1 sp0 uei4 sp1 t a1 sp1 j i4 sp0 sh u4 sp1 ch a4 <sos/eos>|这并非因为他技术差|p45|t217
+1028|不安|<sos/eos> er2 sp0 sh iii4 sp1 in1 sp0 uei4 sp1 q i2 sp0 t a1 sp0 t ong2 sp0 x ve2 sp1 d ou1 sp1 b u4 sp0 x iang3 sp1 r ang4 sp1 d a2 sp1 d e2 sp0 l i3 sp1 j ve2 sp0 d e5 sp1 t a1 sp0 m en5 sp1 x i3 sp0 h uan5 sp1 t a1 <sos/eos>|而是因为其他同学都不想让达德里觉得他们喜欢他|p45|t218
+1028|平静|<sos/eos> zh a1 sp1 s ii1 sp0 t ing1 sp3 f en1 sp0 q i2 sp3 f u2 sp0 l ai2 sp0 q ie4 sp1 n i2 <sos/eos>|扎斯汀。芬奇。弗莱切尼！|p46|t219
+1028|平静|<sos/eos> h ai3 sp0 f u1 sp1 b a1 sp0 f u1 <sos/eos>|海夫巴夫！|p47|t220
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 zh u4 sp0 i4 sp1 d ao4 sp1 iou3 sp0 sh iii2 sp0 h ou5 sp1 m ao4 sp0 z ii5 sp1 m a3 sp0 sh ang4 sp1 j iou4 sp1 h an3 sp1 ch u1 sp1 l e5 sp1 q i2 sp0 zh ong1 sp1 i1 sp0 s uo3 sp1 x ve2 sp0 van4 sp1 d e5 sp1 m ing2 sp0 z ii5 <sos/eos>|哈利注意到有时候帽子马上就喊出了其中一所学院的名字|p48|t221
+1028|平静|<sos/eos> er2 sp1 iou3 sp0 sh iii2 sp0 h ou5 sp1 t a1 sp1 iou4 sp1 d e2 sp1 h ua1 sp1 sh ang4 sp1 i1 sp0 d ian3 sp1 sh iii2 sp0 j ian1 sp1 c ai2 sp0 n eng2 sp1 x ia4 sp1 j ve2 sp0 d ing4 <sos/eos>|而有时候它又得花上一点时间才能下决定|p48|t222
+1028|平静|<sos/eos> x ie4 sp1 m o4 sp0 s ii1 sp3 f an4 sp0 n i2 sp1 g eng4 sp3 n a4 sp0 g e5 sp1 p ai2 sp1 z ai4 sp1 h a1 sp0 l i4 sp1 q ian2 sp0 m ian4 sp1 d e5 sp1 t ou2 sp0 f a5 sp1 v3 sp1 sh a1 sp0 z ii5 sp1 t ong2 sp0 i1 sp1 ian2 sp0 s e4 sp1 d e5 sp1 n an2 sp0 h ai2 sp0 z ii5 sp1 z uo4 sp0 z ai4 sp1 d eng4 sp0 z ii5 sp1 sh ang4 sp1 d ou1 sp1 k uai4 sp1 i4 sp0 f en1 sp0 zh ong1 sp1 l e5 <sos/eos>|谢默斯。范尼更，那个排在哈利前面的头发与沙子同一颜色的男孩子坐在凳子上都快一分钟了|p48|t223
+1028|平静|<sos/eos> m ao4 sp0 z ii5 sp1 c ai2 sp1 x van1 sp0 b u4 sp1 t a1 sp1 q v4 sp1 l e5 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 <sos/eos>|帽子才宣布他去了格林芬顿|p48|t224
+1028|平静|<sos/eos> h e2 sp0 m i3 sp1 en1 sp3 g e2 sp0 l in2 sp1 uei4 <sos/eos>|荷米恩。格林位！|p49|t225
+1028|平静|<sos/eos> h e2 sp0 m i3 sp1 en1 sp1 p ao3 sp1 sh ang4 sp1 q ian2 sp0 q v4 <sos/eos>|荷米恩跑上前去|p50|t226
+1028|平静|<sos/eos> t ao4 sp0 sh ang4 sp1 m ao4 sp0 z ii5 <sos/eos>|套上帽子|p50|t227
+1028|平静|<sos/eos> b ian4 sp1 i1 sp1 p i4 sp0 g u5 sp1 z uo4 sp0 z ai4 sp1 l e5 sp1 d eng4 sp0 z ii5 sp1 sh ang4 <sos/eos>|便一屁股坐在了凳子上|p50|t228
+1028|平静|<sos/eos> g e2 sp0 l in2 sp1 f en1 sp0 d uen4 <sos/eos>|格林芬顿！|p51|t229
+1028|平静|<sos/eos> m ao4 sp0 z ii5 sp1 h an3 sp0 d ao4 <sos/eos>|帽子喊道。|p51|t230
+1028|平静|<sos/eos> l uo2 sp0 en1 sp1 d uen4 sp0 sh iii2 sp1 sh iii2 sp0 f en1 sp1 j v3 sp0 s ang4 <sos/eos>|罗恩顿时十分沮丧。|p51|t231
+1028|恐惧|<sos/eos> i2 sp0 g e4 sp1 k e3 sp0 p a4 sp1 d e5 sp1 n ian4 sp0 t ou5 sp1 sh an3 sp0 x ian4 sp1 d e5 sp1 h a1 sp0 l i4 sp1 d e5 sp1 n ao3 sp0 h ai3 sp0 zh ong1 <sos/eos>|一个可怕的念头闪现的哈利的脑海中|p52|t232
+1028|恐惧|<sos/eos> r u2 sp0 g uo3 sp1 m ei2 sp1 b ei4 sp1 f en1 sp0 p ei4 sp1 h uei4 sp1 z en3 sp0 m e5 sp0 iang4 <sos/eos>|如果没被分配会怎么样|p52|t233
+1028|恐惧|<sos/eos> r u2 sp0 g uo3 sp1 t a1 sp1 d ai4 sp1 zh e5 sp1 m ao4 sp0 z ii5 sp1 d ai1 sp0 d ai1 sp1 d e5 sp1 z ai4 sp1 d eng4 sp0 z ii5 sp1 sh ang4 sp1 z uo4 sp1 l e5 sp1 b an4 sp0 t ian1 sp1 ie3 sp1 b u4 sp1 zh iii1 sp0 d ao4 sp1 g ai1 sp1 q v4 sp1 n a3 sp0 er5 <sos/eos>|如果他戴着帽子呆呆的在凳子上坐了半天也不知道该去哪儿|p52|t234
+1028|恐惧|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 h uei4 sp1 b u4 sp0 h uei4 sp1 r en4 sp0 uei2 sp1 t a1 sp1 g en1 sp0 b en3 sp1 b u4 sp1 sh u3 sp0 v2 sp1 zh e4 sp1 l i3 sp0 m ian4 sp1 ing4 sp0 iao4 sp1 b a3 sp1 t a1 sp1 s ong4 sp1 h uei2 sp0 q v5 sp1 n e5 <sos/eos>|麦康娜教授会不会认为他根本不属于这里面硬要把他送回去呢|p52|t235
+1028|平静|<sos/eos> d ang1 sp0 d ian3 sp1 d ao4 sp1 n i2 sp1 uei2 sp0 er3 sp3 l an2 sp0 b o2 sp0 d uen4 sp3 n a4 sp0 g e5 sp1 c eng2 sp0 j ing1 sp1 d iou1 sp0 sh iii1 sp1 l ai4 sp0 h a2 sp0 m a5 sp1 d e5 sp1 n an2 sp0 h ai2 sp1 d e5 sp1 m ing2 sp0 z ii5 sp1 sh iii2 <sos/eos>|当点到尼维尔。兰博顿，那个曾经丢失癞蛤蟆的男孩的名字时|p53|t236
+1028|平静|<sos/eos> t a1 sp1 p ao3 sp1 sh ang4 sp0 q ian2 sp1 sh iii2 sp1 h ai2 sp1 sh uai1 sp0 l e5 sp0 i1 sp0 j iao1 <sos/eos>|他跑上前时还摔了一跤|p53|t237
+1028|平静|<sos/eos> m ao4 sp0 z ii5 sp1 h ua1 sp1 l e5 sp1 h en3 sp1 zh ang3 sp0 sh iii2 sp0 j ian1 sp1 c ai2 sp1 z uo4 sp0 ch u1 sp1 j ve2 sp0 d ing4 <sos/eos>|帽子花了很长时间才作出决定|p53|t238
+1028|平静|<sos/eos> d ang1 sp1 t a1 sp1 zh ong1 sp0 v2 sp1 x van1 sp0 b u4 sp1 sh iii4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 d e5 sp1 sh iii2 sp0 h ou5 <sos/eos>|当它终于宣布是格林芬顿的时候|p53|t239
+1028|平静|<sos/eos> n i2 sp1 uei2 sp0 er3 sp1 l ian2 sp1 m ao4 sp0 z ii5 sp1 d ou1 sp1 b u4 sp1 uang4 sp1 d e2 sp1 t uo1 sp1 b ian4 sp1 uang3 sp1 x ia4 sp1 p ao3 <sos/eos>|尼维尔连帽子都不忘得脱便往下跑|p53|t240
+1028|平静|<sos/eos> s uo3 sp0 i3 sp1 z ai4 sp1 zh ong4 sp0 r en2 sp1 d e5 sp1 h ong1 sp0 x iao4 sp0 sh eng1 sp1 zh ong1 sp1 b ei4 sp1 l a1 sp1 l e5 sp1 h uei2 sp0 l ai5 <sos/eos>|所以在众人的哄笑声中被拉了回来|p53|t241
+1028|平静|<sos/eos> c ai2 sp1 b a3 sp1 m ao4 sp0 z ii5 sp1 ch uan2 sp0 g ei3 sp1 l e5 sp1 m o4 sp1 l a1 sp0 g e2 sp3 m ai4 sp0 k a3 sp0 d uo1 sp1 g ao1 sp0 er3 <sos/eos>|才把帽子传给了莫拉格。麦卡多高尔|p53|t242
+1028|得意|<sos/eos> m a3 sp0 er3 sp0 f u1 sp1 d a4 sp0 iao2 sp0 d a4 sp0 b ai3 sp1 d e5 sp1 z ou3 sp0 sh ang4 sp1 q ian2 <sos/eos>|马尔夫大摇大摆的走上前|p54|t243
+1028|得意|<sos/eos> b ing4 sp1 m a3 sp0 sh ang4 sp1 sh iii2 sp0 x ian4 sp1 l e5 sp1 x in1 sp0 van4 <sos/eos>|并马上实现了心愿|p54|t244
+1028|得意|<sos/eos> m ao4 sp0 z ii5 sp1 g ang1 sp1 p eng4 sp0 d ao4 sp1 t a1 sp1 d e5 sp1 t ou2 sp0 f a5 sp1 b ian4 sp1 d a4 sp0 sh eng1 sp1 x van1 sp0 b u4 <sos/eos>|帽子刚碰到他的头发便大声宣布|p54|t245
+1028|得意|<sos/eos> sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|史林德林！|p54|t246
+1028|得意|<sos/eos> m a3 sp0 er3 sp0 f u1 sp1 z ou3 sp1 d ao4 sp1 t a1 sp1 d e5 sp1 l iang3 sp0 g e4 sp1 p eng2 sp0 iou5 sp1 k e4 sp0 l ai2 sp0 b o2 sp1 h e2 sp1 g ao1 sp0 er3 sp1 n a4 sp0 l i5 <sos/eos>|马尔夫走到他的两个朋友克来伯和高尔那里|p54|t247
+1028|得意|<sos/eos> k an4 sp0 q i3 sp0 l ai5 sp1 sh iii2 sp0 f en1 sp0 g ao1 sp0 x ing4 <sos/eos>|看起来十分高兴。|p54|t248
+1028|平静|<sos/eos> x ian4 sp0 z ai4 sp3 t ai2 sp0 sh ang4 sp1 d e5 sp1 x in1 sp0 sh eng1 sp1 i3 sp1 s uo3 sp0 sh eng4 sp0 u2 sp0 j i3 sp1 l e5 <sos/eos>|现在，台上的新生已所剩无几了。|p55|t249
+1028|平静|<sos/eos> m en2 sp0 s ii1 <sos/eos>|"门思"|p56|t250
+1028|平静|<sos/eos> n uo4 sp0 t e4 <sos/eos>|"诺特"|p56|t251
+1028|平静|<sos/eos> p a4 sp0 j in1 sp0 s ii1 <sos/eos>|"帕金斯"|p56|t252
+1028|平静|<sos/eos> r an2 sp0 h ou4 sp1 sh iii4 sp1 i1 sp0 d uei4 sp1 l uan2 sp0 sh eng1 sp0 j ie3 sp0 m ei4 <sos/eos>|然后是一对孪生姐妹|p56|t253
+1028|平静|<sos/eos> r an2 sp0 h ou4 sp1 zh ong1 sp0 sh a1 sp0 l i4 sp0 an1 sp3 p a4 sp0 k e4 sp0 s ii1 <sos/eos>|然后中沙莉安。帕克斯|p56|t254
+1028|平静|<sos/eos> r an2 sp0 h ou4 sp3 z uei4 sp0 h ou4 <sos/eos>|然后，最后——|p56|t255
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 b o1 sp0 t e4 <sos/eos>|"哈利·波特！"|p56|t256
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 z ou3 sp0 sh ang4 sp1 q ian2 <sos/eos>|哈利走上前|p56|t257
+1028|平静|<sos/eos> d an4 sp1 t ai2 sp0 x ia4 sp1 d e5 sp1 sh uo1 sp0 h ua4 sp0 sh eng1 sp1 j iou4 sp1 x iang4 sp1 k ai1 sp1 l e5 sp1 g uo1 sp1 i1 sp0 iang4 <sos/eos>|但台下的说话声就像开了锅一样|p56|t258
+1028|疑惑|<sos/eos> t a1 sp1 g ang1 sp0 c ai2 sp1 sh iii4 sp1 sh uo1 sp1 b o1 sp0 t e4 sp1 m a5 <sos/eos>|她刚才是说波特吗？|p57|t259
+1028|疑惑|<sos/eos> n a4 sp0 g e5 sp1 h a1 sp0 l i4 sp1 b o1 sp0 t e4 <sos/eos>|那个哈利·波特？|p58|t260
+1028|平静|<sos/eos> sh uang1 sp0 ian3 sp1 b ei4 sp1 m ao4 sp0 z ii5 sp1 zh e1 sp0 zh u4 sp1 j i1 sp0 x ian4 sp1 q ian2 sp3 h a1 sp0 l i4 sp1 k an4 sp0 j ian4 sp1 t ai2 sp0 x ia4 sp1 d e5 sp1 r en2 sp1 d ou1 sp1 sh en1 sp0 ch ang2 sp1 l e5 sp1 b o2 sp0 z ii5 sp1 x iang3 sp1 k an4 sp0 q ing1 sp0 ch u3 sp1 t a1 <sos/eos>|双眼被帽子遮住机线前，哈利看见台下的人都伸长了脖子想看清楚他|p59|t261
+1028|平静|<sos/eos> j ie1 sp0 zh e5 sp3 t a1 sp1 s uo3 sp0 n eng2 sp1 k an4 sp0 j ian4 sp1 d e5 sp1 sh iii4 sp1 m ao4 sp0 z ii5 sp1 l i3 sp1 d e5 sp1 q i1 sp0 h ei1 sp0 i1 sp0 p ian4 <sos/eos>|接着，他所能看见的是帽子里的漆黑一片|p59|t262
+1028|平静|<sos/eos> t a1 sp1 n ai4 sp0 x in1 sp1 d e5 sp1 d eng3 sp0 d ai4 sp1 zh e5 <sos/eos>|他耐心的等待着|p59|t263
+1028|思索|<sos/eos> en2 <sos/eos>|嗯……|p60|t264
+1028|思索|<sos/eos> er3 sp0 b ian1 sp1 i2 sp0 g e4 sp1 h en3 sp0 x iao3 sp1 d e5 sp1 sh eng1 sp0 in1 sp1 z ai4 sp1 sh uo1 sp0 h ua4 <sos/eos>|耳边一个很小的声音在说话|p60|t265
+1028|思索|<sos/eos> k an4 sp0 l ai5 sp1 h en3 sp0 n an2 sp1 j ve2 sp0 d ing4 sp1 y o1 <sos/eos>|看来很难决定哟|p60|t266
+1028|思索|<sos/eos> n i3 sp1 h en3 sp1 iong3 sp0 g an3 sp3 ie3 sp1 sh iii4 sp1 g e4 sp1 h ao3 sp0 r en2 sp3 h en3 sp1 iou3 sp1 c ai2 sp0 h ua2 sp3 o1 sp3 t ian1 sp1 a5 sp3 sh iii4 sp1 d e5 sp3 k e3 sp0 uang4 sp1 zh eng4 sp0 m ing2 sp1 z ii4 sp0 j i3 sp1 d e5 sp1 j ia4 sp0 zh iii2 sp3 zh en1 sp1 iou3 sp0 i4 sp0 s ii5 <sos/eos>|你很勇敢，也是个好人，很有才华，噢，天啊，是的——渴望证明自己的价值，真有意思……|p60|t267
+1028|思索|<sos/eos> n a4 sp0 m e5 sp3 uo3 sp1 g ai1 sp1 b a3 sp1 n i3 sp1 f en1 sp0 d ao4 sp1 n a3 sp0 er5 sp1 n e5 <sos/eos>|那么，我该把你分到哪儿呢？|p60|t268
+1028|思索|<sos/eos> h a1 sp0 l i4 sp1 j in3 sp0 uo4 sp0 zh u4 sp1 d eng4 sp0 z ii5 sp1 b ian1 sp0 van2 <sos/eos>|哈利紧握住凳子边缘|p60|t269
+1028|思索|<sos/eos> x in1 sp0 l i5 sp1 x iang3 <sos/eos>|心里想|p60|t270
+1028|思索|<sos/eos> q ian1 sp0 uan4 sp1 b u4 sp0 iao4 sp1 sh iii4 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp3 uo3 sp1 b u4 sp1 q v4 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|千万不要是史林德林，我不去史林德林|p60|t271
+1028|思索|<sos/eos> a5 sp3 b u4 sp0 q v4 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|啊？不去史林德林？|p60|t272
+1028|思索|<sos/eos> n i3 sp1 k en3 sp0 d ing4 <sos/eos>|你肯定？|p60|t273
+1028|思索|<sos/eos> n i3 sp1 ie3 sp0 x v3 sp1 n eng2 sp1 ch eng2 sp0 uei2 sp1 uei3 sp0 d a4 sp1 d e5 sp1 m o2 sp0 f a3 sp0 sh iii1 sp3 n i3 sp1 iong1 sp0 iou3 sp1 b ie2 sp0 r en5 sp1 m ei2 sp0 iou3 sp1 d e5 sp1 t ian1 sp0 f en4 sp3 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp1 n eng2 sp0 g ou4 sp1 zh u4 sp1 n i3 sp1 ch eng2 sp0 g ong1 sp1 d e5 <sos/eos>|你也许能成为伟大的魔法师，你拥有别人没有的天份，史林德林能够助你成功的|p60|t274
+1028|思索|<sos/eos> n i3 sp1 b u4 sp0 x iang3 sp1 g ai3 sp0 b ian4 sp1 zh u3 sp0 i5 sp1 m a5 <sos/eos>|你不想改变主意吗？|p60|t275
+1028|思索|<sos/eos> b u4 <sos/eos>|不？|p60|t276
+1028|思索|<sos/eos> n a4 sp0 m e5 sp3 r u2 sp0 g uo3 sp1 n i3 sp1 i3 sp0 j ing1 sp1 x ia4 sp0 d ing4 sp0 j ve2 sp0 x in1 sp3 j iou4 sp1 q v4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 b a5 <sos/eos>|那么，如果你已经下定决心，就去格林芬顿吧！|p60|t277
+1028|思索|<sos/eos> h a1 sp0 l i4 sp1 t ing1 sp0 j ian4 sp1 m ao4 sp0 z ii5 sp1 x iang4 sp1 q van2 sp0 ch ang3 sp1 x van1 sp0 b u4 sp1 z ii4 sp0 j i3 sp1 q v4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 h ou4 <sos/eos>|哈利听见帽子向全场宣布自己去格林芬顿后|p60|t278
+1028|思索|<sos/eos> t uo1 sp1 x ia4 sp1 m ao4 sp0 z ii5 <sos/eos>|脱下帽子|p60|t279
+1028|思索|<sos/eos> zh an4 sp0 zh an4 sp0 j ing1 sp0 j ing1 sp1 d e5 sp1 z ou3 sp0 x iang4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 n a4 sp0 zh uo1 sp1 x ve2 sp0 sh eng5 <sos/eos>|战战兢兢的走向格林芬顿那桌学生|p60|t280
+1028|思索|<sos/eos> m ei2 sp1 b ei4 sp1 f en1 sp0 p ei4 sp1 d ao4 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp3 t a1 sp1 g an3 sp0 d ao4 sp1 r u2 sp0 sh iii4 sp0 zh ong4 sp0 f u4 <sos/eos>|没被分配到史林德林，他感到如释重负|p60|t281
+1028|思索|<sos/eos> in1 sp0 c ii3 sp1 m ei2 sp0 iou3 sp1 l iou2 sp0 i4 sp0 d ao4 sp1 h uan1 sp0 h u1 sp0 sh eng1 sp1 b i3 sp1 g ang1 sp0 c ai2 sp1 r en4 sp0 h e2 sp1 i1 sp0 c ii4 sp1 d ou1 sp1 iao4 sp1 x iang3 sp0 l iang4 <sos/eos>|因此没有留意到欢呼声比刚才任何一次都要响亮|p60|t282
+1028|思索|<sos/eos> b an1 sp0 zh ang3 sp1 b o2 sp0 x i1 sp0 zh an4 sp1 q i3 sp0 l ai5 <sos/eos>|班长伯希站起来|p60|t283
+1028|思索|<sos/eos> iong4 sp0 l i4 sp1 d e5 sp1 h e2 sp1 t a1 sp1 uo4 sp0 sh ou3 <sos/eos>|用力的和他握手|p60|t284
+1028|思索|<sos/eos> uei1 sp0 s ii1 sp1 l i3 sp1 sh uang1 sp0 b ao1 sp0 t ai1 sp1 g ao1 sp0 h u1 <sos/eos>|威斯里双胞胎高呼|p60|t285
+1028|思索|<sos/eos> b o1 sp0 t e4 sp3 b o1 sp0 t e4 <sos/eos>|波特！波特！|p60|t286
+1028|思索|<sos/eos> h a1 sp0 l i4 sp1 z ai4 sp1 t a1 sp1 c eng2 sp1 j ian4 sp1 g uo4 sp1 d e5 sp1 d ai4 sp1 zh e5 sp1 h ua1 sp0 h uan2 sp1 d e5 sp1 g uei3 sp0 h uen2 sp1 d uei4 sp0 m ian4 sp1 z uo4 sp1 l e5 sp1 x ia4 sp0 l ai5 <sos/eos>|哈利在他曾见过的戴着花环的鬼魂对面坐了下来|p60|t287
+1028|思索|<sos/eos> g uei3 sp0 h uen2 sp1 p ai1 sp0 l e5 sp0 p ai1 sp1 h a1 sp0 l i4 sp1 d e5 sp1 z uo3 sp0 b i4 <sos/eos>|鬼魂拍了拍哈利的左臂|p60|t288
+1028|思索|<sos/eos> l ing4 sp1 h a1 sp0 l i4 sp1 g an3 sp0 d ao4 sp1 z ii4 sp0 j i3 sp1 d e5 sp1 z uo3 sp0 sh ou3 sp1 x iang4 sp0 sh iii4 sp1 g ang1 sp1 b ei4 sp1 j in4 sp0 r u4 sp1 i1 sp0 t ong3 sp1 b ing1 sp0 sh uei3 sp1 zh ong1 sp1 i1 sp0 iang4 sp1 k ong3 sp0 j v4 <sos/eos>|令哈利感到自己的左手像是刚被浸入一桶冰水中一样恐惧|p60|t289
+1028|平静|<sos/eos> t a1 sp1 x ian4 sp0 z ai4 sp1 k e3 sp0 i3 sp1 q ing1 sp0 ch u5 sp1 d e5 sp1 k an4 sp0 d ao4 sp1 g ao1 sp1 t ai2 sp0 sh ang4 sp1 d e5 sp1 zh uo1 sp0 z ii5 sp1 l e5 <sos/eos>|他现在可以清楚的看到高台上的桌子了|p61|t290
+1028|平静|<sos/eos> z uo4 sp0 z ai4 sp1 k ao4 sp0 j in4 sp1 t a1 sp1 n a4 sp1 d uan1 sp0 d i4 sp1 z uei4 sp1 b ian1 sp0 sh ang4 sp1 d e5 sp1 h a1 sp1 g e2 sp0 l i4 sp1 d uei4 sp1 zh e5 sp1 t a1 sp1 sh u4 sp0 q i3 sp1 d a4 sp0 m u5 sp0 zh iii3 <sos/eos>|坐在靠近他那端的最边上的哈格力对着他竖起大拇指|p61|t291
+1028|平静|<sos/eos> z ai4 sp1 zh uo1 sp0 z ii5 sp1 d e5 sp1 zh eng4 sp1 zh ong1 sp0 iang1 sp3 iou3 sp1 i1 sp0 zh ang1 sp1 h en3 sp0 d a4 sp1 d e5 sp1 j in1 sp0 z ii3 sp1 zh iii4 sp1 d e5 sp1 i3 sp0 z ii5 <sos/eos>|在桌子的正中央，有一张很大的金子制的椅子|p61|t292
+1028|平静|<sos/eos> ai4 sp0 b o2 sp0 s ii1 sp3 d an1 sp0 b o2 sp1 d uo1 sp1 z uo4 sp0 z ai4 sp1 n a4 sp0 l i5 <sos/eos>|艾伯斯。丹伯多坐在那里|p61|t293
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 i1 sp0 x ia4 sp1 j iou4 sp1 r en4 sp0 ch u1 sp1 l e5 sp1 t a1 <sos/eos>|哈利一下就认出了他|p61|t294
+1028|平静|<sos/eos> in1 sp0 uei4 sp1 z ai4 sp1 h a1 sp0 l i4 sp1 z uo4 sp0 h uo3 sp0 ch e1 sp1 l ai2 sp1 t u2 sp0 zh ong1 sp3 t a1 sp1 j iou4 sp1 c eng2 sp1 ch u1 sp0 x ian4 sp1 z ai4 sp1 n a4 sp1 zh ang1 sp1 c ong2 sp1 q iao3 sp0 k e4 sp0 l i4 sp1 q ing1 sp0 ua1 sp1 t ang2 sp0 zh ong1 sp1 q v3 sp0 ch u1 sp1 l ai2 sp1 d e5 sp1 k a3 sp0 p ian4 sp1 sh ang4 <sos/eos>|因为在哈利坐火车来途中，他就曾出现在那张从巧克力青蛙糖中取出来的卡片上|p61|t295
+1028|平静|<sos/eos> d an1 sp0 b o2 sp1 d uo1 sp1 d e5 sp1 in2 sp0 b ai2 sp1 t ou2 sp0 f a5 sp1 sh iii4 sp1 zh eng3 sp0 g e4 sp1 d a4 sp0 h uei4 sp0 t ang2 sp1 l i3 sp1 uei2 sp0 i1 sp1 n eng2 sp1 v3 sp1 g uei3 sp0 h uen2 sp1 i1 sp0 iang4 sp1 sh an3 sp0 sh an3 sp0 f a1 sp0 l iang4 sp1 d e5 sp1 d ong1 sp0 x i1 sp1 l e5 <sos/eos>|丹伯多的银白头发是整个大会堂里唯一能与鬼魂一样闪闪发亮的东西了|p61|t296
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 h ai2 sp1 f a1 sp0 x ian4 sp1 q v1 sp0 l a1 sp1 j iao4 sp0 sh ou4 <sos/eos>|哈利还发现屈拉教授|p61|t297
+1028|平静|<sos/eos> t a1 sp1 j iou4 sp0 sh iii4 sp1 n a4 sp0 g e5 sp1 c ong2 sp0 l ou4 sp1 g uo1 sp1 j iou3 sp0 b a1 sp1 l ai2 sp1 d e5 sp1 n ian2 sp0 q ing1 sp0 r en2 <sos/eos>|他就是那个从漏锅酒吧来的年青人|p61|t298
+1028|平静|<sos/eos> t a1 sp1 t ou2 sp0 d ai4 sp1 i1 sp0 d ing3 sp1 h en3 sp0 d a4 sp1 d e5 sp1 z ii3 sp0 s e4 sp1 u2 sp0 b ian1 sp1 m ao4 <sos/eos>|他头戴一顶很大的紫色无边帽|p62|t299
+1028|平静|<sos/eos> k an4 sp0 q i3 sp0 l ai5 sp1 v3 sp0 zh ong4 sp0 b u4 sp0 t ong2 <sos/eos>|看起来与众不同|p62|t300
+1028|平静|<sos/eos> x ian4 sp0 z ai4 sp1 zh iii3 sp1 sh eng4 sp0 x ia4 sp1 s an1 sp0 g e4 sp1 r en2 sp1 h ai2 sp1 m ei2 sp1 f en1 sp0 p ei4 sp1 l e5 <sos/eos>|现在只剩下三个人还没分配了|p63|t301
+1028|平静|<sos/eos> l i4 sp0 sh a1 sp3 t e4 sp0 p ing2 sp1 q v4 sp1 l e5 sp1 uei4 sp0 uen2 sp1 k a3 sp0 l uo2 <sos/eos>|莉沙。特萍去了卫文卡罗|p63|t302
+1028|平静|<sos/eos> l uen2 sp0 d ao4 sp1 l uo2 sp0 en1 sp1 x van3 sp0 z e2 sp1 l e5 <sos/eos>|轮到罗恩选择了|p63|t303
+1028|平静|<sos/eos> t a1 sp1 d e5 sp1 ian3 sp0 j ing5 sp1 i3 sp0 j ing1 sp1 sh iii4 sp1 h uei1 sp0 l v4 sp0 s e4 sp1 d e5 sp1 l e5 <sos/eos>|他的眼睛已经是灰绿色的了|p63|t304
+1028|平静|<sos/eos> g e2 sp0 l in2 sp1 f en1 sp0 d uen4 <sos/eos>|格林芬顿！|p63|t305
+1028|平静|<sos/eos> l uo2 sp0 en1 sp1 z ou3 sp1 x ia4 sp0 l ai5 <sos/eos>|罗恩走下来|p63|t306
+1028|平静|<sos/eos> t an1 sp0 z uo4 sp1 z ai4 sp1 h a1 sp0 l i4 sp1 sh en1 sp0 b ian1 sp1 d e5 sp1 i3 sp0 z ii5 sp1 sh ang4 <sos/eos>|瘫坐在哈利身边的椅子上|p63|t307
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 h e2 sp1 q i2 sp0 t a1 sp0 r en2 sp1 d ou1 sp1 uei4 sp1 l uo2 sp0 en1 sp1 p in1 sp0 m ing4 sp1 p ai1 sp0 sh ou3 sp1 zh u4 sp0 h e4 <sos/eos>|哈利和其他人都为罗恩拼命拍手祝贺|p63|t308
+1028|平静|<sos/eos> g an4 sp0 d e2 sp1 h ao3 sp3 l uo2 sp0 en1 sp3 t ai4 sp0 b ang4 sp0 l e5 <sos/eos>|干得好，罗恩，太棒了！|p63|t309
+1028|平静|<sos/eos> zh e4 sp0 sh iii2 sp3 z uei4 sp0 h ou4 sp1 i1 sp0 uei4 sp3 b u4 sp0 l ei2 sp0 s ii1 sp3 zh a1 sp1 b i4 sp0 n i2 sp1 x van3 sp0 z e2 sp1 l e5 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|这时，最后一位，布雷斯。扎毕尼选择了史林德林|p63|t310
+1028|平静|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 j van3 sp0 q i3 sp1 iang2 sp0 p i2 sp0 zh iii3 <sos/eos>|麦康娜教授卷起羊皮纸|p63|t311
+1028|平静|<sos/eos> d ai4 sp1 zh e5 sp1 f en1 sp0 l ei4 sp1 zh iii1 sp0 m ao4 sp1 z ou3 sp1 l e5 <sos/eos>|带着分类之帽走了|p63|t312
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 d i1 sp0 t ou2 sp1 k an4 sp0 k an5 sp1 m ian4 sp0 q ian2 sp1 k ong1 sp0 k ong1 sp0 r u2 sp0 ie3 sp1 d e5 sp1 j in1 sp1 p an2 sp0 z ii5 <sos/eos>|哈利低头看看面前空空如也的金盘子|p64|t313
+1028|平静|<sos/eos> c ai2 sp1 j ve2 sp0 d e5 sp1 z ii4 sp0 j i3 sp1 i3 sp0 j ing1 sp1 e4 sp0 j i2 sp0 l e5 <sos/eos>|才觉得自己已经饿极了|p64|t314
+1028|平静|<sos/eos> ch iii1 sp1 n an2 sp0 g ua1 sp1 x ian4 sp0 b ing3 sp1 h ao3 sp0 x iang4 sp1 i3 sp1 sh iii4 sp1 ch en2 sp0 n ian2 sp1 uang3 sp0 sh iii4 sp1 l e5 <sos/eos>|吃南瓜馅饼好像已是陈年往事了|p64|t315
+1028|平静|<sos/eos> ai4 sp0 b o2 sp0 s ii1 sp3 d an1 sp0 b o2 sp1 d uo1 sp0 zh an4 sp1 q i3 sp0 l ai5 <sos/eos>|艾伯斯。丹伯多站起来|p65|t316
+1028|平静|<sos/eos> zh u4 sp0 sh iii4 sp1 zh e5 sp1 t ai2 sp0 x ia4 sp1 d e5 sp1 x ve2 sp0 sh eng5 <sos/eos>|注视着台下的学生|p65|t317
+1028|平静|<sos/eos> zh ang1 sp0 k ai1 sp1 sh uang1 sp0 b i4 <sos/eos>|张开双臂|p65|t318
+1028|平静|<sos/eos> f ang3 sp0 f u2 sp1 z ai4 sp1 sh uo1 sp1 m ei2 sp0 iou3 sp1 sh en2 sp0 m e5 sp1 n eng2 sp0 b i3 sp1 j ian4 sp0 d ao4 sp1 t a1 sp1 s uo3 sp0 iou3 sp1 d e5 sp1 x ve2 sp0 sh eng5 sp1 j i3 sp0 j i3 sp0 i1 sp0 t ang2 sp1 g eng4 sp1 g ao1 sp0 x ing4 sp1 d e5 sp1 l e5 <sos/eos>|仿佛在说没有什么能比见到他所有的学生济济一堂更高兴的了|p65|t319
+1028|热情|<sos/eos> h uan1 sp0 ing2 sp1 n i3 sp0 m en5 <sos/eos>|欢迎你们！|p66|t320
+1028|热情|<sos/eos> h uan1 sp0 ing2 sp1 l ai2 sp0 d ao4 sp1 h uo4 sp0 g e2 sp0 ua3 sp0 ch e4 <sos/eos>|欢迎来到霍格瓦彻！|p66|t321
+1028|热情|<sos/eos> h uan1 sp0 ing2 sp1 x in1 sp0 x ve2 sp0 n ian2 sp1 d e5 sp1 d ao4 sp0 l ai2 <sos/eos>|欢迎新学年的到来！|p66|t322
+1028|平静|<sos/eos> z ai4 sp1 k ai1 sp0 sh iii3 sp1 uan3 sp0 ian4 sp1 zh iii1 sp0 q ian2 sp3 uo3 sp1 x iang3 sp1 x ian1 sp1 sh uo1 sp1 j i3 sp0 j v4 <sos/eos>|在开始晚宴之前，我想先说几句。|p67|t323
+1028|平静|<sos/eos> uo3 sp1 x iang3 sp1 sh uo1 sp1 d e5 sp1 j iou4 sp0 sh iii4 sp3 b en4 sp0 d an4 sp3 t ong4 sp0 k u1 sp3 sh eng4 sp0 f an4 <sos/eos>|我想说的就是：笨蛋！痛哭！剩饭！|p67|t324
+1028|平静|<sos/eos> x ie4 sp0 x ie5 <sos/eos>|谢谢！|p67|t325
+1028|平静|<sos/eos> t a1 sp1 z uo4 sp0 x ia5 sp1 l e5 <sos/eos>|他坐下了。|p67|t326
+1028|平静|<sos/eos> m ei3 sp0 g e4 sp1 r en2 sp1 d ou1 sp1 g u3 sp0 zh ang3 sp1 h uan1 sp0 h u1 <sos/eos>|每个人都鼓掌欢呼。|p67|t327
+1028|平静|<sos/eos> zh iii3 sp0 iou3 sp1 h a1 sp0 l i4 sp1 j ve2 sp0 d e5 sp1 k u1 sp0 x iao4 sp0 b u4 sp0 d e2 <sos/eos>|只有哈利觉得哭笑不得。|p67|t328
+1028|疑惑|<sos/eos> t a1 sp1 sh iii4 sp0 b u4 sp0 sh iii4 sp1 iou3 sp0 d ian3 sp1 sh en2 sp0 j ing1 sp0 b ing4 <sos/eos>|他是不是有点神经病？|p68|t329
+1028|疑惑|<sos/eos> h a1 sp0 l i4 sp1 b u4 sp0 iou2 sp0 d e5 sp1 uen4 sp0 b o2 sp0 x i1 <sos/eos>|哈利不由得问伯希。|p68|t330
+1028|得意|<sos/eos> sh en2 sp0 j ing1 sp0 b ing4 <sos/eos>|神经病？|p69|t331
+1028|得意|<sos/eos> t a1 sp1 k e3 sp0 sh iii4 sp1 g e4 sp1 t ian1 sp0 c ai2 <sos/eos>|他可是个天才！|p69|t332
+1028|得意|<sos/eos> t a1 sp1 sh iii4 sp1 sh iii4 sp0 sh ang4 sp1 z uei4 sp0 h ao3 sp1 d e5 sp1 m o2 sp0 f a3 sp0 sh iii1 <sos/eos>|他是世上最好的魔法师！|p69|t333
+1028|得意|<sos/eos> b u4 sp0 g uo4 sp3 t a1 sp1 d e5 sp1 n ao3 sp0 d ai5 sp1 q ve4 sp0 sh iii2 sp1 iou3 sp0 d ian3 sp1 uen4 sp0 t i2 <sos/eos>|不过，他的脑袋确实有点问题。|p69|t334
+1028|得意|<sos/eos> ch iii1 sp1 x i1 sp0 h ong2 sp0 sh iii4 sp1 m a5 sp3 h a1 sp0 l i4 <sos/eos>|吃西红柿吗，哈利？|p69|t335
+1028|得意|<sos/eos> h a1 sp0 l i4 sp1 d e5 sp1 z uei3 sp1 zh ang1 sp0 d e2 sp1 h ao3 sp1 d a4 <sos/eos>|哈利的嘴张得好大|p69|t336
+1028|得意|<sos/eos> z ai4 sp1 t a1 sp1 m ian4 sp0 q ian2 sp1 d e5 sp1 p an2 sp1 d ie2 sp0 z ii5 sp1 l i3 sp1 d uei1 sp0 m an3 sp1 l e5 sp1 sh iii2 sp0 u4 <sos/eos>|在他面前的盘碟子里堆满了食物。|p69|t337
+1028|得意|<sos/eos> t a1 sp1 c ong2 sp0 uei4 sp0 j ian4 sp0 g uo4 sp1 n a4 sp0 m e5 sp1 d uo1 sp1 t a1 sp1 ai4 sp1 ch iii1 sp1 d e5 sp1 d ong1 sp0 x i1 sp1 t ong2 sp0 sh iii2 sp1 ch u1 sp0 x ian4 sp1 z ai4 sp1 zh uo1 sp0 z ii5 sp1 sh ang4 <sos/eos>|他从未见过那么多他爱吃的东西同时出现在桌子上|p69|t338
+1028|得意|<sos/eos> k ao3 sp0 n iou2 sp0 r ou4 sp3 k ao3 sp0 j i1 sp3 zh u1 sp0 r ou4 sp3 iang2 sp0 r ou4 sp3 x iang1 sp0 ch ang2 sp3 ian1 sp0 r ou4 sp1 h e2 sp1 n iou2 sp0 p ai2 sp3 h ai2 sp0 iou3 sp1 zh u3 sp1 x i1 sp0 h ong2 sp0 sh iii4 sp3 k ao3 sp1 f an1 sp0 sh u3 sp3 sh u3 sp0 t iao2 sp3 y ve1 sp0 k e4 sp0 j vn4 sp1 sh iii4 sp0 d ing1 sp3 x ve3 sp0 l i2 sp3 h u2 sp0 l uo2 sp0 b o5 sp1 n ong2 sp0 r ou4 sp0 ch ang3 sp3 f an1 sp0 q ie2 sp0 j iang4 sp3 h ai2 sp0 iou3 sp1 b o4 sp0 h e5 sp1 uei4 sp1 d e5 sp1 ing4 sp0 t ang2 <sos/eos>|烤牛肉、烤鸡、猪肉、羊肉、香肠、烟肉和牛排，还有煮西红柿、烤番薯、薯条、约克郡市丁、雪梨、胡萝卜浓肉场，番茄酱，还有薄荷味的硬糖。|p69|t339
+1028|平静|<sos/eos> d u4 sp0 s ii1 sp0 l i4 sp1 j ia1 sp0 z u2 sp1 s uei1 sp1 c ong2 sp0 m ei2 sp1 r ang4 sp1 h a1 sp0 l i4 sp1 ai2 sp0 e4 <sos/eos>|杜斯利家族虽从没让哈利挨饿|p70|t340
+1028|平静|<sos/eos> d an4 sp1 t a1 sp1 ie3 sp1 h en3 sp0 sh ao3 sp1 iou3 sp1 j i1 sp0 h uei4 sp1 s uei2 sp0 x in1 sp0 s uo3 sp0 v4 sp1 d e5 sp1 ch iii1 sp1 sh ang4 sp1 i1 sp0 d uen4 <sos/eos>|但他也很少有机会随心所欲的吃上一顿|p70|t341
+1028|平静|<sos/eos> j iou4 sp0 s uan4 sp1 sh iii4 sp1 h a1 sp0 l i4 sp1 x i3 sp0 h uan5 sp1 ch iii1 sp1 t a1 sp0 m en5 sp1 z ii4 sp0 j i3 sp1 t ao3 sp0 ian4 sp1 d e5 sp1 d ong1 sp0 x i1 <sos/eos>|就算是哈利喜欢吃他们自己讨厌的东西|p70|t342
+1028|平静|<sos/eos> d a2 sp1 d e2 sp0 l i3 sp1 ie3 sp1 z ong3 sp0 sh iii4 sp1 n a2 sp0 z ou3 sp3 b u4 sp0 r ang4 sp1 h a1 sp0 l i4 sp1 ch iii1 <sos/eos>|达德里也总是拿走，不让哈利吃|p70|t343
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 m ei3 sp0 iang4 sp1 sh iii2 sp0 u4 sp1 d ou1 sp1 sh eng4 sp1 l e5 sp1 i1 sp0 d ian3 sp1 j iou4 sp1 i3 sp0 j ing1 sp1 d uei1 sp0 m an3 sp1 i1 sp1 p an2 sp0 z ii5 sp1 l e5 <sos/eos>|哈利每样食物都盛了一点就已经堆满一盘子了|p70|t344
+1028|平静|<sos/eos> d ang1 sp0 r an2 sp3 t a1 sp1 m ei2 sp0 iou3 sp1 iao4 sp1 t a1 sp1 b u4 sp1 x i3 sp0 h uan5 sp1 d e5 sp1 b o4 sp0 h e5 sp0 t ang2 <sos/eos>|当然，他没有要他不喜欢的薄荷糖|p70|t345
+1028|平静|<sos/eos> zh iii1 sp0 h ou4 sp3 t a1 sp1 h en3 sp1 t uen1 sp0 h u3 sp0 ian4 sp1 q i3 sp0 l ai5 <sos/eos>|之后，他狠吞虎咽起来|p70|t346
+1028|满足|<sos/eos> zh en1 sp0 sh iii5 sp1 h ao3 sp1 m ei3 sp0 uei4 sp1 l e5 <sos/eos>|真是好美味了。|p71|t347
+1028|伤心|<sos/eos> k an4 sp0 q i3 sp0 l ai5 sp1 zh en1 sp1 h ao3 sp0 ch iii1 <sos/eos>|看起来真好吃。|p72|t348
+1028|伤心|<sos/eos> d uei4 sp0 m ian4 sp1 d e5 sp1 g uei3 sp0 h uen2 sp1 k an4 sp0 zh e5 sp1 h a1 sp0 l i4 sp1 z ai4 sp1 q ie4 sp1 n iou2 sp0 p ai2 <sos/eos>|对面的鬼魂看着哈利在切牛排|p72|t349
+1028|伤心|<sos/eos> sh ang1 sp0 x in1 sp1 d e5 sp1 sh uo1 <sos/eos>|伤心的说。|p72|t350
+1028|友好|<sos/eos> n i3 sp1 iao4 sp1 b u4 sp0 iao4 sp1 ie3 sp1 l ai2 sp1 ch iii1 sp1 d ian3 <sos/eos>|你要不要也来吃点——|p73|t351
+1028|感慨|<sos/eos> uo3 sp1 i3 sp0 j ing1 sp1 iou3 sp1 s ii4 sp0 b ai3 sp0 n ian2 sp1 m ei2 sp0 ch iii1 sp0 g uo4 sp1 d ong1 sp0 x i1 sp1 l e5 <sos/eos>|我已经有四百年没吃过东西了|p74|t352
+1028|感慨|<sos/eos> d ang1 sp0 r an2 sp3 uo3 sp1 b u4 sp1 x v1 sp0 iao4 sp1 j in4 sp0 sh iii2 sp3 d an4 sp1 uo3 sp1 r eng2 sp1 h en3 sp1 h uai2 sp0 n ian4 sp1 n a4 sp0 x ie1 sp1 m ei3 sp0 uei4 sp0 j ia1 sp0 iao2 <sos/eos>|当然，我不需要进食，但我仍很怀念那些美味佳肴|p74|t353
+1028|感慨|<sos/eos> uo3 sp1 h ai2 sp1 m ei2 sp1 j ie4 sp0 sh ao4 sp1 z ii4 sp0 j i3 sp1 b a5 <sos/eos>|我还没介绍自己吧|p74|t354
+1028|感慨|<sos/eos> n i2 sp0 g u3 sp0 l a1 sp0 s ii1 sp3 d e2 sp3 m i3 sp0 m u3 sp1 x i1 sp3 b o1 sp0 p ing2 sp0 d uen4 sp1 j ve2 sp0 sh iii4 sp3 van4 sp0 uei4 sp1 n i3 sp1 f u2 sp0 u4 <sos/eos>|尼古拉斯。德。米姆西。波平顿爵士，愿为你服务|p74|t355
+1028|感慨|<sos/eos> uo3 sp1 sh iii4 sp1 zh u4 sp1 z ai4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 g ao1 sp0 t a3 sp1 sh ang4 sp1 d e5 sp1 g uei3 sp0 h uen2 <sos/eos>|我是住在格林芬顿高塔上的鬼魂|p74|t356
+1028|感慨|<sos/eos> uo3 sp1 t ing1 sp0 sh uo1 sp1 g uo4 sp1 n i3 <sos/eos>|我听说过你|p74|t357
+1028|感慨|<sos/eos> uo3 sp0 g e1 sp1 g ao4 sp0 s u4 sp1 g uo4 sp1 uo3 sp1 iou3 sp0 g uan1 sp1 n i3 sp1 d e5 sp1 sh iii4 <sos/eos>|我哥告诉过我有关你的事|p74|t358
+1028|感慨|<sos/eos> n i3 sp1 j iou4 sp0 sh iii4 sp1 u2 sp0 t ou2 sp1 n i2 sp0 k e4 sp1 m a5 <sos/eos>|你就是无头尼克嘛|p74|t359
+1028|感慨|<sos/eos> uo3 sp1 x i1 sp0 uang4 sp1 n i3 sp1 h ai2 sp0 sh iii5 sp1 j iao4 sp1 uo3 sp1 n i2 sp0 g u3 sp0 l a1 sp0 s ii1 sp3 d e2 sp3 m i3 sp0 m u3 sp1 x i1 sp3 b o1 sp0 p ing2 sp0 d uen4 sp1 j ve2 sp0 sh iii4 sp1 h ao3 sp1 i1 sp0 d ian3 <sos/eos>|我希望你还是叫我尼古拉斯。德。米姆西。波平顿爵士好一点|p74|t360
+1028|感慨|<sos/eos> g uei3 sp0 h uen2 sp1 k ai1 sp0 sh iii3 sp1 k u1 sp0 q i4 sp1 l e5 <sos/eos>|鬼魂开始哭泣了|p74|t361
+1028|感慨|<sos/eos> u2 sp0 t ou2 sp3 n i3 sp1 z en3 sp0 m e5 sp0 iang4 sp1 n eng2 sp1 z uo4 sp0 d ao4 sp1 u2 sp0 t ou2 sp1 zh uang4 sp0 t ai4 sp1 n e5 <sos/eos>|无头？你怎么样能做到无头状态呢|p74|t362
+1028|感慨|<sos/eos> n i2 sp0 g u3 sp0 l a1 sp0 s ii1 sp1 j ve2 sp0 sh iii4 sp1 sh iii2 sp0 f en1 sp1 f en4 sp0 n u4 <sos/eos>|尼古拉斯爵士十分愤怒|p74|t363
+1028|凶狠|<sos/eos> j iou4 sp1 x iang4 sp1 zh e4 sp0 iang4 <sos/eos>|就像这样。|p75|t364
+1028|凶狠|<sos/eos> t a1 sp1 e4 sp0 h en3 sp0 h en3 sp1 d e5 sp1 sh uo1 <sos/eos>|他恶狠狠的说|p75|t365
+1028|凶狠|<sos/eos> b ian1 sp1 sh uo1 sp1 b ian1 sp1 zh ua1 sp0 zh u4 sp1 z uo3 sp0 er3 sp1 iong4 sp0 l i4 sp1 i1 sp0 ch e3 sp3 zh eng3 sp0 g e4 sp1 n ao3 sp0 d ai5 sp1 j iou4 sp1 c ong2 sp1 b o2 sp0 z ii5 sp1 sh ang4 sp1 b ei4 sp1 l a1 sp1 l e5 sp1 x ia4 sp0 l ai5 sp3 d ao4 sp1 k ao4 sp1 z ai4 sp1 t a1 sp1 d e5 sp1 j ian1 sp0 b ang3 sp1 sh ang4 <sos/eos>|边说边抓住左耳用力一扯，整个脑袋就从脖子上被拉了下来，倒靠在他的肩膀上。|p75|t366
+1028|凶狠|<sos/eos> t a1 sp1 d e5 sp1 t ou2 sp1 h e2 sp1 b o2 sp0 z ii5 sp1 h ao3 sp0 x iang4 sp1 sh iii4 sp1 iong4 sp1 l a1 sp0 l ian4 sp1 l ian2 sp0 j ie1 sp1 zh e5 sp1 i1 sp0 iang4 <sos/eos>|他的头和脖子好像是用拉链连接着一样。|p75|t367
+1028|凶狠|<sos/eos> x ian3 sp0 r an2 sp3 c eng2 sp1 iou3 sp0 r en2 sp1 x iang3 sp1 j iang1 sp1 t a1 sp1 zh an3 sp0 sh ou3 sp3 b u4 sp0 g uo4 sp1 s ii4 sp0 h u1 sp1 sh ou3 sp0 f a3 sp1 b u4 sp0 g ou4 sp1 g ao1 sp0 m ing2 <sos/eos>|显然，曾有人想将他斩首，不过似乎手法不够高明。|p75|t368
+1028|凶狠|<sos/eos> k an4 sp0 d ao4 sp1 p ang2 sp0 r en2 sp1 m u4 sp0 d eng4 sp0 k ou3 sp0 d ai1 sp1 d e5 sp1 sh en2 sp0 q ing2 <sos/eos>|看到旁人目瞪口呆的神情|p75|t369
+1028|凶狠|<sos/eos> u2 sp0 t ou2 sp1 n i2 sp0 k e4 sp1 d e2 sp0 i4 sp0 iang2 sp0 iang2 sp1 d e5 sp1 j iang1 sp1 n ao3 sp0 d ai5 sp1 f ang4 sp1 h uei2 sp1 van2 sp0 ch u4 <sos/eos>|无头尼克得意洋洋的将脑袋放回原处|p75|t370
+1028|凶狠|<sos/eos> k e2 sp1 l e5 sp1 i1 sp0 x ia4 <sos/eos>|咳了一下|p75|t371
+1028|凶狠|<sos/eos> r an2 sp0 h ou4 sp1 sh uo1 <sos/eos>|然后说|p75|t372
+1028|凶狠|<sos/eos> h ao3 sp1 l e5 sp3 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 d e5 sp1 x in1 sp1 p eng2 sp0 iou5 sp3 x i1 sp0 uang4 sp1 n i3 sp0 m en5 sp1 n eng2 sp1 b ang1 sp0 zh u4 sp1 uo3 sp0 m en5 sp1 ing2 sp0 h uei2 sp1 sh iii1 sp0 l uo4 sp1 d e5 sp1 g uan4 sp0 j vn1 sp1 j iang3 sp0 h uai2 <sos/eos>|好了，——格林芬顿的新朋友，希望你们能帮助我们赢回失落的冠军奖怀。|p75|t373
+1028|凶狠|<sos/eos> g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 c ong2 sp1 uei4 sp0 sh iii4 sp0 g uo4 sp1 n a4 sp0 m e5 sp1 j iou3 sp1 d ou1 sp1 v3 sp1 g uan4 sp0 j vn1 sp1 u2 sp0 van2 sp1 l e5 <sos/eos>|格林芬顿从未试过那么久都与冠军无缘了|p75|t374
+1028|凶狠|<sos/eos> sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp1 r en2 sp1 i3 sp0 j ing1 sp1 l ian2 sp0 x v4 sp1 l iou4 sp0 n ian2 sp1 d uo2 sp0 g uan4 sp1 l e5 <sos/eos>|史林德林人已经连续六年夺冠了！|p75|t375
+1028|凶狠|<sos/eos> x i1 sp0 x ve4 sp0 g uei3 sp1 b a1 sp0 l uen2 sp1 i3 sp0 j ing1 sp1 b ian4 sp0 d e5 sp1 b u4 sp0 k e3 sp0 i1 sp0 sh iii4 sp1 l e5 sp3 in1 sp0 uei4 sp1 t a1 sp1 sh iii4 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp1 d e5 sp1 g uei3 sp0 h uen2 <sos/eos>|吸血鬼巴伦已经变得不可一世了——因为他是史林德林的鬼魂。|p75|t376
+1028|凶狠|<sos/eos> h a1 sp0 l i4 sp1 ch ao2 sp0 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp1 n a4 sp0 b ian5 sp1 uang4 sp0 q v4 <sos/eos>|哈利朝史林德林那边望去|p75|t377
+1028|凶狠|<sos/eos> k an4 sp0 j ian4 sp1 i2 sp0 g e4 sp1 k ong3 sp0 b u4 sp1 d e5 sp1 g uei3 sp0 h uen2 sp1 zh eng4 sp1 z uo4 sp0 z ai4 sp1 n a4 sp0 l i5 <sos/eos>|看见一个恐怖的鬼魂正坐在那里。|p75|t378
+1028|恐惧|<sos/eos> t a1 sp1 n a4 sp1 q van2 sp0 b ai2 sp1 d e5 sp1 sh uang1 sp0 ian3 sp3 x ve1 sp0 sh ou4 sp1 d e5 sp1 m ian4 sp0 b u4 sp1 h e2 sp1 zh an1 sp0 m an3 sp1 x ve4 sp0 ie4 sp1 d e5 sp1 in2 sp0 b ai2 sp0 s e4 sp1 ch ang2 sp0 p ao2 sp1 l ing4 sp0 r en2 sp1 b u4 sp0 h an2 sp0 er2 sp0 l i4 <sos/eos>|他那全白的双眼，削瘦的面部和沾满血液的银白色长袍令人不寒而栗|p76|t379
+1028|恐惧|<sos/eos> t a1 sp1 j iou4 sp1 z uo4 sp0 z ai4 sp1 x ian3 sp0 r an2 sp1 b u4 sp0 t ai4 sp1 m an3 sp0 i4 sp1 z uo4 sp0 uei4 sp1 an1 sp0 p ai2 sp1 d e5 sp1 m a3 sp0 er3 sp0 f u1 sp1 sh en1 sp0 b ian1 <sos/eos>|他就坐在显然不太满意座位安排的马尔夫身边|p76|t380
+1028|好奇|<sos/eos> t a1 sp1 ch ang2 sp0 p ao2 sp1 sh ang4 sp1 d e5 sp1 x ve4 sp1 sh iii4 sp1 z en3 sp0 m e5 sp1 l ai2 sp1 d e5 <sos/eos>|他长袍上的血是怎么来的？|p77|t381
+1028|好奇|<sos/eos> x ie4 sp1 m o4 sp0 s ii1 sp1 r ao2 sp0 iou3 sp0 x ing4 sp0 q v4 sp1 d e5 sp1 uen4 <sos/eos>|谢默斯饶有兴趣的问。|p77|t382
+1028|平静|<sos/eos> uo3 sp1 c ong2 sp0 m ei2 sp1 uen4 sp0 g uo4 sp1 t a1 <sos/eos>|我从没问过他。|p78|t383
+1028|平静|<sos/eos> m ei3 sp0 g e4 sp1 r en2 sp1 d ou1 sp1 ch iii1 sp0 uan2 sp0 f an4 sp1 h ou4 <sos/eos>|每个人都吃完饭后|p79|t384
+1028|平静|<sos/eos> c an2 sp0 g eng1 sp1 sh eng4 sp0 c ai4 sp1 d ou1 sp1 z ii4 sp0 d ong4 sp1 c ong2 sp1 p an2 sp0 z ii5 sp1 l i3 sp1 x iao1 sp0 sh iii1 sp1 l e5 <sos/eos>|残羹剩菜都自动从盘子里消失了|p79|t385
+1028|平静|<sos/eos> p an2 sp0 z ii5 sp1 iou4 sp1 b ian4 sp0 d e5 sp1 x iang4 sp1 k ai1 sp0 sh iii3 sp1 sh iii2 sp1 n a4 sp0 iang4 sp1 g uang1 sp0 c ai3 sp0 d uo2 sp0 m u4 <sos/eos>|盘子又变得像开始时那样光彩夺目|p79|t386
+1028|平静|<sos/eos> g uo4 sp1 l e5 sp1 i1 sp0 h uei4 sp0 er5 sp3 t ian2 sp0 p in3 sp1 ch u1 sp0 x ian4 sp1 l e5 <sos/eos>|过了一会儿，甜品出现了|p79|t387
+1028|平静|<sos/eos> n i3 sp1 s uo3 sp0 n eng2 sp1 x iang3 sp0 d ao4 sp1 d e5 sp1 g e4 sp0 zh ong3 sp1 k ou3 sp0 uei4 sp1 d e5 sp1 d a4 sp0 k uai4 sp1 d a4 sp0 k uai4 sp1 d e5 sp1 x ve3 sp0 g ao1 sp3 p ing2 sp0 g uo3 sp1 x ian4 sp0 b ing3 sp3 m i4 sp0 t ang2 sp1 g uo3 sp0 b ing3 sp3 q iao3 sp0 k e4 sp0 l i4 sp1 b ang4 sp1 g ao1 sp3 g uo3 sp0 j iang4 sp1 iou2 sp0 zh a2 sp0 b ing3 sp3 c ao3 sp0 m ei2 sp3 k a1 sp0 d an3 sp3 m i3 sp0 f an4 sp1 b u4 sp0 d ing1 sp3 ing1 sp0 iou3 sp0 j in4 sp0 iou3 <sos/eos>|你所能想到的各种口味的大块大块的雪糕、苹果馅饼、蜜糖果饼、巧克力棒糕、果酱油炸饼、草莓、咖胆、米饭布丁……应有尽有|p79|t388
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 n a2 sp1 q i3 sp1 i1 sp0 k uai4 sp1 m i4 sp0 t ang2 sp1 g uo3 sp0 b ing3 sp1 zh eng4 sp1 ch iii1 sp1 zh e5 sp1 d e5 sp1 sh iii2 sp0 h ou5 <sos/eos>|哈利拿起一块蜜糖果饼正吃着的时候|p80|t389
+1028|平静|<sos/eos> h ua4 sp0 t i2 sp1 zh uan3 sp0 d ao4 sp1 l e5 sp1 g e4 sp0 r en2 sp1 d e5 sp1 j ia1 sp0 z u2 sp1 sh ang4 sp0 l ai2 <sos/eos>|话题转到了各人的家族上来|p80|t390
+1028|平静|<sos/eos> uo3 sp1 ch u1 sp0 sh en1 sp1 v2 sp1 b an4 sp1 m o2 sp0 f a3 sp1 j ia1 sp0 t ing2 <sos/eos>|我出身于半魔法家庭|p80|t391
+1028|平静|<sos/eos> uo3 sp0 b a4 sp1 sh iii4 sp1 m a3 sp0 g e2 sp0 r en2 <sos/eos>|我爸是马格人|p80|t392
+1028|平静|<sos/eos> uo3 sp0 m a1 sp1 zh iii2 sp0 d ao4 sp1 j ie2 sp0 h uen1 sp1 sh iii2 sp0 c ai2 sp1 g ao4 sp0 s u4 sp1 uo3 sp0 b a4 sp1 t a1 sp1 sh iii4 sp1 g e4 sp1 n v3 sp1 m o2 sp0 f a3 sp0 sh iii1 <sos/eos>|我妈直到结婚时才告诉我爸她是个女魔法师|p80|t393
+1028|平静|<sos/eos> d ang1 sp0 sh iii2 sp1 t a1 sp1 i1 sp0 d ing4 sp1 f ei1 sp0 ch ang2 sp1 j ing1 sp0 ia4 sp1 er2 sp0 q ie3 sp1 h en3 sp1 b u4 sp1 v2 sp0 k uai4 <sos/eos>|当时他一定非常惊讶而且很不愉快|p80|t394
+1028|平静|<sos/eos> q i2 sp0 t a1 sp0 r en2 sp1 d ou1 sp1 h a1 sp0 h a1 sp0 d a4 sp0 x iao4 sp1 q i3 sp0 l ai5 <sos/eos>|其他人都哈哈大笑起来|p80|t395
+1028|好奇|<sos/eos> n a4 sp1 n i3 sp1 n e5 sp3 n i2 sp1 uei2 sp0 er3 <sos/eos>|那你呢，尼维尔？|p81|t396
+1028|好奇|<sos/eos> l uo2 sp0 en1 sp0 uen4 <sos/eos>|罗恩问。|p81|t397
+1028|平静|<sos/eos> uo3 sp1 uai4 sp0 p o2 sp1 b a3 sp1 uo3 sp1 iang3 sp0 d a4 sp1 d e5 sp3 t a1 sp1 sh iii4 sp1 g e4 sp1 m o2 sp0 f a3 sp0 sh iii1 <sos/eos>|我外婆把我养大的，她是个魔法师。|p82|t398
+1028|平静|<sos/eos> d an4 sp1 uo3 sp0 j ia1 sp1 r en2 sp1 ch ang2 sp0 q i1 sp0 i3 sp0 l ai2 sp1 d ou1 sp1 b a3 sp1 uo3 sp1 d ang1 sp1 p u3 sp0 t ong1 sp0 r en2 sp1 k an4 sp0 d ai4 <sos/eos>|但我家人长期以来都把我当普通人看待。|p82|t399
+1028|平静|<sos/eos> uo3 sp1 d e5 sp1 j iou4 sp0 g ong1 sp1 a1 sp0 j i2 sp1 q ve4 sp1 z ong3 sp0 x iang3 sp1 b a3 sp1 uo3 sp1 x vn4 sp0 l ian4 sp1 ch eng2 sp1 m o2 sp0 f a3 sp0 sh iii1 <sos/eos>|我的舅公阿吉却总想把我训练成魔法师|p82|t400
+1028|平静|<sos/eos> iou3 sp1 i1 sp0 c ii4 sp3 t a1 sp1 b a3 sp1 uo3 sp1 c ong2 sp1 b u4 sp0 l ai2 sp0 k e4 sp1 p u3 sp1 m a3 sp0 t ou2 sp1 t uei1 sp1 l e5 sp1 x ia4 sp0 q v4 <sos/eos>|有一次，他把我从布莱克浦码头推了下去|p82|t401
+1028|平静|<sos/eos> uo3 sp1 ch a4 sp0 d ian3 sp1 b ei4 sp1 ian1 sp0 s ii3 sp1 l e5 <sos/eos>|我差点被淹死了|p82|t402
+1028|平静|<sos/eos> b u4 sp0 g uo4 sp3 uo3 sp1 b a1 sp0 s uei4 sp1 q ian2 sp1 d e5 sp1 sh eng1 sp0 h uo2 sp1 m ei2 sp0 iou3 sp1 sh en2 sp0 m e5 sp1 t e4 sp0 b ie2 sp1 d e5 <sos/eos>|不过，我八岁前的生活没有什么特别的。|p82|t403
+1028|平静|<sos/eos> b a1 sp0 s uei4 sp1 n a4 sp0 n ian2 sp3 a1 sp0 j i2 sp1 j iou4 sp0 g ong1 sp1 l ai2 sp1 uo3 sp0 j ia1 sp1 z uo4 sp0 k e4 <sos/eos>|八岁那年，阿吉舅公来我家作客|p83|t404
+1028|平静|<sos/eos> t a1 sp1 zh ua1 sp0 zh u4 sp1 uo3 sp1 d e5 sp1 h uai2 sp0 g uan1 sp0 j ie2 sp3 b a3 sp1 uo3 sp1 d ao4 sp0 g ua4 sp1 z ai4 sp1 l ou2 sp0 sh ang4 sp1 ch uang1 sp0 h u5 sp1 uai4 sp0 m ian4 sp1 l ian4 sp0 g ong1 <sos/eos>|他抓住我的踝关节，把我倒挂在楼上窗户外面练功|p83|t405
+1028|平静|<sos/eos> an1 sp0 d i2 sp0 n i1 sp1 j iou4 sp0 p o2 sp1 d i4 sp0 g ei3 sp1 t a1 sp1 i1 sp0 zh ang1 sp1 t ian2 sp0 b ing3 sp1 sh iii2 sp3 t a1 sp1 j ing4 sp1 i1 sp0 b u4 sp0 x iao3 sp0 x in1 sp1 s ong1 sp1 l e5 sp1 sh ou3 <sos/eos>|安迪妮舅婆递给他一张甜饼时，他竟一不小心松了手|p83|t406
+1028|平静|<sos/eos> d an4 sp1 uo3 sp1 b u4 sp0 j in3 sp1 m ei2 sp1 sh uai1 sp0 s ii3 <sos/eos>|但我不仅没摔死|p83|t407
+1028|平静|<sos/eos> er2 sp0 q ie3 sp1 h ai2 sp1 c ong2 sp1 h ua1 sp0 van2 sp0 l i3 sp1 i1 sp0 zh iii2 sp1 d an4 sp1 d ao4 sp1 m a3 sp0 l u4 sp0 sh ang4 <sos/eos>|而且还从花园里一直弹到马路上|p83|t408
+1028|平静|<sos/eos> d ang1 sp0 sh iii2 sp1 uai4 sp0 p o2 sp1 j ian4 sp1 uo3 sp1 an1 sp0 r an2 sp0 u2 sp0 iang4 sp3 x i3 sp0 j i2 sp0 er2 sp0 q i4 <sos/eos>|当时外婆见我安然无恙，喜极而泣|p83|t409
+1028|平静|<sos/eos> zh ao3 sp0 d ao4 sp1 zh e4 sp0 er5 sp1 d e5 sp1 sh iii2 sp0 h ou5 sp1 n i3 sp0 m en5 sp1 d ou1 sp1 ing1 sp0 g ai1 sp1 j ian4 sp0 d ao4 sp1 uo3 sp1 uai4 sp0 p o2 sp1 t a1 sp0 m en5 sp1 l e5 sp1 b a5 <sos/eos>|找到这儿的时候你们都应该见到我外婆他们了吧|p83|t410
+1028|平静|<sos/eos> s uei1 sp0 r an2 sp1 uo3 sp1 ie3 sp0 x v3 sp1 h ai2 sp1 b u4 sp0 g ou4 sp0 g e2 sp1 d ao4 sp1 zh e4 sp0 er5 sp1 l ai2 sp1 x ve2 sp0 x i2 <sos/eos>|虽然我也许还不够格到这儿来学习|p84|t411
+1028|平静|<sos/eos> d an4 sp1 a1 sp0 j i2 sp1 j iou4 sp0 g ong1 sp1 g ao1 sp0 x ing4 sp1 j i2 sp0 l e5 <sos/eos>|但阿吉舅公高兴极了|p84|t412
+1028|平静|<sos/eos> h ai2 sp1 m ai3 sp1 l e5 sp1 zh e4 sp1 zh iii3 sp1 l ai4 sp0 h a2 sp0 m a5 sp1 s ong4 sp0 g ei3 sp1 uo3 sp1 n e5 <sos/eos>|还买了这只癞蛤蟆送给我呢。|p84|t413
+1028|平静|<sos/eos> z ai4 sp1 h a1 sp0 l i4 sp1 d e5 sp1 d uei4 sp0 m ian4 sp3 b o2 sp0 x i1 sp3 uei1 sp0 s ii1 sp1 l i3 sp1 h e2 sp1 h e2 sp0 m i3 sp1 en1 sp1 z ai4 sp1 t an2 sp0 l uen4 sp1 g ong1 sp0 k e4 <sos/eos>|在哈利的对面，伯希。威斯里和荷米恩在谈论功课。|p84|t414
+1028|平静|<sos/eos> uo3 sp1 zh en1 sp1 x i1 sp0 uang4 sp1 t a1 sp0 m en5 sp1 x ian4 sp0 z ai4 sp1 j iou4 sp1 k ai1 sp0 sh iii3 sp1 n u3 sp0 l i4 sp0 x ve2 sp0 x i2 sp1 l e5 <sos/eos>|我真希望他们现在就开始努力学习了|p84|t415
+1028|平静|<sos/eos> iao4 sp0 x ve2 sp1 d e5 sp1 d ong1 sp0 x i1 sp1 t ai4 sp0 d uo1 sp1 l e5 <sos/eos>|要学的东西太多了。|p84|t416
+1028|平静|<sos/eos> uo3 sp1 d uei4 sp1 b ian4 sp0 x ing2 sp1 q ing2 sp0 iou3 sp0 d u2 sp0 zh ong1 <sos/eos>|我对变形情有独钟|p84|t417
+1028|平静|<sos/eos> n i3 sp1 zh iii1 sp0 d ao4 sp1 m a5 <sos/eos>|你知道吗|p84|t418
+1028|平静|<sos/eos> b a3 sp1 d ong1 sp0 x i1 sp1 b ian4 sp0 l ai2 sp0 b ian4 sp0 q v4 sp1 k e3 sp1 iou3 sp0 i4 sp0 s ii5 sp1 l a5 <sos/eos>|把东西变来变去可有意思啦。|p84|t419
+1028|平静|<sos/eos> d ang1 sp0 r an2 sp3 ie3 sp1 iou3 sp1 i1 sp0 d ing4 sp1 n an2 sp0 d u4 <sos/eos>|当然，也有一定难度——|p84|t420
+1028|平静|<sos/eos> n i3 sp1 d e2 sp1 zh u2 sp0 b u4 sp1 j i1 sp0 l ei3 sp3 uen3 sp0 zh a1 sp0 uen3 sp0 d a3 sp1 c ai2 sp0 x ing2 sp1 o1 <sos/eos>|你得逐步积累、稳扎稳打才行喔。|p84|t421
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 g an3 sp0 d ao4 sp1 l e5 sp1 uen1 sp0 n uan3 sp1 h e2 sp1 j van4 sp0 i4 <sos/eos>|哈利感到了温暖和倦意|p84|t422
+1028|平静|<sos/eos> iou4 sp1 t ai2 sp0 t ou2 sp1 k an4 sp0 k an5 sp1 g ao1 sp1 t ai2 sp0 sh ang4 sp1 d e5 sp1 zh u3 sp0 x i2 sp0 t ai2 <sos/eos>|又抬头看看高台上的主席台。|p84|t423
+1028|平静|<sos/eos> h a1 sp1 g e2 sp0 l i4 sp1 zh eng4 sp1 p in3 sp0 ch ang2 sp1 zh e5 sp1 m ei3 sp0 j iou3 <sos/eos>|哈格力正品尝着美酒|p84|t424
+1028|平静|<sos/eos> m ai4 sp0 k ang1 sp0 n a4 sp1 j iao4 sp0 sh ou4 sp1 zh eng4 sp1 h e2 sp1 d an1 sp0 b o2 sp1 d uo1 sp1 j iao4 sp0 sh ou4 sp1 j iao1 sp0 t an2 <sos/eos>|麦康娜教授正和丹伯多教授交谈。|p84|t425
+1028|平静|<sos/eos> d ai4 sp0 zh e5 sp1 k e3 sp0 x iao4 sp1 d e5 sp1 u2 sp0 b ian1 sp1 m ao4 sp1 d e5 sp1 q v1 sp0 l a1 sp1 j iao4 sp0 sh ou4 sp1 z e2 sp1 zh eng4 sp1 h e2 sp1 i1 sp0 uei4 sp1 zh ang3 sp0 zh e5 sp1 iou2 sp0 h ei1 sp1 d e5 sp1 ch ang2 sp0 f a4 sp3 ing1 sp0 g ou1 sp0 b i2 sp1 z ii5 sp3 t u3 sp0 h uang2 sp1 f u1 sp0 s e4 sp1 d e5 sp1 l ao3 sp0 sh iii1 sp1 sh uo1 sp0 h ua4 <sos/eos>|戴着可笑的无边帽的屈拉教授则正和一位长着油黑的长发、鹰钩鼻子、土黄肤色的老师说话。|p84|t426
+1028|惊讶|<sos/eos> i1 sp0 q ie4 sp1 d ou1 sp1 l ai2 sp0 d e5 sp1 h en3 sp1 t u1 sp0 r an2 <sos/eos>|一切都来得很突然|p85|t427
+1028|惊讶|<sos/eos> n a4 sp0 g e5 sp1 g ou1 sp1 b i2 sp0 z ii5 sp1 l ao3 sp0 sh iii1 sp1 d e5 sp1 m u4 sp0 g uang1 sp1 ch uan1 sp0 g uo4 sp1 sh ang4 sp0 q v1 sp1 l a1 sp1 d e5 sp1 m ao4 sp0 z ii5 sp1 zh iii2 sp0 sh e4 sp1 r u4 sp1 h a1 sp0 l i4 sp1 d e5 sp1 sh uang1 sp0 ian3 <sos/eos>|那个钩鼻子老师的目光穿过上屈拉的帽子直射入哈利的双眼|p85|t428
+1028|惊讶|<sos/eos> h a1 sp0 l i4 sp1 q ian2 sp0 e2 sp1 sh ang4 sp1 d e5 sp1 sh ang1 sp0 b a1 sp1 g an3 sp0 d ao4 sp1 i1 sp0 zh en4 sp1 h uo3 sp0 l a4 sp1 d e5 sp1 j v4 sp0 t ong4 <sos/eos>|哈利前额上的伤疤感到一阵火辣的剧痛|p85|t429
+1028|惊讶|<sos/eos> a5 <sos/eos>|啊！|p86|t430
+1028|惊讶|<sos/eos> h a1 sp0 l i4 sp1 l ian2 sp0 m ang2 sp1 iong4 sp0 sh ou3 sp1 p ai1 sp0 p ai1 sp1 t ou2 <sos/eos>|哈利连忙用手拍拍头。|p86|t431
+1028|疑惑|<sos/eos> z en3 sp0 m e5 sp1 l e5 <sos/eos>|怎么了？|p87|t432
+1028|疑惑|<sos/eos> b o2 sp0 x i1 sp0 uen4 <sos/eos>|伯希问。|p87|t433
+1028|掩饰|<sos/eos> m ei2 sp3 m ei2 sp0 sh en2 sp0 m e5 <sos/eos>|没——没什么。|p88|t434
+1028|平静|<sos/eos> n a4 sp0 zh en4 sp1 j v4 sp0 t ong4 sp1 i3 sp0 j ing1 sp1 sh ao1 sp0 sh uen4 sp0 j i2 sp0 sh iii4 sp1 l e5 <sos/eos>|那阵剧痛已经稍瞬即逝了|p89|t435
+1028|平静|<sos/eos> zh iii3 sp0 iou3 sp1 n a4 sp1 c ong2 sp1 d uei4 sp0 m ian4 sp1 l ao3 sp0 sh iii1 sp1 d e5 sp1 ian3 sp0 sh en2 sp1 zh ong1 sp1 k an4 sp0 ch u1 sp1 d e5 sp1 g an3 sp0 j ve2 sp1 l ing4 sp1 h a1 sp0 l i4 sp1 n an2 sp0 i3 sp1 sh iii4 sp0 h uai2 <sos/eos>|只有那从对面老师的眼神中看出的感觉令哈利难以释怀|p89|t436
+1028|平静|<sos/eos> t a1 sp1 i1 sp0 d ian3 sp1 d ou1 sp1 b u4 sp1 x i3 sp0 h uan5 sp1 h a1 sp0 l i4 <sos/eos>|他一点都不喜欢哈利|p89|t437
+1028|疑惑|<sos/eos> h e2 sp1 q v1 sp0 l a1 sp1 j iao4 sp0 sh ou4 sp1 sh uo1 sp0 h ua4 sp1 d e5 sp1 n a4 sp0 g e5 sp1 l ao3 sp0 sh iii1 sp1 sh iii4 sp1 sh uei2 sp1 ia5 <sos/eos>|和屈拉教授说话的那个老师是谁呀？|p90|t438
+1028|疑惑|<sos/eos> t a1 sp1 uen4 sp0 b o2 sp0 x i1 <sos/eos>|他问伯希。|p90|t439
+1028|疑惑|<sos/eos> o2 sp3 n i3 sp1 i3 sp0 j ing1 sp1 r en4 sp0 sh iii5 sp1 q v1 sp0 l a1 sp1 l a5 <sos/eos>|哦，你已经认识屈拉啦？|p91|t440
+1028|疑惑|<sos/eos> n a4 sp1 sh iii4 sp1 sh iii3 sp0 n a4 sp0 p i2 sp1 j iao4 sp0 sh ou4 <sos/eos>|那是史纳皮教授|p91|t441
+1028|疑惑|<sos/eos> k an4 sp0 l ai5 sp1 t a1 sp1 sh iii4 sp1 j in3 sp0 zh ang1 sp1 g uo4 sp0 d u4 sp1 l e5 <sos/eos>|看来他是紧张过度了|p91|t442
+1028|疑惑|<sos/eos> t a1 sp1 sh iii4 sp1 j iao4 sp1 iao4 sp0 j i4 sp0 x ve2 sp1 d e5 <sos/eos>|他是教药剂学的|p91|t443
+1028|疑惑|<sos/eos> d an4 sp1 t a1 sp1 b u4 sp0 van4 sp1 r ang4 sp1 b ie2 sp0 r en5 sp1 zh iii1 sp0 d ao4 <sos/eos>|但他不愿让别人知道|p91|t444
+1028|疑惑|<sos/eos> r en2 sp0 m en5 sp1 d ou1 sp1 zh iii1 sp1 t a1 sp1 x iang3 sp0 d e2 sp0 d ao4 sp1 q v1 sp0 l a1 sp1 d e5 sp1 zh iii2 sp0 uei4 <sos/eos>|人们都知他想得到屈拉的职位|p91|t445
+1028|疑惑|<sos/eos> sh iii3 sp0 n a4 sp0 p i2 sp1 d uei4 sp1 h ei1 sp1 u1 sp0 sh u4 sp1 iou3 sp1 h en3 sp1 sh en1 sp0 r u4 sp1 d e5 sp1 ian2 sp0 j iou1 <sos/eos>|史纳皮对黑巫术有很深入的研究|p91|t446
+1028|疑惑|<sos/eos> h a1 sp0 l i4 sp1 g uan1 sp0 ch a2 sp1 l e5 sp1 sh iii3 sp0 n a4 sp0 p i2 sp1 h en3 sp1 j iou3 <sos/eos>|哈利观察了史纳皮很久|p91|t447
+1028|疑惑|<sos/eos> d an4 sp0 sh iii3 sp1 n a4 sp0 p i2 sp1 z ai4 sp1 m ei2 sp0 uang4 sp1 t a1 sp1 i1 sp0 ian3 <sos/eos>|但史纳皮再没望他一眼|p91|t448
+1028|平静|<sos/eos> z uei4 sp0 h ou4 sp3 t ian2 sp0 p in3 sp1 ie3 sp1 ch iii1 sp1 uan2 sp1 l e5 <sos/eos>|最后，甜品也吃完了|p92|t449
+1028|平静|<sos/eos> d an1 sp0 b o2 sp1 d uo1 sp1 j iao4 sp0 sh ou4 sp1 iou4 sp1 zh an4 sp1 l e5 sp1 q i3 sp0 l ai5 <sos/eos>|丹伯多教授又站了起来|p92|t450
+1028|平静|<sos/eos> d uen4 sp0 sh iii2 sp1 q van2 sp0 ch ang3 sp1 an1 sp0 j ing4 sp1 l e5 sp1 x ia4 sp0 l ai5 <sos/eos>|顿时全场安静了下来|p92|t451
+1028|轻松|<sos/eos> a5 sp0 h a1 <sos/eos>|啊哈|p93|t452
+1028|轻松|<sos/eos> j i4 sp0 r an2 sp1 uo3 sp0 m en5 sp1 d ou1 sp1 i3 sp0 j ing1 sp1 ch iii1 sp0 b ao3 sp0 h e1 sp0 z u2 sp1 l e5 <sos/eos>|既然我们都已经吃饱喝足了|p93|t453
+1028|轻松|<sos/eos> uo3 sp1 j iou4 sp1 z ai4 sp1 d uo1 sp1 sh uo1 sp1 l iang3 sp0 j v4 sp1 b a5 <sos/eos>|我就再多说两句吧|p93|t454
+1028|轻松|<sos/eos> uo3 sp1 x ian4 sp0 z ai4 sp1 iao4 sp1 f a1 sp0 b u4 sp1 j i3 sp0 t iao2 sp1 k ai1 sp0 x ve2 sp1 t ong1 sp0 zh iii1 <sos/eos>|我现在要发布几条开学通知|p93|t455
+1028|严肃|<sos/eos> x in1 sp0 sh eng1 sp1 iao4 sp1 t e4 sp0 b ie2 sp1 zh u4 sp0 i4 <sos/eos>|新生要特别注意|p94|t456
+1028|严肃|<sos/eos> c ao1 sp0 ch ang3 sp0 sh ang4 sp1 d e5 sp1 sh u4 sp0 l in2 sp1 sh iii4 sp1 ian2 sp0 j in4 sp1 x ve2 sp0 sh eng5 sp1 j in4 sp0 r u4 sp1 d e5 <sos/eos>|操场上的树林是严禁学生进入的|p94|t457
+1028|严肃|<sos/eos> zh e4 sp1 i1 sp0 d ian3 sp1 g ao1 sp0 n ian2 sp0 j i2 sp1 x ve2 sp0 sh eng5 sp1 ie3 sp1 ing1 sp1 l ao2 sp0 j i4 <sos/eos>|这一点高年级学生也应牢记|p94|t458
+1028|严肃|<sos/eos> d an1 sp0 b o2 sp1 d uo1 sp1 j iong3 sp0 j iong3 sp0 iou3 sp0 sh en2 sp1 d e5 sp1 sh uang1 sp0 ian3 sp1 ch ao2 sp0 zh e5 sp1 uei1 sp0 s ii1 sp1 l i3 sp1 l uan2 sp0 sh eng1 sp0 x iong1 sp0 d i4 sp1 zh e4 sp0 b ian1 sp1 k an4 sp1 g uo4 sp0 l ai2 <sos/eos>|丹伯多炯炯有神的双眼朝着威斯里孪生兄弟这边看过来|p94|t459
+1028|严肃|<sos/eos> uo3 sp0 m en5 sp1 d e5 sp1 g uan3 sp0 l i3 sp0 van2 sp1 f ei4 sp0 ch iii2 sp1 x ian1 sp0 sh eng5 sp1 iao4 sp1 uo3 sp1 t i2 sp0 x ing3 sp1 n i3 sp0 m en5 <sos/eos>|我们的管理员费驰先生要我提醒你们|p95|t460
+1028|严肃|<sos/eos> k e4 sp0 j ian1 sp1 b u4 sp0 zh uen3 sp1 z ai4 sp1 z ou3 sp0 l ang2 sp1 sh ang4 sp1 sh iii3 sp0 iong4 sp1 m o2 sp0 f a3 <sos/eos>|课间不准在走廊上使用魔法|p95|t461
+1028|严肃|<sos/eos> k uai4 sp0 d i2 sp0 s ii1 sp1 c e4 sp0 ian4 sp1 j iang1 sp1 z ai4 sp1 d i4 sp0 er4 sp0 zh ou1 sp1 j in4 sp0 x ing2 <sos/eos>|快迪斯测验将在第二周进行|p95|t462
+1028|严肃|<sos/eos> x iang3 sp0 iao4 sp1 d ai4 sp0 b iao3 sp1 s uo3 sp0 z ai4 sp1 zh u4 sp0 s uo3 sp1 c an1 sp0 j ia1 sp1 d e5 sp1 t ong2 sp0 x ve2 sp1 q ing3 sp0 d ao4 sp1 h u2 sp0 sh iii1 sp1 n v3 sp0 sh iii4 sp1 n a4 sp0 l i5 sp1 b ao4 sp0 m ing2 <sos/eos>|想要代表所在住所参加的同学请到胡施女士那里报名|p95|t463
+1028|严肃|<sos/eos> z uei4 sp0 h ou4 sp3 uo3 sp1 b i4 sp0 x v1 sp1 j ing3 sp0 g ao4 sp1 n i3 sp0 m en5 <sos/eos>|最后，我必须警告你们|p95|t464
+1028|严肃|<sos/eos> b u4 sp0 x iang3 sp1 c an3 sp0 s ii3 sp1 d e5 sp1 r en2 sp1 z ai4 sp1 j in1 sp0 n ian2 sp1 zh iii1 sp0 n ei4 sp1 b u4 sp0 iao4 sp1 d ao4 sp1 iou4 sp0 sh ou3 sp0 b ian1 sp1 d e5 sp1 s an1 sp0 l ou2 sp1 z ou3 sp0 l ang2 sp1 q v4 <sos/eos>|不想惨死的人在今年之内不要到右手边的三楼走廊去|p95|t465
+1028|严肃|<sos/eos> h a1 sp0 l i4 sp1 h a1 sp0 h a1 sp0 d a4 sp0 x iao4 sp1 q i3 sp0 l ai5 <sos/eos>|哈利哈哈大笑起来|p95|t466
+1028|严肃|<sos/eos> i1 sp0 g ong4 sp1 zh iii3 sp0 iou3 sp1 l iao2 sp0 l iao2 sp1 j i3 sp0 g e5 sp1 x ve2 sp0 sh eng5 sp1 f a1 sp0 ch u1 sp1 x iao4 sp0 sh eng1 <sos/eos>|一共只有寥寥几个学生发出笑声|p95|t467
+1028|严肃|<sos/eos> h a1 sp0 l i4 sp1 b ian4 sp0 sh iii4 sp1 q i2 sp0 zh ong1 sp1 i2 sp0 g e4 <sos/eos>|哈利便是其中一个|p95|t468
+1028|疑惑|<sos/eos> t a1 sp1 b u2 sp0 sh iii5 sp1 r en4 sp0 zh en1 sp1 d e5 sp1 b a5 <sos/eos>|他不是认真的吧？|p96|t469
+1028|疑惑|<sos/eos> t a1 sp1 uen4 sp0 b o2 sp0 x i1 <sos/eos>|他问伯希。|p96|t470
+1028|疑惑|<sos/eos> uo3 sp1 x iang3 sp1 sh iii4 sp1 d e5 <sos/eos>|我想是的。|p97|t471
+1028|疑惑|<sos/eos> b o2 sp0 x i1 sp1 zh ou4 sp0 zh e5 sp0 m ei2 sp0 t ou2 sp1 k an4 sp0 zh e5 sp1 d an1 sp0 b o2 sp1 d uo1 <sos/eos>|伯希皱着眉头看着丹伯多|p97|t472
+1028|疑惑|<sos/eos> zh e4 sp1 sh iii4 sp1 iou3 sp0 d ian3 sp1 q i2 sp0 g uai4 <sos/eos>|这事有点奇怪|p97|t473
+1028|疑惑|<sos/eos> in1 sp0 uei4 sp1 t ong1 sp0 ch ang2 sp1 t a1 sp1 d ou1 sp1 h uei4 sp1 g ao4 sp0 s u4 sp1 uo3 sp0 m en5 sp1 uei4 sp0 sh en2 sp0 m e5 sp1 b u4 sp0 zh uen3 sp1 q v4 sp1 zh e4 sp0 er5 sp3 uei4 sp0 sh en2 sp0 m e5 sp1 b u4 sp0 n eng2 sp1 d ao4 sp1 n a4 sp0 er5 <sos/eos>|因为通常他都会告诉我们为什么不准去这儿，为什么不能到那儿|p97|t474
+1028|疑惑|<sos/eos> sh u4 sp0 l in2 sp1 l i3 sp1 iou3 sp1 h en3 sp0 d uo1 sp1 uei1 sp0 x ian3 sp1 d e5 sp1 ie3 sp0 sh ou4 sp3 zh e4 sp0 sh iii4 sp1 zh ong4 sp0 s uo3 sp0 zh ou1 sp0 zh iii1 sp1 d e5 <sos/eos>|树林里有很多危险的野兽，这是众所周知的。|p97|t475
+1028|疑惑|<sos/eos> uo3 sp1 x iang3 sp1 t a1 sp1 zh iii4 sp0 sh ao3 sp1 ie3 sp1 ing1 sp0 g ai1 sp1 iao4 sp1 uo3 sp0 m en5 sp1 zh e4 sp0 x ie1 sp1 d ang1 sp1 b an1 sp0 zh ang3 sp1 d e5 sp1 zh iii1 sp0 d ao4 sp1 ia5 <sos/eos>|我想他至少也应该要我们这些当班长的知道呀！|p97|t476
+1028|疑惑|<sos/eos> l in2 sp0 sh uei4 sp0 q ian2 sp3 r ang4 sp1 uo3 sp0 m en5 sp1 i1 sp0 q i3 sp1 g ao1 sp0 ch ang4 sp1 x iao4 sp0 g e1 <sos/eos>|临睡前，让我们一起高唱校歌！|p97|t477
+1028|疑惑|<sos/eos> d an1 sp0 b o2 sp1 d uo1 sp1 g ao1 sp0 sh eng1 sp1 j iao4 sp1 d ao4 <sos/eos>|丹伯多高声叫道。|p97|t478
+1028|疑惑|<sos/eos> h a1 sp0 l i4 sp1 f a1 sp0 x ian4 sp1 q i2 sp0 t a1 sp1 l ao3 sp0 sh iii1 sp1 d e5 sp1 x iao4 sp0 r ong2 sp1 b ian4 sp0 d e5 sp1 sh iii2 sp0 f en1 sp1 d ai1 sp0 zh iii4 <sos/eos>|哈利发现其他老师的笑容变得十分呆滞。|p97|t479
+1028|平静|<sos/eos> d an1 sp0 b o2 sp1 d uo1 sp0 n a2 sp0 q i3 sp1 m o2 sp0 zh ang4 sp1 q ing1 sp0 q ing1 sp1 i1 sp0 ch ang3 <sos/eos>|丹伯多拿起魔杖轻轻一场|p98|t480
+1028|平静|<sos/eos> f ang3 sp0 f u2 sp1 t a1 sp1 z ii4 sp0 j i3 sp1 x iang3 sp1 c ong2 sp1 g ao1 sp1 t ai2 sp0 sh ang4 sp1 f ei1 sp0 x ia4 sp0 l ai5 sp1 i1 sp0 b an1 <sos/eos>|仿佛他自己想从高台上飞下来一般|p98|t481
+1028|平静|<sos/eos> i1 sp0 t iao2 sp1 ch ang2 sp0 ch ang2 sp0 d e5 sp1 j in1 sp0 s e4 sp1 d e5 sp1 ch ou2 sp0 d ai4 sp1 c ong2 sp1 m o2 sp0 zh ang4 sp1 l i3 sp1 p iao1 sp1 ch u1 sp0 l ai2 <sos/eos>|一条长长的金色的绸带从魔杖里飘出来|p98|t482
+1028|平静|<sos/eos> g ao1 sp0 g ao1 sp0 d e5 sp1 sh eng1 sp1 d ao4 sp1 zh uo1 sp0 z ii5 sp1 d e5 sp1 zh eng4 sp0 sh ang4 sp0 f ang1 <sos/eos>|高高的升到桌子的正上方|p98|t483
+1028|平静|<sos/eos> sh e2 sp0 x ing2 sp1 j ing4 sp0 ian2 sp1 ch eng2 sp1 i1 sp0 g e4 sp0 g e4 sp1 d e5 sp1 d an1 sp0 c ii2 <sos/eos>|蛇形境蜒成一个个的单词|p98|t484
+1028|平静|<sos/eos> m ei3 sp0 g e4 sp1 r en2 sp1 z ii4 sp0 x van3 sp1 x i3 sp0 ai4 sp1 d e5 sp1 in1 sp0 d iao4 <sos/eos>|每个人自选喜爱的音调|p99|t485
+1028|平静|<sos/eos> v4 sp0 b ei4 sp3 ch ang4 <sos/eos>|预备，唱！|p99|t486
+1028|平静|<sos/eos> q van2 sp0 x iao4 sp1 r en2 sp1 d ou1 sp1 h ou3 sp0 j iao4 sp1 l e5 sp1 q i3 sp0 l ai5 <sos/eos>|全校人都吼叫了起来|p99|t487
+1028|激昂|<sos/eos> z ii4 sp0 s ii1 sp3 sh eng1 sp0 iou2 sp1 d e5 sp1 h uo4 sp0 g e2 sp0 ua3 sp0 ch e4 sp3 q ing3 sp1 n i3 sp1 j iao4 sp0 j iao4 sp1 uo3 sp0 m en5 <sos/eos>|自私、生疣的霍格瓦彻，请你教教我们|p100|t488
+1028|激昂|<sos/eos> u2 sp0 l uen4 sp0 sh iii4 sp1 n ian2 sp0 l ao3 sp1 h ai2 sp0 sh iii5 sp1 t u1 sp0 d ing3 sp3 h uo4 sp0 sh iii4 sp1 t uei3 sp1 sh ang4 sp1 zh ang3 sp0 ch iii1 sp1 d e5 sp1 x iao3 sp0 h uo3 sp0 z ii5 <sos/eos>|无论是年老还是秃顶，或是腿上长痴的小伙子|p100|t489
+1028|激昂|<sos/eos> uo3 sp0 m en5 sp1 d e5 sp1 n ao3 sp0 d ai5 sp1 k e3 sp0 i3 sp1 s ai1 sp0 m an3 sp1 x in1 sp0 q i2 sp1 iou3 sp0 q v4 sp1 d e5 sp1 d ong1 sp0 x i1 <sos/eos>|我们的脑袋可以塞满新奇有趣的东西|p100|t490
+1028|激昂|<sos/eos> in1 sp0 uei4 sp1 t a1 sp0 m en5 sp1 sh iii4 sp1 k ong1 sp0 d e2 sp1 zh iii3 sp0 iou3 sp1 k ong1 sp0 q i4 sp3 s ii3 sp1 c ang1 sp0 ing5 sp1 h e2 sp1 s uei4 sp1 r ong2 sp0 m ao2 <sos/eos>|因为它们是空得只有空气，死苍蝇和碎绒毛|p100|t491
+1028|激昂|<sos/eos> j iao4 sp0 sh ou4 sp1 uo3 sp0 m en5 sp1 iou3 sp0 iong4 sp1 d e5 sp1 d ong1 sp0 x i1 <sos/eos>|教授我们有用的东西|p100|t492
+1028|激昂|<sos/eos> r ang4 sp1 uo3 sp0 m en5 sp1 j i4 sp1 q i3 sp1 i2 sp0 uang4 sp1 d e5 sp1 g uo4 sp0 q v4 <sos/eos>|让我们记起遗忘的过去|p100|t493
+1028|激昂|<sos/eos> j in4 sp0 l i4 sp0 er2 sp0 uei2 sp3 x iang1 sp0 h u4 sp1 g uan1 sp0 x in1 <sos/eos>|尽力而为，相互关心|p100|t494
+1028|激昂|<sos/eos> x ve2 sp0 x i2 sp1 d ao4 sp1 n ao3 sp0 d ai5 sp1 f u3 sp0 l an4 sp1 uei2 sp0 zh iii3 <sos/eos>|学习到脑袋腐烂为止。|p100|t495
+1028|激昂|<sos/eos> g e1 sp0 sh eng1 sp1 iou3 sp0 k uai4 sp0 iou3 sp0 m an4 sp3 j i2 sp1 b u4 sp1 t ong3 sp0 i1 <sos/eos>|歌声有快有慢，极不统一。|p100|t496
+1028|激昂|<sos/eos> z uei4 sp0 h ou4 sp3 zh iii3 sp0 iou3 sp1 uei1 sp0 s ii1 sp1 l i3 sp1 l uan2 sp0 sh eng1 sp1 l iang3 sp1 x iong1 sp0 d i4 sp1 h ai2 sp1 z ai4 sp1 i3 sp1 i1 sp0 zh ong3 sp1 f ei1 sp0 ch ang2 sp1 h uan3 sp0 m an4 sp1 er2 sp1 ch en2 sp0 zh ong4 sp1 d e5 sp1 in1 sp0 d iao4 sp1 z ai4 sp1 j i4 sp0 x v4 sp1 ch ang4 sp1 zh e5 <sos/eos>|最后，只有威斯里孪生两兄弟还在以一种非常缓慢而沉重的音调在继续唱着|p100|t497
+1028|激昂|<sos/eos> d an1 sp0 p a4 sp1 d uo1 sp0 iong4 sp1 t a1 sp1 d e5 sp1 m o2 sp0 zh ang4 sp1 zh iii3 sp0 h uei1 sp1 zh e5 sp1 x iong1 sp0 d i4 sp0 l ia3 sp1 ch ang4 sp1 uan2 sp1 z uei4 sp0 h ou4 sp1 j i3 sp0 j v4 <sos/eos>|丹怕多用他的魔杖指挥着兄弟俩唱完最后几句。|p100|t498
+1028|激昂|<sos/eos> ch ang4 sp1 uan2 sp1 zh iii1 sp0 h ou4 sp3 t a1 sp1 t e4 sp0 b ie2 sp1 q i3 sp0 j in4 sp1 d e5 sp1 g u3 sp0 zh ang3 <sos/eos>|唱完之后，他特别起劲的鼓掌。|p100|t499
+1028|激动|<sos/eos> a5 sp3 in1 sp0 y ve4 <sos/eos>|啊，音乐——|p101|t500
+1028|激动|<sos/eos> t a1 sp0 b ian1 sp1 c a1 sp1 zh e5 sp1 ian3 sp0 l ei4 sp1 i1 sp0 b ian1 sp1 sh uo1 <sos/eos>|他边擦着眼泪一边说|p101|t501
+1028|激动|<sos/eos> sh iii4 sp1 i1 sp0 zh ong3 sp1 ch ao1 sp0 y ve4 sp0 z ii4 sp0 uo3 sp1 j ing4 sp0 j ie4 sp1 d e5 sp1 m o2 sp0 f a3 <sos/eos>|是一种超越自我境界的魔法！|p101|t502
+1028|激动|<sos/eos> h ao3 sp3 x ian4 sp0 z ai4 sp1 sh iii4 sp1 sh uei4 sp0 j iao4 sp0 sh iii2 sp0 j ian1 sp1 l e5 sp3 p ao3 sp0 b u4 sp3 z ou3 <sos/eos>|好，现在是睡觉时间了，跑步——走！|p101|t503
+1028|激动|<sos/eos> zh u4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 d e5 sp1 x in1 sp0 sh eng1 sp1 g en1 sp0 zh e5 sp1 b o2 sp0 x i1 sp1 ch uan1 sp0 g uo4 sp1 j iao1 sp0 t ou2 sp0 j ie1 sp0 er3 sp1 d e5 sp1 r en2 sp0 q vn2 <sos/eos>|住格林芬顿的新生跟着伯希穿过交头接耳的人群|p101|t504
+1028|激动|<sos/eos> z ou3 sp0 ch u1 sp1 d a4 sp0 h uei4 sp0 t ang2 <sos/eos>|走出大会堂|p101|t505
+1028|激动|<sos/eos> ian2 sp0 zh e5 sp1 d a4 sp0 l i3 sp0 sh iii2 sp1 j ie1 sp0 t i1 sp1 x iang4 sp0 sh ang4 sp1 z ou3 sp1 q v4 <sos/eos>|沿着大理石阶梯向上走去|p101|t506
+1028|激动|<sos/eos> h a1 sp0 l i4 sp1 d e5 sp1 t uei3 sp1 iou4 sp1 x iang4 sp1 g uan4 sp1 l e5 sp1 q ian1 sp1 i1 sp0 iang4 <sos/eos>|哈利的腿又像灌了铅一样|p101|t507
+1028|激动|<sos/eos> d an4 sp1 zh e4 sp0 h uei2 sp1 zh iii3 sp0 sh iii4 sp1 in1 sp0 uei4 sp1 t a1 sp1 sh iii2 sp0 z ai4 sp1 t ai4 sp0 l ei4 sp1 h e2 sp1 ch iii1 sp1 d e2 sp1 t ai4 sp0 b ao3 sp1 d e5 sp1 van2 sp0 g u4 <sos/eos>|但这回只是因为他实在太累和吃得太饱的缘故|p101|t508
+1028|激动|<sos/eos> t a1 sp1 sh iii2 sp0 z ai4 sp1 t ai4 sp0 k uen4 sp1 l e5 <sos/eos>|他实在太困了|p101|t509
+1028|激动|<sos/eos> sh en4 sp0 zh iii4 sp1 m ei2 sp0 iou3 sp1 f a1 sp0 x ian4 sp1 i1 sp0 l u4 sp0 sh ang4 sp1 z ou3 sp0 l ang2 sp1 l iang3 sp0 p ang2 sp1 h ua4 sp0 x iang4 sp1 l i3 sp1 d e5 sp1 r en2 sp1 i1 sp0 zh iii2 sp1 z ai4 sp1 d uei4 sp1 t a1 sp0 m en5 sp1 zh iii3 sp0 zh iii3 sp0 d ian3 sp0 d ian3 sp3 i4 sp0 l uen4 sp0 f en1 sp0 f en1 <sos/eos>|甚至没有发现一路上走廊两旁画像里的人一直在对他们指指点点，议论纷纷|p101|t510
+1028|激动|<sos/eos> ie3 sp1 m ei2 sp0 iou3 sp1 ch a2 sp0 j ve2 sp1 b o2 sp0 x i1 sp1 d ai4 sp0 l ing3 sp1 zh e5 sp1 t a1 sp0 m en5 sp1 l iang3 sp0 c ii4 sp1 ch uan1 sp0 y ve4 sp1 in3 sp0 b i4 sp1 z ai4 sp1 h uo2 sp0 d ong4 sp1 x iang1 sp0 b an3 sp1 h e2 sp1 g ua4 sp1 q iang2 sp1 h ua1 sp0 t an3 sp1 h ou4 sp1 d e5 sp1 an4 sp0 d ao4 <sos/eos>|也没有察觉伯希带领着他们两次穿越隐蔽在活动镶板和挂墙花毯后的暗道|p101|t511
+1028|激动|<sos/eos> t a1 sp0 m en5 sp1 j i4 sp0 x v4 sp1 x iang4 sp0 sh ang4 sp1 z ou3 <sos/eos>|他们继续向上走|p101|t512
+1028|激动|<sos/eos> x v3 sp0 d uo1 sp1 r en2 sp1 j iao3 sp0 b u4 sp1 ch en2 sp0 zh ong4 sp3 zh iii2 sp1 d a3 sp0 h e1 sp0 q ian4 <sos/eos>|许多人脚步沉重，直打呵欠|p101|t513
+1028|激动|<sos/eos> d ang1 sp1 h a1 sp0 l i4 sp1 zh eng4 sp1 n a4 sp0 m en4 sp1 h ai2 sp0 iao4 sp1 z ou3 sp0 d uo1 sp0 van3 sp1 sh iii2 <sos/eos>|当哈利正纳闷还要走多远时|p101|t514
+1028|激动|<sos/eos> t a1 sp0 m en5 sp1 t u1 sp0 r an2 sp1 q van2 sp0 d ou1 sp1 t ing2 sp1 l e5 sp1 x ia4 sp0 l ai5 <sos/eos>|他们突然全都停了下来|p101|t515
+1028|惊讶|<sos/eos> i1 sp0 k uen3 sp1 g uai3 sp0 zh ang4 sp1 zh eng4 sp0 x van2 sp1 z ai4 sp1 t a1 sp0 m en5 sp1 m ian4 sp0 q ian2 sp1 d e5 sp1 b an4 sp0 k ong1 sp0 zh ong1 <sos/eos>|一捆拐杖正悬在他们面前的半空中。|p102|t516
+1028|平静|<sos/eos> p i2 sp0 uei2 sp0 s ii1 <sos/eos>|皮维斯，|p103|t517
+1028|平静|<sos/eos> t a1 sp1 sh iii4 sp1 g e4 sp1 x i3 sp0 h uan5 sp1 e4 sp0 z uo4 sp0 j v4 sp1 d e5 sp1 g uei3 sp0 g uai4 <sos/eos>|他是个喜欢恶作剧的鬼怪。|p103|t518
+1028|平静|<sos/eos> p i2 sp0 uei2 sp0 s ii1 sp3 ch u1 sp0 l ai2 sp1 b a5 <sos/eos>|皮维斯，出来吧。|p103|t519
+1028|平静|<sos/eos> n i3 sp0 m en5 sp1 x iang3 sp1 r ang4 sp1 uo3 sp1 d ao4 sp1 sh iii4 sp0 x ve4 sp1 n an2 sp0 j ve2 sp1 n a4 sp0 l i5 sp1 q v4 sp1 m a5 <sos/eos>|你们想让我到嗜血男爵那里去吗？|p103|t520
+1028|平静|<sos/eos> p eng1 sp1 d e5 sp1 i1 sp0 sh eng1 <sos/eos>|砰的一声，|p103|t521
+1028|平静|<sos/eos> i2 sp0 g e4 sp1 zh ang3 sp0 zh e5 sp1 t ao2 sp0 q i4 sp1 d e5 sp1 h ei1 sp0 ian3 sp0 j ing5 sp1 h e2 sp1 d a4 sp0 z uei3 sp0 b a5 sp1 d e5 sp1 x iao3 sp1 ai3 sp1 r en2 sp1 ch u1 sp0 x ian4 sp1 l e5 <sos/eos>|一个长着淘气的黑眼睛和大嘴巴的小矮人出现了。|p103|t522
+1028|平静|<sos/eos> t a1 sp0 p an2 sp1 zh e5 sp1 t uei3 sp1 p iao1 sp0 f u2 sp1 z ai4 sp1 k ong1 sp0 zh ong1 <sos/eos>|他盘着腿飘浮在空中，|p103|t523
+1028|平静|<sos/eos> sh ou3 sp0 zh ong1 sp1 uo4 sp1 zh e5 sp1 n a4 sp1 k uen3 sp1 g uai3 sp0 zh ang4 <sos/eos>|手中握着那捆拐杖。|p103|t524
+1028|兴奋|<sos/eos> a5 sp0 h a1 <sos/eos>|啊哈——|p104|t525
+1028|兴奋|<sos/eos> t a1 sp1 g e1 sp0 g e1 sp1 d e5 sp1 g uai4 sp1 x iao4 sp1 zh e5 sp1 sh uo1 <sos/eos>|他咯咯的怪笑着说|p104|t526
+1028|兴奋|<sos/eos> zh en1 sp1 iou3 sp0 q v4 <sos/eos>|真有趣！|p104|t527
+1028|平静|<sos/eos> sh uo1 sp0 uan2 <sos/eos>|说完|p105|t528
+1028|平静|<sos/eos> t a1 sp1 t u1 sp0 r an2 sp1 ch ao2 sp1 t a1 sp0 m en5 sp1 f ei1 sp0 p u1 sp1 g uo4 sp0 l ai2 <sos/eos>|他突然朝他们飞扑过来|p105|t529
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 q van2 sp0 d ou1 sp1 g an3 sp0 m ang2 sp1 d uen1 sp0 x ia4 sp1 sh en1 sp0 z ii5 sp1 d uo3 sp0 b i4 <sos/eos>|他们全都赶忙蹲下身子躲避|p105|t530
+1028|愤怒|<sos/eos> p i2 sp0 uei2 sp0 s ii1 sp3 k uai4 sp0 g uen3 <sos/eos>|皮维斯，快滚！|p106|t531
+1028|愤怒|<sos/eos> b u4 sp0 r an2 sp1 uo3 sp0 h uei4 sp1 b a3 sp1 zh e4 sp0 sh iii4 sp1 g ao4 sp0 s u4 sp1 n an2 sp0 j ve2 sp1 d e5 <sos/eos>|不然我会把这事告诉男爵的，|p106|t532
+1028|愤怒|<sos/eos> uo3 sp1 k e3 sp0 b u5 sp0 sh iii4 sp1 g en1 sp1 n i3 sp1 k ai1 sp0 uan2 sp0 x iao4 sp1 d e5 <sos/eos>|我可不是跟你开玩笑的！|p106|t533
+1028|愤怒|<sos/eos> b o2 sp0 x i1 sp1 n u4 sp0 h ou3 sp1 d ao4 <sos/eos>|伯希怒吼道。|p106|t534
+1028|调皮|<sos/eos> p i2 sp0 uei2 sp0 s ii1 sp1 t u3 sp1 ch u1 sp1 sh e2 sp0 t ou5 sp1 z uo4 sp0 g e4 sp1 g uei3 sp0 l ian3 <sos/eos>|皮维斯吐出舌头做个鬼脸|p107|t535
+1028|调皮|<sos/eos> b ian4 sp1 d iou1 sp0 x ia4 sp1 g uai3 sp0 zh ang4 sp1 f ei1 sp0 z ou3 sp1 l e5 <sos/eos>|便丢下拐杖飞走了|p107|t536
+1028|调皮|<sos/eos> h ai2 sp0 z ii5 sp1 m en5 sp1 t ing1 sp0 j ian4 sp1 t a1 sp1 f ei1 sp0 g uo4 sp1 d e5 sp1 sh eng1 sp0 in1 <sos/eos>|孩子们听见他飞过的声音|p107|t537
+1028|调皮|<sos/eos> f en1 sp0 f en1 sp1 l ian2 sp0 m ang2 sp1 j v3 sp0 q i3 sp1 k uei1 sp0 j ia3 sp1 b ao3 sp0 h u4 sp1 z ii4 sp0 j i3 <sos/eos>|纷纷连忙举起盔甲保护自己|p107|t538
+1028|严肃|<sos/eos> n i3 sp0 m en5 sp1 d e2 sp1 x iao3 sp0 x in1 sp1 p i2 sp0 uei2 sp0 s ii1 <sos/eos>|你们得小心皮维斯。|p108|t539
+1028|严肃|<sos/eos> b o2 sp0 x i1 sp0 d ai4 sp1 zh e5 sp1 d a4 sp0 j ia1 sp1 j i4 sp0 x v4 sp0 q ian2 sp0 j in4 <sos/eos>|伯希带着大家继续前进|p108|t540
+1028|严肃|<sos/eos> zh iii3 sp0 iou3 sp1 sh iii4 sp0 x ve4 sp1 n an2 sp0 j ve2 sp1 c ai2 sp1 g uan3 sp0 d e2 sp1 zh u4 sp1 t a1 <sos/eos>|只有嗜血男爵才管得住他。|p108|t541
+1028|无奈|<sos/eos> t a1 sp1 sh en4 sp0 zh iii4 sp1 l ian2 sp1 uo3 sp0 m en5 sp1 zh e4 sp0 x ie1 sp1 b an1 sp0 zh ang3 sp1 d e5 sp0 h ua4 sp1 d ou1 sp1 b u4 sp1 t ing1 <sos/eos>|他甚至连我们这些班长的话都不听|p109|t542
+1028|无奈|<sos/eos> uo3 sp0 m en5 sp1 d ao4 sp1 l e5 <sos/eos>|我们到了。|p109|t543
+1028|无奈|<sos/eos> z ai4 sp1 z ou3 sp0 l ang2 sp1 j in4 sp0 t ou2 sp1 d e5 sp1 q iang2 sp0 sh ang4 sp1 g ua4 sp1 zh e5 sp1 i2 sp0 g e4 sp1 ch uan1 sp0 zh uo2 sp1 f en3 sp0 h ong2 sp0 s e4 sp1 s ii1 sp0 q vn2 sp1 d e5 sp1 p ang4 sp0 n v3 sp0 r en2 sp1 d e5 sp1 h ua4 sp0 x iang4 <sos/eos>|在走廊尽头的墙上挂着一个穿着粉红色丝裙的胖女人的画像。|p109|t544
+1028|疑惑|<sos/eos> m i4 sp0 m a3 sp1 sh iii4 sp1 sh en2 sp0 m e5 <sos/eos>|密码是什么？|p110|t545
+1028|疑惑|<sos/eos> t a1 sp1 uen4 <sos/eos>|她问。|p110|t546
+1028|平静|<sos/eos> k a3 sp0 b o1 sp0 l ong2 <sos/eos>|卡波龙。|p111|t547
+1028|平静|<sos/eos> zh iii3 sp0 j ian4 sp1 n a4 sp0 f u2 sp1 h ua4 sp1 x iang4 sp0 q ian2 sp1 i1 sp0 d ao4 <sos/eos>|只见那幅画向前一倒|p111|t548
+1028|平静|<sos/eos> l u4 sp0 ch u1 sp1 l e5 sp1 q iang2 sp0 sh ang4 sp1 i2 sp0 g e4 sp1 van2 sp0 d ong4 <sos/eos>|露出了墙上一个圆洞。|p111|t549
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 q van2 sp0 d ou1 sp1 c ong2 sp0 van2 sp0 d ong4 sp1 l i3 sp1 p a2 sp1 l e5 sp1 j in4 sp0 q v4 <sos/eos>|他们全都从圆洞里爬了进去|p111|t550
+1028|平静|<sos/eos> j ing4 sp1 f a1 sp0 x ian4 sp0 z ii4 sp0 j i3 sp1 i3 sp0 sh en1 sp1 ch u3 sp0 v2 sp1 b ai3 sp0 m an3 sp1 iou4 sp1 r uan3 sp1 iou4 sp1 sh iii1 sp1 d e5 sp1 i3 sp0 z ii5 sp1 d e5 sp1 i2 sp0 g e4 sp1 f ei1 sp0 ch ang2 sp1 uen1 sp0 n uan3 sp3 sh u1 sp0 sh iii4 sp1 d e5 sp1 d a4 sp0 van2 sp1 f ang2 sp0 z ii5 sp1 l i3 <sos/eos>|竟发现自己已身处于摆满又软又湿的椅子的一个非常温暖、舒适的大圆房子里。|p111|t551
+1028|平静|<sos/eos> zh e4 sp1 b ian4 sp0 sh iii4 sp1 g e2 sp0 l in2 sp1 f en1 sp0 d uen4 sp1 d e5 sp1 g ong1 sp0 g ong4 sp1 x iou1 sp0 x i1 sp0 sh iii4 sp1 l e5 <sos/eos>|这便是格林芬顿的公共休息室了。|p111|t552
+1028|平静|<sos/eos> b o2 sp0 x i1 sp1 iou4 sp1 f en1 sp0 b ie2 sp1 b a3 sp1 n an2 sp0 h ai2 sp3 n v3 sp0 h ai2 sp1 f en1 sp0 p i1 sp1 d ai4 sp1 j in4 sp1 q in3 sp0 sh iii4 sp1 d a4 sp0 m en2 <sos/eos>|伯希又分别把男孩、女孩分批带进寝室大门。|p112|t553
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 f a1 sp0 x ian4 sp0 z ii4 sp0 j i3 sp1 z ai4 sp1 g u3 sp0 b ao3 sp1 d e5 sp1 q i2 sp0 zh ong1 sp1 i2 sp0 g e4 sp1 g ao1 sp0 t a3 sp1 sh ang4 <sos/eos>|他们发现自己在古堡的其中一个高塔上。|p112|t554
+1028|平静|<sos/eos> ian2 sp0 zh e5 sp1 l uo2 sp0 x van2 sp1 x ing2 sp1 d e5 sp1 l ou2 sp0 t i1 sp1 p a2 sp1 d ao4 sp1 z uei4 sp0 g ao1 sp1 d e5 sp1 i1 sp0 c eng2 <sos/eos>|沿着螺旋型的楼梯爬到最高的一层|p112|t555
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 zh ong1 sp0 v2 sp1 zh ao3 sp0 d ao4 sp1 l e5 sp1 sh u3 sp0 v2 sp1 t a1 sp0 m en5 sp1 d e5 sp1 ch uang2 sp0 p u4 <sos/eos>|他们终于找到了属于他们的床铺|p112|t556
+1028|平静|<sos/eos> g ua4 sp1 zh e5 sp1 sh en1 sp0 h ong2 sp1 t ian1 sp0 e2 sp0 r ong2 sp1 m u4 sp0 l ian2 sp1 d e5 sp1 s ii4 sp0 zh ang1 sp1 s ii4 sp0 zh u4 sp1 d a4 sp0 ch uang2 <sos/eos>|挂着深红天鹅绒幕帘的四张四柱大床。|p112|t557
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 d e5 sp1 x ing2 sp0 l i5 sp1 z ao3 sp0 i3 sp1 b ei4 sp1 r en2 sp1 s ong4 sp1 l e5 sp1 sh ang4 sp0 l ai2 <sos/eos>|他们的行李早已被人送了上来。|p112|t558
+1028|平静|<sos/eos> iou2 sp0 v2 sp1 sh iii2 sp0 z ai4 sp1 sh iii4 sp1 t ai4 sp0 l ei4 <sos/eos>|由于实在是太累|p112|t559
+1028|平静|<sos/eos> t a1 sp0 m en5 sp1 er4 sp0 h ua4 sp0 b u4 sp0 sh uo1 <sos/eos>|他们二话不说|p112|t560
+1028|平静|<sos/eos> h uan4 sp0 sh ang4 sp1 sh uei4 sp0 i1 sp1 b ian4 sp1 t ang3 sp1 d ao4 sp1 ch uang2 sp0 sh ang4 <sos/eos>|换上睡衣便躺到床上。|p112|t561
+1028|愉快|<sos/eos> g ang1 sp0 c ai2 sp1 d e5 sp1 d ong1 sp0 x i1 sp1 h en3 sp1 h ao3 sp0 ch iii1 sp1 b a5 <sos/eos>|刚才的东西很好吃吧？|p113|t562
+1028|愉快|<sos/eos> l uo2 sp0 en1 sp1 x iao3 sp0 sh eng1 sp1 d e5 sp1 d uei4 sp1 h a1 sp0 l i4 sp1 sh uo1 <sos/eos>|罗恩小声的对哈利说|p113|t563
+1028|愉快|<sos/eos> h ei1 sp3 z ou3 sp0 k ai1 sp3 s ii1 sp0 k a3 sp0 b o2 sp0 s ii1 <sos/eos>|嘿，走开，斯卡伯斯！|p113|t564
+1028|愉快|<sos/eos> b u4 sp0 iao4 sp1 iao3 sp1 uo3 sp1 d e5 sp1 ch uang2 sp0 d an1 <sos/eos>|不要咬我的床单！|p113|t565
+1028|愉快|<sos/eos> h a1 sp0 l i4 sp1 zh eng4 sp0 x iang3 sp1 uen4 sp0 l uo2 sp0 en1 sp1 iou3 sp0 m ei2 sp0 iou3 sp1 ch iii1 sp1 m i4 sp0 t ang2 sp1 g uo3 sp0 b ing3 <sos/eos>|哈利正想问罗恩有没有吃蜜糖果饼|p113|t566
+1028|愉快|<sos/eos> d an4 sp1 f a1 sp0 x ian4 sp1 l uo2 sp0 en1 sp1 i3 sp0 j ing1 sp1 sh uei4 sp0 zh ao2 sp1 l e5 <sos/eos>|但发现罗恩已经睡着了。|p113|t567
+1028|平静|<sos/eos> ie3 sp0 x v3 sp1 sh iii4 sp0 in1 sp0 uei4 sp1 h a1 sp0 l i4 sp1 ch iii1 sp1 d e2 sp1 t ai4 sp1 d uo1 sp1 d e5 sp1 van2 sp0 g u4 sp1 b a5 <sos/eos>|也许是因为哈利吃得太多的缘故吧|p114|t568
+1028|平静|<sos/eos> t a1 sp1 ie4 sp0 l i5 sp1 z uo4 sp1 l e5 sp1 i2 sp0 g e4 sp1 h en3 sp1 q i2 sp0 g uai4 sp1 d e5 sp1 m eng4 <sos/eos>|他夜里做了一个很奇怪的梦|p114|t569
+1028|平静|<sos/eos> t a1 sp1 zh eng4 sp1 d ai4 sp1 zh e5 sp1 q v1 sp0 l a1 sp1 j iao4 sp0 sh ou4 sp1 d e5 sp1 u2 sp0 b ian1 sp1 m ao4 <sos/eos>|他正戴着屈拉教授的无边帽|p114|t570
+1028|平静|<sos/eos> n a4 sp0 d ing3 sp1 m ao4 sp0 z ii5 sp1 i1 sp0 zh iii2 sp1 b u4 sp0 t ing2 sp1 d e5 sp1 g en1 sp1 t a1 sp1 j iang3 sp0 h ua4 <sos/eos>|那顶帽子一直不停的跟他讲话|p114|t571
+1028|平静|<sos/eos> iao4 sp1 t a1 sp1 b i4 sp0 x v1 sp1 m a3 sp0 sh ang4 sp0 zh uan3 sp1 d ao4 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 sp1 q v4 <sos/eos>|要他必须马上转到史林德林去|p114|t572
+1028|平静|<sos/eos> h ai2 sp1 sh uo1 sp1 zh e4 sp1 sh iii4 sp1 t a1 sp1 d e5 sp1 m ing4 sp0 vn4 sp1 j ve2 sp0 d ing4 sp1 d e5 <sos/eos>|还说这是他的命运决定的|p114|t573
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 g ao4 sp0 s u4 sp1 m ao4 sp0 z ii5 sp1 t a1 sp1 b u4 sp1 van4 sp0 i4 sp1 q v4 sp1 sh iii3 sp0 l in2 sp1 d e2 sp0 l in2 <sos/eos>|哈利告诉帽子他不愿意去史林德林|p114|t574
+1028|平静|<sos/eos> m ao4 sp0 z ii5 sp1 j iou4 sp1 b ian4 sp0 d e5 sp1 y ve4 sp0 l ai2 sp0 y ve4 sp1 ch en2 sp0 zh ong4 <sos/eos>|帽子就变得越来越沉重|p114|t575
+1028|平静|<sos/eos> t a1 sp1 p in1 sp0 m ing4 sp1 x iang3 sp1 zh eng4 sp0 t uo1 sp1 t a1 <sos/eos>|他拼命想挣脱它|p114|t576
+1028|平静|<sos/eos> k e3 sp1 t a1 sp1 p ian1 sp0 p ian1 sp1 y ve4 sp0 l ei1 sp0 y ve4 sp1 j in3 <sos/eos>|可它偏偏越勒越紧|p114|t577
+1028|平静|<sos/eos> l ing4 sp1 h a1 sp0 l i4 sp1 t ong4 sp0 k u3 sp1 b u4 sp0 i3 <sos/eos>|令哈利痛苦不已|p114|t578
+1028|平静|<sos/eos> zh eng4 sp0 d ang1 sp1 t a1 sp1 zh eng1 sp0 zh a2 sp1 d e5 sp1 sh iii2 sp0 h ou5 <sos/eos>|正当他挣扎的时候|p114|t579
+1028|平静|<sos/eos> m a3 sp0 er3 sp0 f u1 sp1 ch u1 sp0 x ian4 sp1 l e5 <sos/eos>|马尔夫出现了|p114|t580
+1028|平静|<sos/eos> b u4 sp0 t ing2 sp1 d e5 sp1 ch ao2 sp0 x iao4 sp1 zh e5 sp1 h a1 sp0 l i4 <sos/eos>|不停的嘲笑着哈利|p114|t581
+1028|平静|<sos/eos> j ie1 sp0 zh e5 sp1 m a3 sp0 er3 sp0 f u1 sp1 iao2 sp0 sh en1 sp0 i1 sp0 b ian4 <sos/eos>|接着马尔夫摇身一变|p114|t582
+1028|平静|<sos/eos> ch eng2 sp1 l e5 sp1 ing1 sp0 g ou1 sp0 b i2 sp1 z ii5 sp1 d e5 sp1 sh iii3 sp0 g ang1 sp1 p i2 sp1 j iao4 sp0 sh ou4 <sos/eos>|成了鹰钩鼻子的史纲皮教授|p114|t583
+1028|平静|<sos/eos> x iao4 sp0 sh eng1 sp1 ie3 sp1 y ve4 sp0 l ai2 sp0 y ve4 sp1 j ian1 sp3 y ve4 sp0 l ai2 sp0 y ve4 sp1 l eng3 <sos/eos>|笑声也越来越尖，越来越冷|p114|t584
+1028|平静|<sos/eos> i1 sp0 d ao4 sp1 l v4 sp0 g uang1 sp1 sh an3 sp0 g uo4 <sos/eos>|一道绿光闪过|p114|t585
+1028|平静|<sos/eos> h a1 sp0 l i4 sp1 b ei4 sp1 x ia4 sp1 x ing3 sp1 l e5 <sos/eos>|哈利被吓醒了|p114|t586
+1028|平静|<sos/eos> h uen2 sp0 sh en1 sp0 sh iii4 sp0 h an4 sp3 q van2 sp0 sh en1 sp1 f a1 sp0 d ou3 <sos/eos>|浑身是汗，全身发抖|p114|t587
+1028|平静|<sos/eos> t a1 sp1 i1 sp1 f an1 sp0 sh en1 sp1 iou4 sp1 sh uei4 sp0 zh ao2 sp1 l e5 <sos/eos>|他一翻身又睡着了。|p115|t588
+1028|平静|<sos/eos> d ang1 sp1 t a1 sp1 d i4 sp0 er4 sp0 t ian1 sp1 i1 sp0 z ao3 sp1 x ing3 sp0 l ai2 sp0 sh iii2 <sos/eos>|当他第二天一早醒来时|p115|t589
+1028|平静|<sos/eos> t a1 sp1 i3 sp1 q van2 sp0 r an2 sp1 b u4 sp1 j i4 sp0 d e5 sp1 q ian2 sp0 ie4 sp1 d e5 sp1 m eng4 sp1 l e5 <sos/eos>|他已全然不记得前夜的梦了。|p115|t590
