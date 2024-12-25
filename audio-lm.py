@@ -10,7 +10,7 @@ import torch
 import os
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 print("start...")
-model = musicgen.MusicGen.get_pretrained('small', device='cuda')
+model = musicgen.MusicGen.get_pretrained('small', device='cpu')
 model.set_generation_params(duration=8)
 
 from datetime import datetime
