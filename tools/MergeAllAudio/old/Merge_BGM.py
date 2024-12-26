@@ -3,14 +3,14 @@ import json
 import subprocess
 import re  # 添加此行
 # 文件夹路径
-input_folder = r".\audio"
-output_folder = r"."
+input_folder = "../../data/harry/audio"
+music_dir = '../../data/harry/music'
+output_folder = "output"
 output_file = os.path.join(output_folder, "merge_character_v1.wav")
 silence_file = os.path.join(output_folder, "silence.wav")
-music_dir = r'./music'
 combined_output = 'combined_output.wav'
 final_output = 'final_audio.wav'
-json_file = 'output_AddID.json'
+json_file = 'output_addid.json'
 
 # 创建 0.5 秒静音文件
 def create_silence():
@@ -38,10 +38,11 @@ def convert_audio(input_folder):
         cmd = [
             "ffmpeg",
             "-i", input_path,
-            "-ar", "16000",
+            "-ar", "16000", #采样率是怎么做的？
             "-ac", "1",
             temp_path
         ]
+        print("convert cmd", "".join(cmd))
         subprocess.run(cmd, check=True)
         os.replace(temp_path, input_path)  # 替换原文件
 
@@ -82,13 +83,13 @@ def merge_audio_files(input_folder, output_file):
     file_list_path = os.path.join(output_folder, "file_list.txt")
     generate_file_list(input_folder, silence_file, file_list_path)
 
-    # 合并音频
     merge_audio(file_list_path, output_file)
+    # 合并音频
 
     # 清理临时文件
     os.remove(silence_file)
-    os.remove(file_list_path)
     print(f"合并完成，输出文件位于：{output_file}")
+
 # 步骤 2：计算背景音乐时间轴
 def calculate_music_timeline(data, music_dir):
     music_timeline = []
@@ -181,9 +182,7 @@ if __name__ == "__main__":
     music_timeline = calculate_music_timeline(data, music_dir)
 
     # Save music timeline and audio ID mapping
-    save_music_timeline_to_file(music_timeline, 'music_timeline.txt', 'audio_id_mapping.txt')
+    # save_music_timeline_to_file(music_timeline, 'music_timeline.txt', 'audio_id_mapping.txt')
 
     # Step 3: Add music to merged audio
     add_music_to_existing_audio(combined_output, music_timeline, final_output)
-
-

@@ -10,7 +10,7 @@ os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 print("start...")
 
 music_dir = './music/'
-json_file = 'output_AddID.json'
+json_file = 'output_addid.json'
 
 def load_data():
     global music_dir

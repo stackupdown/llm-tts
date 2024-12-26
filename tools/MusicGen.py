@@ -8,8 +8,7 @@ import numpy as np
 
 import json
 
-
-with open('output_AddID.json', 'r', encoding='utf-8') as json_file:
+with open('output_addid.json', 'r', encoding='utf-8') as json_file:
     items = json.load(json_file)
 
 pid_duration = {}
@@ -46,6 +45,12 @@ def generate_music():
         music_prompt = item['music']
         pid = item['pid']
 
+        duration = pid_duration[pid]
+        if duration > 30:
+            duration = 30
+        if music_prompt == '' or music_prompt == '无' or most_common_word in music_prompt or duration < 10:
+            continue
+        inputs = processor(text=["50s"+music_prompt], padding=True, return_tensors="pt")
         duration = pid_duration[pid]
         if duration > 30:
             duration = 30
