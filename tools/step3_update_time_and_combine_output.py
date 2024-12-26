@@ -4,8 +4,8 @@ import os
 from pydub.utils import mediainfo
 import logging
 
-BASE_DATA_PATH = "../../data/"
-BASE_OUTPUT_PATH = "../../outputs/"
+BASE_DATA_PATH = "../data/"
+BASE_OUTPUT_PATH = "./"
 # TODO: harry should be changed
 audio_folder_path = os.path.join(BASE_OUTPUT_PATH, "harry/audio/")
 music_folder_path = os.path.join(BASE_OUTPUT_PATH, "harry/music/")
@@ -21,35 +21,6 @@ def load_json(file_path):
 def save_json(data, file_path):
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-
-def get_audio_length(audio_path):
-    info = mediainfo(audio_path)
-    # 单位: 秒
-    return float(info["duration"])
-
-def update_json_with_audio_info(input_json_path, audio_folder):
-    # format of path is []
-    data = load_json(input_json_path)
-    # from idx to audio id
-
-    if not os.path.exists(audio_folder):
-        raise Exception(f"not found {audio_folder}")
-
-    for idx, cell in enumerate(data):
-        audio_path = os.path.join(audio_folder, f"{idx + 1}.wav")
-        print("audio path", audio_path)
-        if not os.path.exists(audio_path):
-            raise Exception(f"not found {audio_path}")
-
-        audio_time_length = get_audio_length(audio_path)
-        print("audio time is ", audio_time_length)
-        # TODO
-        cell["music_id"] = ''
-        cell["insert_type"] = 'overlay'
-        cell["audio_time_length"] = audio_time_length
-
-    save_json(data, output_json_path)
-    print(f"更新完成, 已经保存到 {output_json_path}")
 
 from pydub import AudioSegment
 
@@ -106,8 +77,8 @@ def merge_all_music_and_audio():
         audio = AudioSegment.from_file(audio_path)
         print("length ", len(audio), len(result_music_audio), len(result_speak_audio))
 
-        if item['music_id']:
-            music_path = os.path.join(music_folder_path, f"{item['music_id']}.wav")
+        if item['pid']:
+            music_path = os.path.join(music_folder_path, f"{item['pid']}.wav")
             music = AudioSegment.from_file(music_path)
             music_buffer.append(music)
             if item['insert_type'] == 'overlay':
@@ -127,6 +98,14 @@ def merge_all_music_and_audio():
     result_speak_audio.export("merge_speaker.wav", format="mp3", bitrate="32k")
     result_music_audio = result_speak_audio.overlay(result_music_audio, position=0)
     result_music_audio.set_frame_rate(22050)
+
+    # samples = np.array(result_music_audio.get_array_of_samples())
+    # plt.figure(figsize=(14, 5))
+    # plt.plot(samples)
+    # plt.title("Repeated Music Waveform")
+    # plt.xlabel("Sample")
+    # plt.ylabel("Amplitude")
+    # plt.show()
     # result_music_audio.export(output_audio_file, format='wav')
     result_music_audio.export("merge_output.wav", format="mp3", bitrate="32k")
     return result_music_audio
