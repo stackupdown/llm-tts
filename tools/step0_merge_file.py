@@ -12,6 +12,19 @@ sys.path.append('..')
 # accept the first argument as 
 # read the first file
 # read the second file
+import logging
+
+# 基本配置，设置日志级别为 DEBUG，并将日志输出到标准输出
+
+# 创建一个logger对象
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+console_handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+console_handler.setFormatter(formatter)
+# 将处理器添加到logger
+logger.addHandler(console_handler)
+
 def get_speaker_id(speaker):
     characters = {
         '国王': 1374,
@@ -25,6 +38,63 @@ def get_speaker_id(speaker):
         # 9136
     }
     return characters.get(speaker, 1028)
+
+class SelectSpeaker(object):
+    females = [
+        # (6627, 'young'),
+        (1012, 'mid'),
+        (6620, 'young'),
+        (9136, 'mid'),
+        (1171, 'mid'),
+        (6689, 'young'),
+        (6637, 'old'),
+        (6695, 'mid'),
+        (26, 'mid'),
+    ]
+    males = [
+        # (1028, 'boy', 8),
+        (6625, 'boy', 7),
+        (3340, 'young', 7),
+        (26, 'mid'),
+        (7097, 'mid', 7),
+        (6097, 'mid'),
+        # (6713, 'old'),
+        (1341, 'mid'), # 滑稽
+        # '波洛涅斯': 1341,
+    ]
+
+    story_teller = 1018
+
+    def __init__(self):
+        self.main_roles = {}
+        self.female_idx = 0
+        self.male_idx = 0
+        self.characters = {
+            '哈利·波特': 1374,
+            '阿不思・邓布利多': 6713,
+            '麦格教授': 1012,
+            '罗恩・韦斯莱': 1028,
+            '赫敏・格兰杰': 6627,
+            '旁白': self.story_teller
+        }
+
+    def get_speaker_id(self, speaker, gender='M'):
+        if self.characters.get(speaker):
+            return self.characters[speaker]
+        if gender == 'F':
+            self.female_idx += 1
+            if self.female_idx > len(self.females):
+                return self.story_teller
+            # update current map to record
+            self.characters[speaker] = self.females[self.female_idx - 1][0]
+            return self.characters[speaker]
+        else:
+            self.male_idx += 1
+            if self.male_idx > len(self.males):
+                return self.story_teller
+            self.characters[speaker] = self.males[self.male_idx - 1][0]
+            return self.characters[speaker]
+
 
 def get_emotion(text):
     # TODO: replace this code
@@ -101,7 +171,10 @@ def split_lines(original_lines):
             new_lines.append(line)
     return new_lines
 
-
+def save_file(file, new_text):
+    new_file = file[:file.rindex('.')] + ".new.txt"
+    with open(new_file, 'w', encoding='utf-8') as f:
+        f.write(new_text)
 """
 This function `general_merge_text_sound` processes the original text by adding a summary, sound, and speaker information. It takes two parameters: `original_text` (the text to be processed) and `file` (the file path of the original text). The function returns a tuple containing two lists: `tags` (a list of processed items) and `tag_texts` (a list of formatted tag texts).
 
@@ -111,55 +184,52 @@ This function `general_merge_text_sound` processes the original text by adding a
 """
 def general_merge_text_sound(original_text, args):
     tag_texts = []
-    speaker = ''
     v = 0
-    chunks = []
     lexicon = read_lexicon(f"{BASE_DIR}/lexicon/librispeech-lexicon.txt")
     g2p = G2p()
 
     tags = []
-    # step1. add summary
+    # step0. speaker
     agent = get_doubao_agent()
+    speaker_helper = SelectSpeaker()
+    all_speakers = agent.init_all_speakers(args.main_file)
+
+    # step1. add summary
     result, success = agent.add_preprocess(original_text)
     summary = result.get('summary', '')
     if not summary:
-        logging.warning("get summary empty")
+        logger.warning("get summary empty")
     else:
-        print("summary: ", summary)
+        logger.info("summary: {}".format(summary))
 
-
-    new_text = summary + "\n" + original_text
-    # save content to file
-    file = args.main_file
-    new_file = file[:file.rindex('.')] + ".new.txt"
-    with open(new_file, 'w', encoding='utf-8') as f:
-        f.write(new_text)
+    new_text = summary + "\n\n" + original_text
+    save_file(args.main_file, new_text)
 
     original_lines = original_text.split('\n')
-    original_lines = split_lines(original_lines)
+    summary_lines = [o for o in split_lines([summary]) if o.strip()]
+    original_lines = [o for o in split_lines(original_lines) if o.strip()]
     v_cnt = 0
+
     # step2. add sound and speaker
-    for v, oline in enumerate(original_lines):
+    for v, oline in enumerate(summary_lines + original_lines):
         # "<sos/eos> i4 <sos/eos>" ->
         # <speaker>|<style_prompt/emotion_prompt/content>|<phoneme>|<content>.
         line = oline.strip()
-        if not line:
-            continue
-
-        v_cnt += 1
+        assert line, 'line must be non empty'
+        print("===> ", line)
         resp, success = agent.chat(line)
         if success:
-            # break or result?
             items = resp['data']
         else:
-            raise Exception('moonshoot failed')
+            raise Exception('query failed')
 
+        if v < len(summary_lines):
+            items = agent.fill_default_items(items)
+
+        # add music
         music_prompt, success = agent.get_music(line)
-
         print("=" * 20 + " result " + "=" * 20, v, '\nmusic:', music_prompt)
         print(items)
-        if len(items) > 0:
-            emotion = items[0]['E']
 
         for i, item in enumerate(items):
             if i == 0:
@@ -169,12 +239,10 @@ def general_merge_text_sound(original_text, args):
 
             item['pid'] = v_cnt
             item['pinyin'] = g2p_cn_en(item['text'], g2p, lexicon)
-            # TODO by WCY
             item['sound'] = item['A']
-            # TODO
-            item['sid'] = get_speaker_id(item.get('C', ''))
+            item['sid'] = speaker_helper.get_speaker_id(item.get('C', ''))
             tag_id = len(tag_texts)
-            tag_text = '{}|{}|{}|{}|p{}|t{}'.format(item['sid'], emotion, item['pinyin'], item['text'], v_cnt, tag_id)
+            tag_text = '{}|{}|{}|{}|p{}|t{}'.format(item['sid'], items[0]['E'], item['pinyin'], item['text'], v_cnt, tag_id)
             tag_texts.append(tag_text)
 
         tags.extend(items)

@@ -12,10 +12,14 @@ load_dotenv()  # 加载 .env 文件中的环境变量
 from volcenginesdkarkruntime import Ark
 from volcenginesdkarkruntime._exceptions import ArkAPIError
 
+def load_content(f):
+    with open(f, 'r', encoding='utf-8') as f:
+        return f.read()
+
 class ProcessText(object):
     system_prompt = """你是 Doubao AI，由 字节跳动 提供的人工智能助手，你更擅长中文的对话。你会为用户提供安全，有帮助，准确的回答。"""
     summary_prompt = """
-你好，我将给你一段文字，请帮我做文章总结。请不要用分点的格式进行总结，而是用更自然交流的方式进行总结，要有自然承接。
+你好，我将给你一段文字，请帮我做文章总结。请不要用分点的格式进行总结，而是用自然交流的方式进行总结，并以 剧情梗概： 开头。
     """
 
     annotate_prompt = """
@@ -23,7 +27,7 @@ class ProcessText(object):
 解释: 
 1.背景声音是指自然声音，背景声，脚步声，枪声等，不包括单人的说话声、呼吸声。如果没有声音，设为"无"。
 2.句子的说话人：如果是人物直接说的话，则用人物表示；否则对应"旁白"；
-3.原文句子：每一个标点符号分隔开的句子，如果一个句子（由句号，问号等分割）内超过3句且长度超过100，也要分成多个text；
+3.原文句子：每一个标点符号分隔开的完整句子，如果一个句子有多个说话人，也要分成多个text；
 
 示例:
 来到老笔斋门口，朝小树看着铺内的少年与小侍女微微一笑，揖手一礼道：“宁老板，有礼了。”宁缺看着被堵死的店铺门口，还有那些围在人群外看热闹的民众，微涩一笑，也学他那样装模装样揖手还礼，和声道：“见过朝二哥。”
@@ -46,8 +50,6 @@ class ProcessText(object):
 """
 
 class DoubaoAgentClient(object):
-    # API endpoint
-    url = 'https://api.coze.cn/v1/conversation/create'
 
     def __init__(self, api_key, window_size=3):
         # Headers
@@ -170,7 +172,68 @@ class DoubaoAgentClient(object):
         music_prompt = completion.choices[0].message.content
         return music_prompt, success
 
+    def get_completion(self, messages):
+        return self.client.chat.completions.create(
+                # 您的方舟推理接入点。
+                model=self.model,
+                messages=messages,
+                temperature=0.8,
+                response_format={"type": "json_object"}
+        )
+
+    def init_all_speakers(self, file):
+        article = load_content(file)
+
+        prompt = """请直接列出这篇文章中，所有在里面说过话的人物的全名，用逗号分隔。不要加多余的解释或括号。"""
+
+        messages = [
+            {"role": "system", "content": ProcessText.system_prompt},
+            {"role": "user", "content": prompt + "\n" + article},
+        ]
+        speakers = []
+        success = True
+        try:
+            completion = self.get_completion(messages)
+        except ArkAPIError as e:
+            print("fail on create:", e)
+            success = False
+            return [], success
+
+        print(completion.choices[0].message.content)
+        speakers = completion.choices[0].message.content
+        # TODO
+#         speakers = """哈利·波特，罗恩·威斯里，荷米恩·格林佐，尼维尔·兰博顿，马尔夫，克来伯，高尔，哈格力，麦康娜教授，
+# 费艾尔，伯希·威斯里，艾伯斯·丹伯多，屈拉教授，莉沙·特萍，布雷斯·扎毕尼，谢默斯·范尼更，尼古拉斯·德·米姆西·波平顿爵士，吸血鬼巴伦，史纳皮教授，费驰先生，胡施女士，皮维斯"""
+        speakers = "麦格教授，海格，汉娜・艾博，苏珊・彭斯，泰瑞・布特，曼蒂・布洛贺，拉文德・布朗，米里森・伯斯德，贾斯廷・芬列里，赫敏・格兰杰，纳威・隆巴顿，马尔福，克拉布，高尔，莫恩，诺特，帕金森，佩蒂尔孪生姐妹，莎莉安・波克斯，哈利・波特，阿不思・邓布利多，珀西・韦斯莱，韦斯莱家的孪生兄弟，敏西－波平顿的尼古拉斯爵士，西莫・斐尼甘，阿尔吉伯父，艾妮伯母，奇洛教授，斯内普教授，费尔奇先生，霍琦夫人，皮皮鬼，血人巴罗，胖修士幽灵，穿轮状皱领紧身衣的幽灵，达力，佩妮姨妈，弗农姨父，莉莎・杜平，布雷司・沙比尼，罗恩・韦斯莱，德思礼先生，德思礼太太"
+        self.prompt += """\n另外，由于文章中人物众多，为了避免你标注错误，请仅在我给定的人物范围内进行说话人标注：{}""".format(speakers)
+
+        speakers = [s.strip() for s in speakers.split('，')]
+        self.messages = [
+            {"role": "system", "content": ProcessText.system_prompt},
+            {"role": "system", "content": self.prompt}
+        ]
+        return speakers, success
+
+    def fill_default_items(self, items):
+        for _, item in enumerate(items):
+            item['C'] = '旁白'
+            item['E'] = '平静'
+            item['A'] = ''
+        return items
+
 def get_doubao_agent():
+    return DoubaoAgentClient(api_key=os.environ.get('ARK_API_KEY'))
+
+class DoubaoTTSAgent(object):
+    def __init__(self):
+        self.url = ''
+        self.client = None
+    def text_to_speech(self, speaker_id, text):
+        content = ''
+        return content
+
+def get_tts_agent():
+    # 每10k token 4.5元;
     return DoubaoAgentClient(api_key=os.environ.get('ARK_API_KEY'))
 
 
@@ -180,4 +243,6 @@ if __name__ == "__main__":
     然而今天他离开之前，却特意来到临四十七巷，与那些店铺老板们和声告别，若在帝国那些上层贵人们眼中，
     """
     agent = DoubaoAgentClient(api_key=os.environ.get('ARK_API_KEY'))
-    print(agent.add_preprocess(query=query))
+    # print(agent.add_preprocess(query=query))
+    # 大文本;
+    agent.init_all_speakers("harry_porter.txt")
