@@ -28,7 +28,6 @@ class ProcessText(object):
 1.背景声音是指自然声音，背景声，脚步声，枪声等，不包括单人的说话声、呼吸声。如果没有声音，设为"无"。
 2.句子的说话人：如果是人物直接说的话，则用人物表示；否则对应"旁白"；
 3.原文句子：每一个标点符号分隔开的完整句子，如果一个句子有多个说话人，也要分成多个text；
-
 示例:
 来到老笔斋门口，朝小树看着铺内的少年与小侍女微微一笑，揖手一礼道：“宁老板，有礼了。”宁缺看着被堵死的店铺门口，还有那些围在人群外看热闹的民众，微涩一笑，也学他那样装模装样揖手还礼，和声道：“见过朝二哥。”
 
@@ -45,13 +44,17 @@ class ProcessText(object):
 }
 """
 
+#     music_prompt = """
+# 请根据以下的小说文字生成背景音乐的提示词，注意背景音乐应该跟人物情绪相关，返回格式如下json: {"music": music, "type": insert_type}, music是4-10个英文词形容词或名词，用逗号分隔。如果没有具体内容，请直接设为''。insert_type表示此时音乐应该作为背景音(overlap)还是前奏(insert)。
+# """
+
     music_prompt = """
 我将给你一段小说，请根据以下的文字生成背景音乐的提示词，注意背景音乐应该跟人物情绪相关，格式是4-10个英文词形容词或名词，用逗号分隔。如果没有具体内容，请直接返回'无'。
 """
 
 class DoubaoAgentClient(object):
 
-    def __init__(self, api_key, window_size=3):
+    def __init__(self, api_key, window_size=5):
         # Headers
 
         # 从环境变量中读取您的方舟API Key。
@@ -110,7 +113,7 @@ class DoubaoAgentClient(object):
 
         # print("resp:\n", resp)
         self.window_messages.append({
-            "role": "user",
+            "role": "assistant",
             "content": completion.choices[0].message.content
         })
 
@@ -168,7 +171,6 @@ class DoubaoAgentClient(object):
         except ArkAPIError as e:
             print("fail on create:", e)
             success = False
-
         music_prompt = completion.choices[0].message.content
         return music_prompt, success
 
@@ -204,13 +206,14 @@ class DoubaoAgentClient(object):
         # TODO
 #         speakers = """哈利·波特，罗恩·威斯里，荷米恩·格林佐，尼维尔·兰博顿，马尔夫，克来伯，高尔，哈格力，麦康娜教授，
 # 费艾尔，伯希·威斯里，艾伯斯·丹伯多，屈拉教授，莉沙·特萍，布雷斯·扎毕尼，谢默斯·范尼更，尼古拉斯·德·米姆西·波平顿爵士，吸血鬼巴伦，史纳皮教授，费驰先生，胡施女士，皮维斯"""
-        speakers = "麦格教授，海格，汉娜・艾博，苏珊・彭斯，泰瑞・布特，曼蒂・布洛贺，拉文德・布朗，米里森・伯斯德，贾斯廷・芬列里，赫敏・格兰杰，纳威・隆巴顿，马尔福，克拉布，高尔，莫恩，诺特，帕金森，佩蒂尔孪生姐妹，莎莉安・波克斯，哈利・波特，阿不思・邓布利多，珀西・韦斯莱，韦斯莱家的孪生兄弟，敏西－波平顿的尼古拉斯爵士，西莫・斐尼甘，阿尔吉伯父，艾妮伯母，奇洛教授，斯内普教授，费尔奇先生，霍琦夫人，皮皮鬼，血人巴罗，胖修士幽灵，穿轮状皱领紧身衣的幽灵，达力，佩妮姨妈，弗农姨父，莉莎・杜平，布雷司・沙比尼，罗恩・韦斯莱，德思礼先生，德思礼太太"
-        self.prompt += """\n另外，由于文章中人物众多，为了避免你标注错误，请仅在我给定的人物范围内进行说话人标注：{}""".format(speakers)
+        speakers = "麦格教授，海格，汉娜・艾博，苏珊・彭斯，泰瑞・布特，曼蒂・布洛贺，拉文德・布朗，米里森・伯斯德，贾斯廷・芬列里，赫敏・格兰杰，纳威・隆巴顿，马尔福，克拉布，高尔，莫恩，诺特，帕金森，佩蒂尔孪生姐妹，莎莉安・波克斯，哈利・波特，阿不思・邓布利多，珀西・韦斯莱，韦斯莱家的孪生兄弟，敏西－波平顿的尼古拉斯爵士，西莫・斐尼甘，阿尔吉伯父，艾妮伯母，奇洛教授，斯内普教授，费尔奇先生，霍琦夫人，皮皮鬼，血人巴罗，胖修士幽灵，穿轮状皱领紧身衣的幽灵，达力，佩妮姨妈，弗农姨父，莉莎・杜平，布雷司・沙比尼，罗恩・韦斯莱，德思礼先生，德思礼太太，分院帽"
+        addition = """由于文章中人物众多，为了避免标注错误，请仅在我给定的人物范围内进行说话人标注：{}。""".format(speakers)
 
         speakers = [s.strip() for s in speakers.split('，')]
         self.messages = [
             {"role": "system", "content": ProcessText.system_prompt},
-            {"role": "system", "content": self.prompt}
+            {"role": "system", "content": ProcessText.annotate_prompt},
+            {"role": "system", "content": addition},        
         ]
         return speakers, success
 
@@ -228,6 +231,7 @@ class DoubaoTTSAgent(object):
     def __init__(self):
         self.url = ''
         self.client = None
+
     def text_to_speech(self, speaker_id, text):
         content = ''
         return content

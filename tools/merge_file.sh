@@ -4,4 +4,4 @@
 
 # python merge_file.py --main_file ../hamlet_split.txt -o ../data/hamlet/hamlet_merge.txt
 
-python merge_file.py --main_file ./harry_porter.txt -o ./harry_porter_merge.txt
+python step0_merge_file.py --main_file ./harry_porter.txt -o ./harry_porter_merge.txt

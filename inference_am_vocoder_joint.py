@@ -40,8 +40,9 @@ def get_style_embedding(prompt, tokenizer, style_encoder):
 def main(args, config):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("device: ", device)
-    root_path = os.path.join(config.output_directory, args.logdir)
-    ckpt_path = os.path.join(root_path,  "ckpt")
+    # root_path = os.path.join(config.output_directory, args.logdir)
+    root_path = './tools/output'
+    ckpt_path = os.path.join(os.path.join(config.output_directory, args.logdir),  "ckpt")
     files = os.listdir(ckpt_path)
     test_audio = args.sub_dir
     for file in files:

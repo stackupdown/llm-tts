@@ -18,6 +18,7 @@ import logging
 
 # 创建一个logger对象
 logger = logging.getLogger(__name__)
+
 logger.setLevel(logging.INFO)
 console_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -234,6 +235,8 @@ def general_merge_text_sound(original_text, args):
         for i, item in enumerate(items):
             if i == 0:
                 item['music'] = music_prompt
+                # TODO: another logic
+                item['insert_type'] = 'overlap' if music_prompt else ''
             else:
                 item['music'] = ''
 
