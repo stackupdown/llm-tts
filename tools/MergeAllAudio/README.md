@@ -47,3 +47,6 @@ python step3_update_time_and_combine_output.py
 执行上述文件，会读取output.json和audio,music文件，生成最后的合并文件merge_output.wav文件。
 
 生成音乐必须大于2s;
+
+生成参考时间：20s的音乐生成要1分钟；生成一篇文章的音乐要25分钟；尽量压缩这个时间；
+start_inference_hamlet.sh: 生成时间1-2分钟；

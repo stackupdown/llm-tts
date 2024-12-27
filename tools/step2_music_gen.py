@@ -5,6 +5,7 @@ import os
 from collections import Counter
 import torch
 from pydub.utils import mediainfo
+import logging
 
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 print("start...")
@@ -36,8 +37,10 @@ def generate_music(model, pid, music_prompt, duration, most_common_word):
     global sampling_rate
     if music_prompt == '' or music_prompt == '无' or most_common_word in music_prompt or duration < 10:
         return
-
-    audio_file_path = os.path.join(music_dir, f"{pid}.wav")
+    if duration > 30:
+        duration = 30
+    model.set_generation_params(duration=duration)
+    audio_file_path = os.path.join(music_dir, str(pid)) # no need to add .wav
     songs = [music_prompt]
     wav = model.generate(songs, progress=True)
     # write res to file
@@ -79,15 +82,18 @@ def update_json_with_audio_info(data, audio_folder):
         cell["audio_time_length"] = audio_time_length
     return data
 
-
 def whole_generate():
     model = get_model()
     items = load_json(json_file)
     pid_duration = {}
     music_style = []
-    items = update_json_with_audio_info(items, audio_dir)
-    save_json(items, updated_json_file)
-    print(f"更新完成, 已经保存到 {updated_json_file}")
+    if os.path.exists(updated_json_file):
+        items = load_json(updated_json_file)
+        logging.info("already exist {updated_json_file}, if you want to update, please delete it")
+    else:
+        items = update_json_with_audio_info(items, audio_dir)
+        save_json(items, updated_json_file)
+        print(f"更新完成, 已经保存到 {updated_json_file}")
 
     for item in items:
         pid = item['pid']
@@ -112,10 +118,9 @@ def whole_generate():
         music_prompt = item['music']
         pid = item['pid']
         duration = pid_duration[pid]
-        print("duration", duration, music_prompt)
-        if duration > 30:
-            duration = 30
-        model.set_generation_params(duration=duration)
+        if music_prompt == '':
+            continue
+        print("duration {}, {} for {}".format(duration, music_prompt, pid))
         generate_music(model, pid, music_prompt, duration, most_common_word)
 
 
