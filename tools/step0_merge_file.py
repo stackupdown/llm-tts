@@ -71,11 +71,15 @@ class SelectSpeaker(object):
         self.female_idx = 0
         self.male_idx = 0
         self.characters = {
-            '哈利·波特': 1374,
-            '阿不思・邓布利多': 6713,
+            '哈利·波特': 1028,
+            '邓布利多': 6713,
+            '阿不思·邓布利多': 6713,
             '麦格教授': 1012,
-            '罗恩・韦斯莱': 1028,
+            '罗恩・韦斯莱': 3796,
+            '罗恩·韦斯莱': 3796,
             '赫敏・格兰杰': 6627,
+            '赫敏·格兰杰': 6627,
+            '分院帽': 1341,
             '旁白': self.story_teller
         }
 
@@ -240,7 +244,8 @@ def general_merge_text_sound(original_text, args):
             else:
                 item['music'] = ''
 
-            item['pid'] = v_cnt
+            item['E'] = items[0]['E']
+            item['pid'] = v + 1
             item['pinyin'] = g2p_cn_en(item['text'], g2p, lexicon)
             item['sound'] = item['A']
             item['sid'] = speaker_helper.get_speaker_id(item.get('C', ''))
