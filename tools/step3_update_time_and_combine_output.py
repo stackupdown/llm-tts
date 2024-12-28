@@ -77,7 +77,7 @@ def merge_all_music_and_audio():
         audio = AudioSegment.from_file(audio_path)
         print("length ", len(audio), len(result_music_audio), len(result_speak_audio))
 
-        if item['pid']:
+        if item['play_music']:
             music_path = os.path.join(music_folder_path, f"{item['pid']}.wav")
             music = AudioSegment.from_file(music_path)
             music_buffer.append(music)

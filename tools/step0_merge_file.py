@@ -249,7 +249,8 @@ def general_merge_text_sound(original_text, args):
             item['pinyin'] = g2p_cn_en(item['text'], g2p, lexicon)
             item['sound'] = item['A']
             item['sid'] = speaker_helper.get_speaker_id(item.get('C', ''))
-            tag_id = len(tag_texts)
+            tag_id = len(tag_texts) + 1
+            item['tid'] = tag_id
             tag_text = '{}|{}|{}|{}|p{}|t{}'.format(item['sid'], items[0]['E'], item['pinyin'], item['text'], v_cnt, tag_id)
             tag_texts.append(tag_text)
 
