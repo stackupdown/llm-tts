@@ -43,8 +43,6 @@ def generate_music(model, pid, music_prompt, duration, most_common_word):
         duration = 30
     model.set_generation_params(duration=duration)
     audio_file_path = os.path.join(music_dir, str(pid)) # no need to add .wav
-    if most_common_word not in music_prompt:
-        music_prompt = music_prompt + "," + most_common_word
 
     songs = [music_prompt]
     wav = model.generate(songs, progress=True)
@@ -94,7 +92,7 @@ def update_json_with_audio_info(data, audio_folder):
     # 记录候选集
     for idx, cell in enumerate(data):
         pid = cell['pid']
-        if cell['music_prompt'] == '' or pid_duration[pid] < 10:
+        if cell['music'] == '' or pid_duration[pid] < 10:
             continue
         if pid in pid_idx:
             continue
@@ -105,7 +103,7 @@ def update_json_with_audio_info(data, audio_folder):
     result_candidates = music_candidates[::len(music_candidates) // 10]
     for cand in result_candidates:
         cell = data[cand[1]]
-        cell["insert_type"] = 'overlay'
+        cell["insert_type"] = 'insert'
         cell['play_music'] = 1
 
     print("success set play music", result_candidates)

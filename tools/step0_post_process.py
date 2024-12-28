@@ -57,5 +57,5 @@ def save_txt(file_path, data):
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(data))
 
-save_json('./output.json', data)
+# save_json('./output.json', data)
 # save_txt('./harry_porter_merge.txt', tag_texts)

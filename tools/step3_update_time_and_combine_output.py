@@ -5,10 +5,12 @@ from pydub.utils import mediainfo
 import logging
 
 BASE_DATA_PATH = "../data/"
-BASE_OUTPUT_PATH = "./"
+BASE_OUTPUT_PATH = "./output"
 # TODO: harry should be changed
-audio_folder_path = os.path.join(BASE_OUTPUT_PATH, "harry/audio/")
+audio_folder_path = os.path.join(BASE_OUTPUT_PATH, "harry/audio/g_00140000")
 music_folder_path = os.path.join(BASE_OUTPUT_PATH, "harry/music/")
+sound_path = os.path.join(BASE_OUTPUT_PATH, "harry/sound")
+
 output_audio_file = 'merge_output.wav'
 input_json_path = "output.json"
 output_json_path = "output_addid.json"
@@ -51,51 +53,111 @@ def fade_in_out_merge(source, other, duration, max_length):
         source = music_one + other[:left]
     return source
 
+def bgm_change(items, idx, pid):
+    if idx >= len(items) - 1:
+        return True
+    return items[idx + 1]['pid'] != pid
+
+
 def merge_all_music_and_audio():
     # music_prompt, repeat 1, time, overlay_type
     # add first music
-
     head_music_path = os.path.join(music_folder_path, "1.wav")
-    if not os.path.exists(head_music_path):
-        head_music_path = os.path.join(BASE_DATA_PATH, "music_demo/default1.wav")
 
     empty_duration = 0.5
-    head_music = AudioSegment.from_file(head_music_path)
     silent = AudioSegment.silent(empty_duration * 1000)
-    music_buffer = [head_music]
+    music_buffer = []
 
-    result_music_audio = head_music
-    result_speak_audio = AudioSegment.silent(len(head_music))
+    result_music_audio = AudioSegment.silent(0)
+    result_speak_audio = AudioSegment.silent(0)
+    buffer_speak_audio = AudioSegment.silent(0)
 
     # result audio
     items = load_json(output_json_path)
+    # for idx, item in enumerate(items):
+    #     audio_path = os.path.join(audio_folder_path, f"{idx + 1}.wav")
+    #     if not os.path.exists(audio_path):
+    #         print(audio_path)
+    #         raise Exception("not found {}".format(audio_path))
+    #     audio = AudioSegment.from_file(audio_path)
+    #     print("length ", len(audio), len(result_music_audio), len(result_speak_audio))
+
+    #     if item['play_music']:
+    #         music = AudioSegment.from_file(os.path.join(music_folder_path, f"{item['pid']}.wav"))
+    #         music -= 5
+    #         music_buffer.append(music)
+    #         if item['insert_type'] == 'overlay':
+    #             result_speak_audio += silent + audio
+    #         elif item['insert_type'] == 'insert':
+    #             # music -> audio
+    #             result_speak_audio += AudioSegment.silent(len(music)) + silent + audio
+    #     else:
+    #         result_speak_audio += silent + audio
+
+    #     music = music_buffer[-1]
+    #     print("  length ", len(audio), len(result_music_audio), len(result_speak_audio), len(music))
+    #     result_music_audio = fade_in_out_merge(result_music_audio, music, 1000, len(result_speak_audio))
+
+    items[0]['play_music'] = 1
+    items[0]['insert_type'] = 'insert'
+    pid_playmusic = {}
+    if os.path.exists('loglist.txt'):
+        os.remove('loglist.txt')
+
+    f = open('loglist.txt', 'w')
     for idx, item in enumerate(items):
         audio_path = os.path.join(audio_folder_path, f"{idx + 1}.wav")
-        if not os.path.exists(audio_path):
-            print(audio_path)
-            raise Exception("not found {}".format(audio_path))
-        audio = AudioSegment.from_file(audio_path)
-        print("length ", len(audio), len(result_music_audio), len(result_speak_audio))
+        pid = item['pid']
 
+        assert os.path.exists(audio_path), "not found {}".format(audio_path)
+
+        audio = AudioSegment.from_file(audio_path)
+        print("audio ", idx, len(audio), len(result_music_audio), len(result_speak_audio))
+        # if next is different p, merge current buffer
         if item['play_music']:
-            music_path = os.path.join(music_folder_path, f"{item['pid']}.wav")
-            music = AudioSegment.from_file(music_path)
+            pid_playmusic[pid] = 1
+            music = AudioSegment.from_file(os.path.join(music_folder_path, f"{item['pid']}.wav"))
+            print("play music!", idx)
+            music -= 5
             music_buffer.append(music)
             if item['insert_type'] == 'overlay':
-                result_speak_audio += silent + audio
+                buffer_speak_audio += silent + audio
             elif item['insert_type'] == 'insert':
                 # music -> audio
-                result_speak_audio += AudioSegment.silent(len(music)) + silent + audio
+                buffer_speak_audio += AudioSegment.silent(len(music)) + silent + audio
         else:
-            result_speak_audio += silent + audio
+            buffer_speak_audio += silent + audio
+            assert len(music_buffer) > 0
+
+        # TODO BY WCY
+        # if item['sound'] != '无' and item['sound'] != '':
+        #     sound = AudioSegment.from_file(os.path.join(sound_path, f'{item["tid"]}.wav'))
+        #     buffer_speak_audio += sound.fade_out(100)
+
+        if bgm_change(items, idx, pid):
+            # if multiple music per pid: ignore
+            music_buffer = music_buffer[-1:]
+            chunk_music = music_buffer[-1]
+            # 补全speak_audio
+            if pid not in pid_playmusic:
+                chunk_music = AudioSegment.silent(len(buffer_speak_audio))
+
+            if len(buffer_speak_audio) < len(chunk_music):
+                chunk_music = chunk_music[:len(buffer_speak_audio)]
+
+            chunk_music = fade_in_out_merge(chunk_music, chunk_music, 1000, len(buffer_speak_audio)).fade_in(1000).fade_out(1000)
+            result_music_audio += chunk_music
+            result_speak_audio += buffer_speak_audio
+            # 清空
+            buffer_speak_audio = AudioSegment.silent(0)
 
         music = music_buffer[-1]
-        print("  length ", len(audio), len(result_music_audio), len(result_speak_audio), len(music))
-        result_music_audio = fade_in_out_merge(result_music_audio, music, 1000, len(result_speak_audio))
-        # audio_time_length = item["audio_time_length"] * MILLI_PER_SEC
+        print("  audio ", idx, len(audio), len(result_music_audio), len(result_speak_audio), len(music))
+
+    f.close()
     result_music_audio -= 18
-    result_music_audio.export("merge_music.wav", format="mp3", bitrate="32k")
-    result_speak_audio.export("merge_speaker.wav", format="mp3", bitrate="32k")
+    result_music_audio.export("merge_music.wav", format="wav")
+    result_speak_audio.export("merge_speaker.wav", format="wav")
     result_music_audio = result_speak_audio.overlay(result_music_audio, position=0)
     result_music_audio.set_frame_rate(22050)
 
@@ -106,7 +168,6 @@ def merge_all_music_and_audio():
     # plt.xlabel("Sample")
     # plt.ylabel("Amplitude")
     # plt.show()
-    # result_music_audio.export(output_audio_file, format='wav')
     result_music_audio.export("merge_output.wav", format="mp3", bitrate="32k")
     return result_music_audio
 

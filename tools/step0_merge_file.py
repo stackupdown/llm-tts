@@ -240,7 +240,7 @@ def general_merge_text_sound(original_text, args):
             if i == 0:
                 item['music'] = music_prompt
                 # TODO: another logic
-                item['insert_type'] = 'overlap' if music_prompt else ''
+                item['insert_type'] = 'overlay' if music_prompt else ''
             else:
                 item['music'] = ''
 
