@@ -51,3 +51,10 @@ python step3_update_time_and_combine_output.py
 生成参考时间：20s的音乐生成要1分钟；生成一篇文章的音乐要25分钟；尽量压缩这个时间；
 step0_merge_file.sh: 17分钟；
 start_inference_hamlet.sh: 生成时间1-2分钟；
+
+#### 三个文件
+merge_output.wav
+merge_music.wav
+merge_speaker.wav
+
+分别是三个音轨
