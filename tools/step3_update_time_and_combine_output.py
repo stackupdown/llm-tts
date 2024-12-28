@@ -156,8 +156,8 @@ def merge_all_music_and_audio():
 
     f.close()
     result_music_audio -= 18
-    result_music_audio.export("merge_music.wav", format="wav")
-    result_speak_audio.export("merge_speaker.wav", format="wav")
+    result_music_audio.export("merge_music.wav", format="mp3")
+    result_speak_audio.export("merge_speaker.wav", format="mp3")
     result_music_audio = result_speak_audio.overlay(result_music_audio, position=0)
     result_music_audio.set_frame_rate(22050)
 
