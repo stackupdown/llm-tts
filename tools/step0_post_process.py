@@ -29,6 +29,11 @@ def update_character(item):
     if '珀西' in item['C']:
         item['sid'] = 1018
         item['C'] = '珀西·韦斯莱'
+    if '分院帽' in item['C']:
+        item['sid'] = 6743
+        item['E'] = '激动'
+    if '旁白' in item['C']:
+        item['sid'] = 1018
     return
 
 for idx, item in enumerate(data):
@@ -42,20 +47,33 @@ for idx, item in enumerate(data):
         pid_map[item['pid']] = item['E']
     else:
         item['E'] = pid_map[pid]
+    update_character(item)
     item["tid"] = idx + 1
     tag_id = len(tag_texts) + 1
     tag_text = '{}|{}|{}|{}|p{}|t{}'.format(item['sid'], pid_map[pid], item['pinyin'], item['text'], item['pid'], tag_id)
     tag_texts.append(tag_text)
 
-print(mp)
 
 def save_json(file_path, data):
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+def update_addid():
+    json_file = 'output.json'
+    updated_json_file = 'output_addid.json'
+    items = load_json(updated_json_file)
+    first_items = load_json(json_file)
+    for first_item, item in zip(first_items, items):
+        item['sid'] = first_item['sid']
+        item['E'] = first_item['E']
+    save_json(updated_json_file, items)
+
+print(mp)
+
 def save_txt(file_path, data):
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(data))
 
-# save_json('./output.json', data)
-# save_txt('./harry_porter_merge.txt', tag_texts)
+save_json('./output.json', data)
+update_addid()
+save_txt('./harry_porter_merge.txt', tag_texts)

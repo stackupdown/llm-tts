@@ -65,6 +65,7 @@ class SelectSpeaker(object):
     ]
 
     story_teller = 1018
+    # story_teller = 6724
 
     def __init__(self):
         self.main_roles = {}
@@ -79,7 +80,8 @@ class SelectSpeaker(object):
             '罗恩·韦斯莱': 3796,
             '赫敏・格兰杰': 6627,
             '赫敏·格兰杰': 6627,
-            '分院帽': 1341,
+            # '分院帽': 1341,
+            '分院帽': 6743,
             '旁白': self.story_teller
         }
 

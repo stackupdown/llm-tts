@@ -1263,7 +1263,7 @@
     },
     {
         "text": "“现在朝前动动吧，”",
-        "E": "催促",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "calm, expectant, anticipatory",
@@ -1271,12 +1271,12 @@
         "pid": 27,
         "pinyin": "<sos/eos> x ian4 sp0 z ai4 sp1 ch ao2 sp0 q ian2 sp1 d ong4 sp0 d ong4 sp1 b a5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 104
     },
     {
         "text": "一个尖细的声音说",
-        "E": "催促",
+        "E": "激动",
         "C": "旁白",
         "A": "无",
         "music": "",
@@ -1288,14 +1288,14 @@
     },
     {
         "text": "“分院仪式马上就要开始了。”",
-        "E": "催促",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 27,
         "pinyin": "<sos/eos> f en1 sp0 van4 sp1 i2 sp0 sh iii4 sp1 m a3 sp0 sh ang4 sp1 j iou4 sp0 iao4 sp1 k ai1 sp0 sh iii3 sp1 l e5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 106
     },
     {
@@ -1331,7 +1331,7 @@
         "music": "orderly, calm, guiding",
         "insert_type": "overlay",
         "pid": 29,
-        "pinyin": "<sos/eos> x ian4 sp0 z ai4 sp3 p ai2 sp0 ch eng2 sp1 d an1 sp0 x ing2 <sos/eos>",
+        "pinyin": "<sos/eos> x ian4 sp0 z ai4 sp3 p ai2 sp0 ch eng2 sp1 d an1 sp0 h ang2 <sos/eos>",
         "sound": "无",
         "sid": 1012,
         "tid": 109
@@ -1616,13 +1616,13 @@
         "tid": 132
     },
     {
-        "text": "我在《霍格沃茨，一段校史》里读到过。",
+        "text": "我在 '霍格沃茨，一段校史' 里读到过。",
         "E": "逃避",
         "C": "赫敏·格兰杰",
         "A": "无",
         "music": "",
         "pid": 32,
-        "pinyin": "<sos/eos> uo3 sp1 z ai4 sp3 h uo4 sp0 g e2 sp1 uo4 sp0 c ii2 sp3 i1 sp0 d uan4 sp1 x iao4 sp0 sh iii3 sp3 l i3 sp1 d u2 sp1 d ao4 sp1 g uo4 <sos/eos>",
+        "pinyin": "<sos/eos> uo3 sp1 z ai4 sp0 h uo4 sp0 g e2 sp1 uo4 sp0 c ii2 sp3 i1 sp0 d uan4 sp1 x iao4 sp0 sh iii3 sp0 l i3 sp1 d u2 sp1 d ao4 sp1 g uo4 <sos/eos>",
         "sound": "无",
         "sid": 6627,
         "tid": 133
@@ -1813,7 +1813,7 @@
     },
     {
         "text": "你们也许觉得我不算漂亮，",
-        "E": "平淡",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "self-conscious, a bit insecure",
@@ -1821,12 +1821,12 @@
         "pid": 37,
         "pinyin": "<sos/eos> n i3 sp0 m en5 sp1 ie3 sp0 x v3 sp1 j ve2 sp0 d e5 sp1 uo3 sp1 b u4 sp0 s uan4 sp1 p iao4 sp0 l iang5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 149
     },
     {
         "text": "但千万不要以貌取人，",
-        "E": "严肃",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1834,12 +1834,12 @@
         "pid": 38,
         "pinyin": "<sos/eos> d an4 sp1 q ian1 sp0 uan4 sp1 b u4 sp0 iao4 sp1 i3 sp0 m ao4 sp0 q v3 sp0 r en2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 150
     },
     {
         "text": "如果你们能找到比我更漂亮的帽子，",
-        "E": "平淡",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1847,12 +1847,12 @@
         "pid": 39,
         "pinyin": "<sos/eos> r u2 sp0 g uo3 sp1 n i3 sp0 m en5 sp1 n eng2 sp1 zh ao3 sp0 d ao4 sp1 b i3 sp1 uo3 sp1 g eng4 sp1 p iao4 sp0 l iang5 sp1 d e5 sp1 m ao4 sp0 z ii5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 151
     },
     {
         "text": "我可以把自己吃掉。",
-        "E": "荒诞",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "self-destructive, desperate, chaotic",
@@ -1860,12 +1860,12 @@
         "pid": 40,
         "pinyin": "<sos/eos> uo3 sp1 k e3 sp0 i3 sp1 b a3 sp1 z ii4 sp0 j i3 sp1 ch iii1 sp0 d iao4 <sos/eos>",
         "sound": "无",
-        "sid": 1018,
+        "sid": 6743,
         "tid": 152
     },
     {
         "text": "你们可以让你们的圆顶礼帽乌黑油亮，",
-        "E": "平淡",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1873,12 +1873,12 @@
         "pid": 41,
         "pinyin": "<sos/eos> n i3 sp0 m en5 sp1 k e3 sp0 i3 sp1 r ang4 sp1 n i3 sp0 m en5 sp1 d e5 sp1 van2 sp0 d ing3 sp1 l i3 sp0 m ao4 sp1 u1 sp0 h ei1 sp1 iou2 sp0 l iang4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 153
     },
     {
         "text": "让你们的高顶丝帽光滑挺括，",
-        "E": "平淡",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1886,12 +1886,12 @@
         "pid": 42,
         "pinyin": "<sos/eos> r ang4 sp1 n i3 sp0 m en5 sp1 d e5 sp1 g ao1 sp0 d ing3 sp1 s ii1 sp0 m ao4 sp1 g uang1 sp0 h ua2 sp1 t ing3 sp0 g ua1 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 154
     },
     {
         "text": "我可是霍格沃茨测试用的魔帽，",
-        "E": "自信",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "mysterious, magical, authoritative",
@@ -1899,12 +1899,12 @@
         "pid": 43,
         "pinyin": "<sos/eos> uo3 sp1 k e3 sp0 sh iii4 sp1 h uo4 sp0 g e2 sp1 uo4 sp0 c ii2 sp1 c e4 sp0 sh iii4 sp1 iong4 sp1 d e5 sp1 m o2 sp0 m ao4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 155
     },
     {
         "text": "自然比你们的帽子高超出众。",
-        "E": "自信",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "superior, outstanding",
@@ -1912,12 +1912,12 @@
         "pid": 44,
         "pinyin": "<sos/eos> z ii4 sp0 r an2 sp1 b i3 sp1 n i3 sp0 m en5 sp1 d e5 sp1 m ao4 sp0 z ii5 sp1 g ao1 sp0 ch ao1 sp1 ch u1 sp0 zh ong4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 156
     },
     {
         "text": "你们头脑里隐藏的任何念头，",
-        "E": "平淡",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1925,12 +1925,12 @@
         "pid": 45,
         "pinyin": "<sos/eos> n i3 sp0 m en5 sp1 t ou2 sp0 n ao3 sp1 l i3 sp1 in3 sp0 c ang2 sp1 d e5 sp1 r en4 sp0 h e2 sp1 n ian4 sp0 t ou5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 157
     },
     {
         "text": "都躲不过魔帽的金睛火眼，",
-        "E": "自信",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "mysterious, powerful, watchful",
@@ -1938,12 +1938,12 @@
         "pid": 46,
         "pinyin": "<sos/eos> d ou1 sp1 d uo3 sp1 b u4 sp0 g uo4 sp1 m o2 sp0 m ao4 sp1 d e5 sp1 j in1 sp0 j ing1 sp0 h uo3 sp0 ian3 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 158
     },
     {
         "text": "戴上它试一下吧，",
-        "E": "平和",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1951,12 +1951,12 @@
         "pid": 47,
         "pinyin": "<sos/eos> d ai4 sp0 sh ang5 sp1 t a1 sp1 sh iii4 sp0 i1 sp0 x ia4 sp1 b a5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 159
     },
     {
         "text": "我会告诉你们，",
-        "E": "平静",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1964,12 +1964,12 @@
         "pid": 48,
         "pinyin": "<sos/eos> uo3 sp0 h uei4 sp1 g ao4 sp0 s u4 sp1 n i3 sp0 m en5 <sos/eos>",
         "sound": "无",
-        "sid": 1018,
+        "sid": 6743,
         "tid": 160
     },
     {
         "text": "你们应该分到哪一所学院。",
-        "E": "平静",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -1977,12 +1977,12 @@
         "pid": 49,
         "pinyin": "<sos/eos> n i3 sp0 m en5 sp1 ing1 sp0 g ai1 sp1 f en1 sp0 d ao4 sp1 n a3 sp1 i1 sp0 s uo3 sp1 x ve2 sp0 van4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 161
     },
     {
         "text": "你也许属于格兰芬多，",
-        "E": "平和",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "勇敢，无畏，热血，坚毅",
@@ -1990,12 +1990,12 @@
         "pid": 50,
         "pinyin": "<sos/eos> n i3 sp1 ie3 sp0 x v3 sp1 sh u3 sp1 v2 sp0 g e2 sp0 l an2 sp1 f en1 sp0 d uo1 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 162
     },
     {
         "text": "那里有埋藏在心底的勇敢，",
-        "E": "激昂",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "brave, courageous, resolute",
@@ -2003,12 +2003,12 @@
         "pid": 51,
         "pinyin": "<sos/eos> n a4 sp0 l i5 sp1 iou3 sp1 m ai2 sp0 c ang2 sp1 z ai4 sp1 x in1 sp0 d i3 sp1 d e5 sp1 iong3 sp0 g an3 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 163
     },
     {
         "text": "他们的胆识、气魄和豪爽，",
-        "E": "赞赏",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "bold, heroic, magnanimous",
@@ -2016,12 +2016,12 @@
         "pid": 52,
         "pinyin": "<sos/eos> t a1 sp0 m en5 sp1 d e5 sp1 d an3 sp0 sh iii2 sp3 q i4 sp0 p o4 sp1 h e2 sp1 h ao2 sp0 sh uang3 <sos/eos>",
         "sound": "无",
-        "sid": 1018,
+        "sid": 6743,
         "tid": 164
     },
     {
         "text": "使格兰芬多出类拔萃；",
-        "E": "激昂",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "Outstanding, Brave, Noble",
@@ -2029,12 +2029,12 @@
         "pid": 53,
         "pinyin": "<sos/eos> sh iii3 sp0 g e2 sp0 l an2 sp0 f en1 sp1 d uo1 sp1 ch u1 sp0 l ei4 sp0 b a2 sp0 c uei4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 165
     },
     {
         "text": "你也许属于赫奇帕奇，",
-        "E": "平和",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "mysterious, uncertain, curious",
@@ -2042,12 +2042,12 @@
         "pid": 54,
         "pinyin": "<sos/eos> n i3 sp1 ie3 sp0 x v3 sp1 sh u3 sp0 v2 sp1 h e4 sp0 q i2 sp1 p a4 sp0 q i2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 166
     },
     {
         "text": "那里的人正直忠诚，",
-        "E": "赞赏",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "upright, loyal",
@@ -2055,12 +2055,12 @@
         "pid": 55,
         "pinyin": "<sos/eos> n a4 sp0 l i5 sp1 d e5 sp1 r en2 sp1 zh eng4 sp0 zh iii2 sp1 zh ong1 sp0 ch eng2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 167
     },
     {
         "text": "赫奇帕奇的学子们坚忍诚实，",
-        "E": "赞赏",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "tenacious, honest",
@@ -2068,12 +2068,12 @@
         "pid": 56,
         "pinyin": "<sos/eos> h e4 sp0 q i2 sp1 p a4 sp0 q i2 sp1 d e5 sp1 x ve2 sp0 z ii3 sp1 m en5 sp1 j ian1 sp0 r en3 sp1 ch eng2 sp0 sh iii2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 168
     },
     {
         "text": "不畏惧艰辛的劳动；",
-        "E": "赞赏",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "fearless, hardworking, persevering",
@@ -2081,12 +2081,12 @@
         "pid": 57,
         "pinyin": "<sos/eos> b u4 sp1 uei4 sp0 j v4 sp1 j ian1 sp0 x in1 sp1 d e5 sp1 l ao2 sp0 d ong4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 169
     },
     {
         "text": "如果你头脑精明，",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "intelligent, sharp-minded",
@@ -2094,12 +2094,12 @@
         "pid": 58,
         "pinyin": "<sos/eos> r u2 sp0 g uo3 sp1 n i3 sp1 t ou2 sp0 n ao3 sp1 j ing1 sp0 m ing2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 170
     },
     {
         "text": "或许会进智慧的老拉文克劳，",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "wise, intellectual, scholarly",
@@ -2107,12 +2107,12 @@
         "pid": 59,
         "pinyin": "<sos/eos> h uo4 sp0 x v3 sp1 h uei4 sp0 j in4 sp1 zh iii4 sp0 h uei4 sp1 d e5 sp1 l ao3 sp0 l a1 sp0 uen2 sp1 k e4 sp0 l ao2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 171
     },
     {
         "text": "那些睿智博学的人，",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "wise, learned, intelligent",
@@ -2120,12 +2120,12 @@
         "pid": 60,
         "pinyin": "<sos/eos> n a4 sp0 x ie1 sp1 r uei4 sp0 zh iii4 sp1 b o2 sp0 x ve2 sp1 d e5 sp1 r en2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 172
     },
     {
         "text": "总会在那里遇见他们的同道；",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -2133,12 +2133,12 @@
         "pid": 61,
         "pinyin": "<sos/eos> z ong3 sp0 h uei4 sp1 z ai4 sp1 n a4 sp0 l i5 sp1 v4 sp0 j ian4 sp1 t a1 sp0 m en5 sp1 d e5 sp1 t ong2 sp0 d ao4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 173
     },
     {
         "text": "也许你会进斯莱特林，",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "神秘，深邃，冷静",
@@ -2146,12 +2146,12 @@
         "pid": 62,
         "pinyin": "<sos/eos> ie3 sp0 x v3 sp1 n i3 sp0 h uei4 sp0 j in4 sp1 s ii1 sp0 l ai2 sp0 t e4 sp1 l in2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 174
     },
     {
         "text": "也许你在这里交上真诚的朋友，",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "sincere, friendly, warm",
@@ -2159,12 +2159,12 @@
         "pid": 63,
         "pinyin": "<sos/eos> ie3 sp0 x v3 sp1 n i3 sp1 z ai4 sp1 zh e4 sp0 l i3 sp1 j iao1 sp0 sh ang4 sp1 zh en1 sp0 ch eng2 sp1 d e5 sp1 p eng2 sp0 iou5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 175
     },
     {
         "text": "但那些狡诈阴险之辈却会不惜一切手段，",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "cunning, sinister, scheming",
@@ -2172,12 +2172,12 @@
         "pid": 64,
         "pinyin": "<sos/eos> d an4 sp1 n a4 sp0 x ie1 sp1 j iao3 sp0 zh a4 sp1 in1 sp0 x ian3 sp1 zh iii1 sp0 b ei4 sp1 q ve4 sp1 h uei4 sp1 b u4 sp0 x i1 sp0 i1 sp0 q ie4 sp1 sh ou3 sp0 d uan4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 176
     },
     {
         "text": "去达到他们的目的。",
-        "E": "陈述",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "无",
@@ -2185,12 +2185,12 @@
         "pid": 65,
         "pinyin": "<sos/eos> q v4 sp1 d a2 sp0 d ao4 sp1 t a1 sp0 m en5 sp1 d e5 sp1 m u4 sp0 d i4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 177
     },
     {
         "text": "来戴上我吧！",
-        "E": "鼓励",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "reassuring, comforting, fearless",
@@ -2198,24 +2198,24 @@
         "pid": 66,
         "pinyin": "<sos/eos> l ai2 sp1 d ai4 sp1 sh ang4 sp1 uo3 sp1 b a5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 178
     },
     {
         "text": "不必害怕！",
-        "E": "鼓励",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 66,
         "pinyin": "<sos/eos> b u4 sp0 b i4 sp1 h ai4 sp0 p a4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 179
     },
     {
         "text": "千万不要惊慌失措！",
-        "E": "安抚",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "calm, steady, composed",
@@ -2223,12 +2223,12 @@
         "pid": 67,
         "pinyin": "<sos/eos> q ian1 sp0 uan4 sp1 b u4 sp0 iao4 sp1 j ing1 sp0 h uang1 sp0 sh iii1 sp0 c uo4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 180
     },
     {
         "text": "在我的手里（尽管我连一只手也没有），你绝对安全。",
-        "E": "安抚",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "safe, reassuring, protective",
@@ -2236,12 +2236,12 @@
         "pid": 68,
         "pinyin": "<sos/eos> z ai4 sp1 uo3 sp1 d e5 sp1 sh ou3 sp0 l i3 sp3 j in3 sp0 g uan3 sp1 uo3 sp1 l ian2 sp1 i1 sp0 zh iii1 sp1 sh ou3 sp1 ie3 sp1 m ei2 sp0 iou3 sp3 n i3 sp1 j ve2 sp0 d uei4 sp1 an1 sp0 q van2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 181
     },
     {
         "text": "因为我是一顶会思想的魔帽！",
-        "E": "自信",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "mysterious, magical, thought-provoking",
@@ -2249,7 +2249,7 @@
         "pid": 69,
         "pinyin": "<sos/eos> in1 sp0 uei4 sp1 uo3 sp1 sh iii4 sp1 i1 sp0 d ing3 sp1 h uei4 sp1 s ii1 sp0 x iang3 sp1 d e5 sp1 m o2 sp0 m ao4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 182
     },
     {
@@ -2513,14 +2513,14 @@
     },
     {
         "text": "赫奇帕奇！",
-        "E": "平静",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 76,
         "pinyin": "<sos/eos> h e4 sp0 q i2 sp1 p a4 sp0 q i2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 204
     },
     {
@@ -2575,14 +2575,14 @@
     },
     {
         "text": "“赫奇帕奇！”",
-        "E": "严肃",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 78,
         "pinyin": "<sos/eos> h e4 sp0 q i2 sp1 p a4 sp0 q i2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 209
     },
     {
@@ -2613,14 +2613,14 @@
     },
     {
         "text": "“拉文克劳！”",
-        "E": "严肃",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 80,
         "pinyin": "<sos/eos> l a1 sp0 uen2 sp1 k e4 sp0 l ao2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 212
     },
     {
@@ -2822,14 +2822,14 @@
     },
     {
         "text": "“赫奇帕奇！”",
-        "E": "严肃",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 85,
         "pinyin": "<sos/eos> h e4 sp0 q i2 sp1 p a4 sp0 q i2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 229
     },
     {
@@ -2921,7 +2921,7 @@
     },
     {
         "text": "“格兰芬多！”",
-        "E": "庄重",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "exciting, heroic, adventurous",
@@ -2929,7 +2929,7 @@
         "pid": 89,
         "pinyin": "<sos/eos> g e2 sp0 l an2 sp0 f en1 sp1 d uo1 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 237
     },
     {
@@ -2942,7 +2942,7 @@
         "pid": 90,
         "pinyin": "<sos/eos> l uo2 sp0 en1 sp1 h eng1 sp1 l e5 sp1 i1 sp0 sh eng1 <sos/eos>",
         "sound": "无",
-        "sid": 3796,
+        "sid": 1018,
         "tid": 238
     },
     {
@@ -3130,14 +3130,14 @@
     },
     {
         "text": "斯莱特林！",
-        "E": "平静",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 93,
         "pinyin": "<sos/eos> s ii1 sp0 l ai2 sp0 t e4 sp1 l in2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 254
     },
     {
@@ -3253,14 +3253,14 @@
     },
     {
         "text": "“哈利·波特！”",
-        "E": "平静",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 96,
         "pinyin": "<sos/eos> h a1 sp0 l i4 sp1 b o1 sp0 t e4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 264
     },
     {
@@ -3352,7 +3352,7 @@
     },
     {
         "text": "“嗯，”",
-        "E": "思索",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "mysterious, hesitant, curious",
@@ -3360,12 +3360,12 @@
         "pid": 100,
         "pinyin": "<sos/eos> en2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 272
     },
     {
         "text": "他听到耳边一个细微的声音说",
-        "E": "思索",
+        "E": "激动",
         "C": "旁白",
         "A": "无",
         "music": "",
@@ -3377,62 +3377,62 @@
     },
     {
         "text": "难，非常难。",
-        "E": "思索",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 100,
         "pinyin": "<sos/eos> n an2 sp3 f ei1 sp0 ch ang2 sp1 n an2 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 274
     },
     {
         "text": "看得出很有勇气，心地也不坏，有天分。",
-        "E": "思索",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 100,
         "pinyin": "<sos/eos> k an4 sp0 d e5 sp0 ch u1 sp1 h en3 sp1 iou3 sp1 iong3 sp0 q i4 sp3 x in1 sp0 d i4 sp1 ie3 sp1 b u4 sp0 h uai4 sp3 iou3 sp1 t ian1 sp0 f en4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 275
     },
     {
         "text": "哦，我的天哪，不错——",
-        "E": "思索",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 100,
         "pinyin": "<sos/eos> o2 sp3 uo3 sp1 d e5 sp1 t ian1 sp1 n a3 sp3 b u4 sp0 c uo4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 276
     },
     {
         "text": "你有急于证明自己的强烈愿望，那么，很有意思……",
-        "E": "思索",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 100,
         "pinyin": "<sos/eos> n i3 sp1 iou3 sp1 j i2 sp0 v2 sp1 zh eng4 sp0 m ing2 sp1 z ii4 sp0 j i3 sp1 d e5 sp1 q iang2 sp0 l ie4 sp1 van4 sp0 uang4 sp3 n a4 sp0 m e5 sp3 h en3 sp1 iou3 sp0 i4 sp0 s ii5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 277
     },
     {
         "text": "我该把你分到哪里去呢？",
-        "E": "思索",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 100,
         "pinyin": "<sos/eos> uo3 sp1 g ai1 sp1 b a3 sp1 n i3 sp1 f en1 sp0 d ao4 sp1 n a3 sp0 l i3 sp1 q v4 sp1 n e5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 278
     },
     {
@@ -3462,7 +3462,7 @@
     },
     {
         "text": "“不去斯莱特林，对吧？”",
-        "E": "询问",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "mysterious, hesitant, decisive",
@@ -3470,12 +3470,12 @@
         "pid": 102,
         "pinyin": "<sos/eos> b u4 sp0 q v4 sp1 s ii1 sp0 l ai2 sp0 t e4 sp1 l in2 sp3 d uei4 sp1 b a5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 281
     },
     {
         "text": "那个细微的声音问",
-        "E": "询问",
+        "E": "激动",
         "C": "旁白",
         "A": "无",
         "music": "",
@@ -3487,62 +3487,62 @@
     },
     {
         "text": "“拿定主意了吗？”",
-        "E": "询问",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 102,
         "pinyin": "<sos/eos> n a2 sp0 d ing4 sp0 zh u3 sp0 i5 sp1 l e5 sp1 m a5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 283
     },
     {
         "text": "你能成大器，你知道，在你一念之间，斯莱特林能帮助你走向辉煌，这毫无疑问——",
-        "E": "询问",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 102,
         "pinyin": "<sos/eos> n i3 sp1 n eng2 sp1 ch eng2 sp0 d a4 sp0 q i4 sp3 n i3 sp1 zh iii1 sp0 d ao4 sp3 z ai4 sp1 n i3 sp1 i2 sp0 n ian4 sp0 zh iii1 sp0 j ian1 sp3 s ii1 sp0 l ai2 sp0 t e4 sp1 l in2 sp0 n eng2 sp1 b ang1 sp0 zh u4 sp1 n i3 sp1 z ou3 sp0 x iang4 sp1 h uei1 sp0 h uang2 sp3 zh e4 sp1 h ao2 sp0 u2 sp0 i2 sp0 uen4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 284
     },
     {
         "text": "“不乐意？”",
-        "E": "询问",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 102,
         "pinyin": "<sos/eos> b u4 sp0 l e4 sp0 i4 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 285
     },
     {
         "text": "那好，既然你已经拿定主意——",
-        "E": "询问",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 102,
         "pinyin": "<sos/eos> n a4 sp0 h ao3 sp3 j i4 sp0 r an2 sp1 n i3 sp1 i3 sp0 j ing1 sp1 n a2 sp0 d ing4 sp0 zh u3 sp0 i5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 286
     },
     {
         "text": "“那就最好去格兰芬多吧！”",
-        "E": "询问",
+        "E": "激动",
         "C": "分院帽",
         "A": "无",
         "music": "",
         "pid": 102,
         "pinyin": "<sos/eos> n a4 sp1 j iou4 sp1 z uei4 sp0 h ao3 sp1 q v4 sp1 g e2 sp0 l an2 sp0 f en1 sp1 d uo1 sp1 b a5 <sos/eos>",
         "sound": "无",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 287
     },
     {
@@ -3850,14 +3850,14 @@
     },
     {
         "text": "格兰芬多！",
-        "E": "平静",
+        "E": "激动",
         "C": "分院帽",
         "A": "欢呼声",
         "music": "",
         "pid": 105,
         "pinyin": "<sos/eos> g e2 sp0 l an2 sp0 f en1 sp1 d uo1 <sos/eos>",
         "sound": "欢呼声",
-        "sid": 1341,
+        "sid": 6743,
         "tid": 313
     },
     {
