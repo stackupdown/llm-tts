@@ -224,6 +224,23 @@ class DoubaoAgentClient(object):
             item['A'] = ''
         return items
 
+    def classify_sound(self, sound):
+        prompt = """请判别以下的声音是属于自然音还是人声相关的声音（只要回复自然音，人声）？：{}""".format(sound)
+        messages = [
+            {"role": "system", "content": ProcessText.system_prompt},
+            {"role": "user", "content": prompt},
+        ]
+        success = True
+        try:
+            completion = self.get_completion(messages)
+        except ArkAPIError as e:
+            print("fail on create:", e)
+            success = False
+            return [], success
+
+        print(completion.choices[0].message.content)
+        return completion.choices[0].message.content, success
+
 def get_doubao_agent():
     return DoubaoAgentClient(api_key=os.environ.get('ARK_API_KEY'))
 
