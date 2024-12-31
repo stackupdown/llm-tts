@@ -101,10 +101,10 @@ def merge_all_music_and_audio():
     items[0]['play_music'] = 1
     items[0]['insert_type'] = 'insert'
     pid_playmusic = {}
-    if os.path.exists('loglist.txt'):
-        os.remove('loglist.txt')
+    if os.path.exists('playlog.txt'):
+        os.remove('playlog.txt')
 
-    f = open('loglist.txt', 'w')
+    f = open('playlog.txt', 'w')
     for idx, item in enumerate(items):
         audio_path = os.path.join(audio_folder_path, f"{idx + 1}.wav")
         pid = item['pid']
@@ -113,6 +113,7 @@ def merge_all_music_and_audio():
 
         audio = AudioSegment.from_file(audio_path)
         print("audio ", idx, len(audio), len(result_music_audio), len(result_speak_audio))
+        start_length = len(buffer_speak_audio)
         # if next is different p, merge current buffer
         if item['play_music']:
             pid_playmusic[pid] = 1
@@ -133,7 +134,8 @@ def merge_all_music_and_audio():
         # if item['sound'] != '无' and item['sound'] != '':
         #     sound = AudioSegment.from_file(os.path.join(sound_path, f'{item["tid"]}.wav'))
         #     buffer_speak_audio += sound.fade_out(100)
-
+        length = (len(result_speak_audio) + start_length) / 1000
+        f.write("{} of {}:{} {}\n".format(idx, int(length / 60), int(length % 60), item['text']))
         if bgm_change(items, idx, pid):
             # if multiple music per pid: ignore
             music_buffer = music_buffer[-1:]
