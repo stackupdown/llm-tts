@@ -62,9 +62,9 @@ def bgm_change(items, idx, pid):
 def merge_all_music_and_audio():
     # music_prompt, repeat 1, time, overlay_type
     # add first music
-    head_music_path = os.path.join(music_folder_path, "1.wav")
 
     empty_duration = 0.5
+    tail_music = AudioSegment.from_file(os.path.join(music_folder_path, 'end.wav'))
     silent = AudioSegment.silent(empty_duration * 1000)
     music_buffer = []
 
@@ -118,7 +118,7 @@ def merge_all_music_and_audio():
         if item['play_music']:
             pid_playmusic[pid] = 1
             music = AudioSegment.from_file(os.path.join(music_folder_path, f"{item['pid']}.wav"))
-            print("play music!", idx)
+            print("=" * 20, "play music!", idx, "=" * 20)
             music -= 5
             music_buffer.append(music)
             if item['insert_type'] == 'overlay':
@@ -130,12 +130,13 @@ def merge_all_music_and_audio():
             buffer_speak_audio += silent + audio
             assert len(music_buffer) > 0
 
-        # TODO BY WCY
-        # if item['sound'] != '无' and item['sound'] != '':
-        #     sound = AudioSegment.from_file(os.path.join(sound_path, f'{item["tid"]}.wav'))
-        #     buffer_speak_audio += sound.fade_out(100)
+        if item['sound'] != '无' and item['sound'] != '':
+            sound = AudioSegment.from_file(os.path.join(sound_path, f'{item["tid"]}.wav'))
+            buffer_speak_audio += sound.fade_in(100).fade_out(100)
+
         length = (len(result_speak_audio) + start_length) / 1000
-        f.write("{} of {}:{} {}\n".format(idx, int(length / 60), int(length % 60), item['text']))
+        f.write("{} of {}:{} {}\n".format(idx + 1, int(length / 60), int(length % 60), item['text']))
+
         if bgm_change(items, idx, pid):
             # if multiple music per pid: ignore
             music_buffer = music_buffer[-1:]
@@ -157,7 +158,10 @@ def merge_all_music_and_audio():
         print("  audio ", idx, len(audio), len(result_music_audio), len(result_speak_audio), len(music))
 
     f.close()
-    result_music_audio -= 18
+    result_music_audio += tail_music.fade_out(1000)
+    result_speak_audio += AudioSegment.silent(len(tail_music))
+
+    result_music_audio -= 15
     result_music_audio.export("merge_music.wav", format="mp3")
     result_speak_audio.export("merge_speaker.wav", format="mp3")
     result_music_audio = result_speak_audio.overlay(result_music_audio, position=0)

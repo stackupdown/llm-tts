@@ -36,6 +36,8 @@ def update_character(item):
         item['sid'] = 1018
     return
 
+from doubao import get_doubao_agent
+agent = get_doubao_agent()
 for idx, item in enumerate(data):
     sid = item['sid']
     if sid not in mp:
@@ -47,7 +49,15 @@ for idx, item in enumerate(data):
         pid_map[item['pid']] = item['E']
     else:
         item['E'] = pid_map[pid]
-    update_character(item)
+
+    if item['sound'] == '无':
+        item['sound'] = ''
+
+    if item['sound'] not in ['', '无']:
+        sound_type, _ = agent.classify_sound(item['sound'])
+        if sound_type == '人声':
+            print(idx, "update from ", item['sound'], 'to', '')
+            item['sound'] = ''
     item["tid"] = idx + 1
     tag_id = len(tag_texts) + 1
     tag_text = '{}|{}|{}|{}|p{}|t{}'.format(item['sid'], pid_map[pid], item['pinyin'], item['text'], item['pid'], tag_id)
@@ -66,6 +76,7 @@ def update_addid():
     for first_item, item in zip(first_items, items):
         item['sid'] = first_item['sid']
         item['E'] = first_item['E']
+        item['sound'] = first_item['sound']
     save_json(updated_json_file, items)
 
 print(mp)

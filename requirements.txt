@@ -16,3 +16,4 @@ volcengine-python-sdk[ark]
 openai>=1.0
 thulac
 ffmpeg-python
+torchsde
