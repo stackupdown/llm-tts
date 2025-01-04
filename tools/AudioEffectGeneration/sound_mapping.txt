@@ -1,0 +1,88 @@
+24	门打开的声音	Sound of doors opening
+31	门被拉开的声音	The sound of the door being pulled open
+33	火炬燃烧的声音	The sound of the torch burning  			延长2s
+36	脚步声	Step 											延长2s
+37	人群嗡嗡的说话声	Crowd buzzing
+38	人群嗡嗡的说话声	Crowd buzzing
+39	脚步声	Step
+40	脚步声，拥挤声	Footsteps, crowding
+41	拥挤声	Crowding
+64	脚步声	Step
+76	赫敏的背诵声	Hermione's recitation 
+77	赫敏的背诵声	Hermione's recitation 						这两个声线不一样
+83	尖叫声	scream 											有点过于尖锐
+88	幽灵滑过的轻微声音	Slight sounds of ghosts slipping by  
+89	幽灵交头接耳的轻微声音	Slight sounds of ghosts clapping their ears
+90	幽灵交头接耳的轻微声音	Slight sounds of ghosts clapping their ears
+91	幽灵交头接耳的轻微声音	Slight sounds of ghosts clapping their ears
+92	幽灵交头接耳的轻微声音	Slight sounds of ghosts clapping their ears
+93	幽灵交头接耳的轻微声音	Slight sounds of ghosts clapping their ears
+94	幽灵交头接耳的轻微声音	Slight sounds of ghosts clapping their ears
+95	幽灵交头接耳的轻微声音	Slight sounds of ghosts clapping their ears  交头接耳翻译的有问题
+116	脚步声	Step													延长2s
+117	脚步声	Step													延长2s
+118	脚步声	Step													延长2s
+121	蜡烛燃烧声	Candle burning										像是柴火燃烧声
+124	脚步声	Step
+125	脚步声	Step
+127	烛光摇曳声	Candlelight swaying sound							这个有点抽象
+184	掌声	Applause
+205	掌声	Applause
+206	掌声	Applause
+213	掌声	Applause
+218	欢呼声	Cheers
+219	嘘声	(Hisses)														翻译不对
+248	哄笑声	Coaxing laughter
+249	哄笑声	Coaxing laughter
+266	嗡嗡低语声，咝咝响声	Buzzing and whispering						感觉不太对
+288	欢呼声	Cheers
+289	欢呼声	Cheers
+290	欢呼声	Cheers
+291	欢呼声	Cheers
+292	欢呼声	Cheers
+293	欢呼声	Cheers
+294	欢呼声	Cheers			
+295	欢呼声	Cheers													连续出现会不会有点唐
+313	欢呼声	Cheers										
+315	掌声	Applause
+334	掌声、欢呼声	Applause, cheers
+348	咀嚼声	*Chewing*												延长2s
+351	切牛排的声音	The sound of steak cutting
+352	切牛排的声音	The sound of steak cutting
+399	笑声	All right.
+423	饮酒声	Drinking sound
+424	交谈声	Chat tone
+425	交谈声	Chat tone
+475	全体师生的歌声	All teachers and students singing
+476	全体师生的歌声	All teachers and students singing
+477	全体师生的歌声	All teachers and students singing
+478	全体师生的歌声	All teachers and students singing
+479	全体师生的歌声	All teachers and students singing
+488	校歌声渐弱	School songs fading									怎么是音乐
+489	《葬礼进行曲》旋律声	Funeral March Melody
+490	《葬礼进行曲》旋律声	Funeral March Melody
+491	《葬礼进行曲》旋律声渐弱	Funeral March Melody Weakening
+492	响亮的掌声	Loud applause
+498	嘈杂的人群声，脚步声	Loud crowds, footsteps
+501	画像上人的喁喁私语声	The whispering voice of the person in the portrait
+502	脚步声	Step
+504	哈欠声，脚步声	Yawn, footsteps
+506	脚步声停止	Footsteps stopped
+509	扑倒声	Flop
+513	响亮、刺耳、像气球泄气似的噗噗的响声	Loud, piercing, deflating like a balloon
+515	噗的一声	puff~
+518	咯咯的奸笑声	Giggles
+521	猛扑声	Swooping
+525	珀西的大吼声	Percy's roar
+527	手杖砸在头上的声音	The sound of a walking stick crashing over your head
+528	盔甲铿锵作响的声音	The sound of armor chirping
+530	脚步声	Step
+538	画移动的声音	Draw moving sounds
+540	爬行的声音	Crawling sounds
+545	脚步声	Step
+546	脚步声	Step
+547	脚步声	Step
+548	脚步声	Step
+550	脚步声	Step
+565	马尔福的笑声	Malfoy's Laughter
+567	斯内普的笑声	Snape's Laughter
